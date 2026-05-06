@@ -1,0 +1,61 @@
+---
+tags: [paper]
+date: 2026-05-06
+task: autonomous_racing
+venue: "SAE Technical Paper Series"
+sources: 1
+bibtex_key: "Bell2020"
+bibtex_type: "inproceedings"
+year: "2020"
+doi: "10.4271/2020-01-0711"
+url: "https://doi.org/10.4271/2020-01-0711"
+topic:
+  - autonomous_racing_bibliography
+tech_backbone: []
+tech_representation: []
+tech_generation: []
+tech_conditioning: []
+tech_modality_alignment: []
+tech_finetuning: []
+tech_inference: []
+datasets_used: []
+models_used: []
+simulators_used: []
+---
+
+# Modeling and Design of an Autonomous Dragster
+
+> Modeling and Design of an Autonomous Dragster | SAE Technical Paper Series | Bell et al. | BibTeX key: `Bell2020`
+
+## Summary
+
+Lightweight bibliography stub generated from [[autonomous_racing_survey_bibliography]]. This paper is listed in the bibliography for [[autonomous_vehicles_on_the_edge]] and has not yet been deep-read for the wiki.
+
+## Citation Metadata
+
+- Authors: Joseph Bell and Vatche Donikian and Gregory Washington
+- Year: 2020
+- Type: `inproceedings`
+- Venue: SAE Technical Paper Series
+- DOI: `10.4271/2020-01-0711`
+- URL: https://doi.org/10.4271/2020-01-0711
+
+## Method
+
+_To be filled after reading the paper._
+
+## Key Results
+
+_To be filled after reading the paper._
+
+## Datasets Used
+
+_To be filled after reading the paper._
+
+## Related Work
+
+- [[autonomous_vehicles_on_the_edge]]
+
+## Notes / Critique
+
+_To be filled after reading the paper._

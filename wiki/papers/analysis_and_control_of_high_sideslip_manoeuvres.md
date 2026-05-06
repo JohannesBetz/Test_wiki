@@ -1,0 +1,61 @@
+---
+tags: [paper]
+date: 2026-05-06
+task: autonomous_racing
+venue: "Vehicle System Dynamics"
+sources: 1
+bibtex_key: "Voser2010"
+bibtex_type: "article"
+year: "2010"
+doi: "10.1080/00423111003746140"
+url: "https://doi.org/10.1080/00423111003746140"
+topic:
+  - autonomous_racing_bibliography
+tech_backbone: []
+tech_representation: []
+tech_generation: []
+tech_conditioning: []
+tech_modality_alignment: []
+tech_finetuning: []
+tech_inference: []
+datasets_used: []
+models_used: []
+simulators_used: []
+---
+
+# Analysis and control of high sideslip manoeuvres
+
+> Analysis and control of high sideslip manoeuvres | Vehicle System Dynamics | Voser et al. | BibTeX key: `Voser2010`
+
+## Summary
+
+Lightweight bibliography stub generated from [[autonomous_racing_survey_bibliography]]. This paper is listed in the bibliography for [[autonomous_vehicles_on_the_edge]] and has not yet been deep-read for the wiki.
+
+## Citation Metadata
+
+- Authors: Christoph Voser and Rami Y. Hindiyeh and J. Christian Gerdes
+- Year: 2010
+- Type: `article`
+- Venue: Vehicle System Dynamics
+- DOI: `10.1080/00423111003746140`
+- URL: https://doi.org/10.1080/00423111003746140
+
+## Method
+
+_To be filled after reading the paper._
+
+## Key Results
+
+_To be filled after reading the paper._
+
+## Datasets Used
+
+_To be filled after reading the paper._
+
+## Related Work
+
+- [[autonomous_vehicles_on_the_edge]]
+
+## Notes / Critique
+
+_To be filled after reading the paper._
