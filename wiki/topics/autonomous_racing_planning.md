@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 10
+sources: 11
 ---
 
 # Autonomous Racing Planning
@@ -36,6 +36,10 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 
 [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]] contributes a local multi-agent planning method: [[multi_stage_time_variant_motion_planning]] uses short first-stage horizons for agile avoidance and longer later stages for foresight and raceline recovery.
 
+[[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]] adds a 3D minimum-time replanning perspective: [[kineto_dynamical_planning]] uses a learned reduced-order vehicle model plus economic NMPC to stay close to high-fidelity minimum-lap-time performance on banked and sloped circuits.
+
+[[a_competitor_aware_race_management_policy_a_game_theoretical_approach]] pushes planning to the race-strategy level: [[competitor_aware_race_management]] uses a lower-level game-theoretic lap model and an upper-level RL policy to choose energy deployment, pit stops, and charging against a specific opponent over an entire electric endurance race.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -48,6 +52,8 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]]
 - [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
 - [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]]
+- [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]]
+- [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]]
 
 ## Open Problems
 
@@ -62,3 +68,7 @@ Professional-driver interviews add another gap: planners should learn when to ex
 Online velocity planning adds a fixed-path limitation: speed can adapt quickly along the raceline, but feasibility becomes harder when the local planner deviates laterally for overtaking or obstacle avoidance.
 
 Multi-stage sampling adds a computational tradeoff: richer maneuver trees improve agility and robustness, but require strong pruning and eventually environment-aware sampling to stay real-time.
+
+Kineto-dynamical planning adds a model-selection tradeoff: richer reduced-order models can close the gap to high-fidelity minimum-time solutions, but they also require more careful identification and may generalize less gracefully across tracks and conditions.
+
+Competitor-aware race management adds a hierarchy tradeoff: strategic race-level policies can optimize energy and position over long horizons, but they depend on lower-level surrogate models of interaction that may break when the field grows beyond a few agents or when drafting assumptions shift.

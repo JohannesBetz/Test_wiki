@@ -15,6 +15,7 @@ In [[autonomous_vehicles_on_the_edge]], the scope is restricted to four-wheeled 
 ## Key Approaches
 
 - Classical autonomy pipeline: [[high_speed_perception]] -> [[autonomous_racing_planning]] -> [[autonomous_racing_control]].
+- Classical autonomy pipeline: [[high_speed_perception]] -> [[autonomous_racing_planning]] -> [[autonomous_racing_control]], which can also be read through the broader [[cognitive_navigation]] lens of perception-decision-execution coupling.
 - Optimization and optimal-control approaches for raceline generation and minimum-lap-time objectives.
 - [[model_predictive_control]] for local planning, tracking, robustness, and operation near dynamic limits.
 - Learning-based control, especially repeated-lap learning and model-error compensation.

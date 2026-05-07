@@ -15,6 +15,12 @@
 - [[langmann_online_velocity|Langmann Online Velocity Source]] — arXiv paper on online velocity profiles for sampling-based autonomous racing planners.
 - [[wachter_spatially_aware|Wachter Spatially Aware Source]] — arXiv paper on controller-feedback-driven adaptive trajectory optimization.
 - [[langmann_multi_stage_time_variant_motion_planner|Langmann Multi-Stage Time-Variant Motion Planner Source]] — IEEE OJITS paper on agile multi-stage sampling-based motion planning.
+- [[piccinini_kineto_dynamical_planning|Piccinini Kineto-Dynamical Planning Source]] — arXiv paper on 3D minimum-time kineto-dynamical planning with economic NMPC.
+- [[piccinini_model_structured_networks|Piccinini Model-Structured Networks Source]] — arXiv paper on model-structured neural steering control with A2RL telemetry.
+- [[yang_cognitive_navigation|Yang Cognitive Navigation Source]] — review paper on cognitive navigation as a perception-decision-execution autonomy loop.
+- [[yoshida_embodied_autonomous_agents|Yoshida Embodied Autonomous Agents Source]] — review paper on embodied autonomous intelligence and machine survival.
+- [[leng_expert_knowledge_driven_racing|Leng Expert Knowledge-Driven Racing Source]] — arXiv paper on expert-guided and dynamics-constrained RL for autonomous racing.
+- [[vries_competitor_aware_race_management|Vries Competitor-Aware Race Management Source]] — TU/e thesis on game-theoretic electric-racing strategy and race-level RL.
 
 ## Papers
 
@@ -30,6 +36,12 @@
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments|Online Velocity Profile Generation and Tracking (2025)]]
 - [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing|Spatially-Aware Adaptive Trajectory Optimization (2026)]]
 - [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers|A Multi-Stage Time-Variant Motion Planner (2026)]]
+- [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits|Kineto-Dynamical Planning and Accurate Execution (2025)]]
+- [[model_structured_neural_networks_to_control_the_steering_dynamics_of_autonomous_race_cars|Model-Structured Neural Networks for Steering Dynamics (2025)]]
+- [[cognitive_navigation_review|Cognitive navigation (2026)]]
+- [[machine_survival_a_historical_perspective_on_embodied_autonomous_intelligence|Machine Survival: A Historical Perspective on Embodied Autonomous Intelligence (2026)]]
+- [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints|Expert Knowledge-driven Reinforcement Learning for Autonomous Racing (2026)]]
+- [[a_competitor_aware_race_management_policy_a_game_theoretical_approach|A Competitor-aware Race Management Policy (2026)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -46,6 +58,8 @@
 - [[end_to_end_autonomous_racing]]
 - [[autonomous_racing_platforms]]
 - [[autonomous_racing_simulation]]
+- [[cognitive_navigation]]
+- [[embodied_autonomous_intelligence]]
 
 ## Techniques
 
@@ -70,6 +84,10 @@
 - [[online_velocity_profile_generation]]
 - [[spatially_aware_adaptive_trajectory_optimization]]
 - [[multi_stage_time_variant_motion_planning]]
+- [[kineto_dynamical_planning]]
+- [[model_structured_neural_networks]]
+- [[trajectory_guided_dynamics_constrained_reinforcement_learning]]
+- [[competitor_aware_race_management]]
 
 ## Models / Systems
 

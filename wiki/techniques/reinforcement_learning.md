@@ -1,7 +1,7 @@
 ---
 tags: [technique]
 date: 2026-05-06
-sources: 5
+sources: 6
 ---
 
 # Reinforcement Learning
@@ -22,6 +22,10 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 
 [[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing]] shows SAC-based autonomous racing enhanced with [[knowledge_distillation]] and [[curriculum_learning]] to improve sample efficiency, skill retention, and lap time.
 
+[[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]] shows a more strongly structured racing-RL design: [[trajectory_guided_dynamics_constrained_reinforcement_learning]] injects expert racing-line guidance, explicit dynamics envelopes, and staged curriculum learning so RL explores faster and with fewer unsafe behaviors.
+
+[[a_competitor_aware_race_management_policy_a_game_theoretical_approach]] shows a different role for RL in racing: [[competitor_aware_race_management]] uses RL not for direct vehicle control, but for long-horizon race strategy over energy allocation, charging, and pit decisions in an electric endurance setting.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -29,6 +33,8 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]]
 - [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]]
 - [[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing]]
+- [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]]
+- [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]]
 
 ## Open Problems
 
@@ -41,3 +47,5 @@ GT Sophy adds another barrier: high-performance RL agents can learn speed and ta
 Ace adds the difficulty of learning from surrogate objectives when the true match objective depends on human opponent behavior that is not fully modeled in simulation.
 
 CSDAL adds the challenge of relying on expert demonstrations without letting the student policy remain bounded by expert performance.
+
+Competitor-aware race management adds a modeling challenge of a different kind: the strategic RL agent is only as strong as the surrogate environment it learns in, so errors in the lower-level interaction model can distort the learned race policy.

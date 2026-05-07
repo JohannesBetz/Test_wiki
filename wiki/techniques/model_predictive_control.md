@@ -16,10 +16,13 @@ In [[autonomous_vehicles_on_the_edge]], MPC is central to both [[autonomous_raci
 
 [[a_quasi_steady_state_black_box_simulation_approach_for_the_generation_of_g_g_g_v_diagrams]] is relevant to MPC because [[g_g_g_v_diagrams]] can provide compact acceleration-envelope constraints. This lets an MPC formulation respect near-limit vehicle behavior derived from high-fidelity simulation without directly embedding the full black-box model in the optimizer.
 
+[[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]] shows a different MPC role: economic NMPC itself becomes the online minimum-time planner, using a learned kineto-dynamical model and 3D-aware acceleration constraints rather than only tracking a precomputed reference.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
 - [[a_quasi_steady_state_black_box_simulation_approach_for_the_generation_of_g_g_g_v_diagrams]]
+- [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]]
 
 ## Open Problems
 

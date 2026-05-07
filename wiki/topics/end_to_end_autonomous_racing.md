@@ -20,11 +20,14 @@ Methods covered include CNNs, RNNs, LSTMs, fuzzy control, Bayesian optimization,
 
 [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]] is closer to an integrated learned racing policy. GT Sophy maps structured simulator observations directly to throttle/brake and steering, while the simulator provides state and physics.
 
+[[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]] is a more structured hybrid. The policy is still learned with RL, but training is explicitly shaped by an expert racing line, a safe dynamics envelope, and curriculum learning.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]]
+- [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]]
 
 ## Open Problems
 

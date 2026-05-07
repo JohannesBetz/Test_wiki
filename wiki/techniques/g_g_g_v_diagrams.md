@@ -33,6 +33,8 @@ In [[autonomous_vehicle_racing]], planners and controllers often need dynamic co
 
 [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]] uses G-G-G-V constraints to discard dynamically infeasible local trajectory samples.
 
+[[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]] uses closely related G-G-V-style constraints on a 3D track, but learns and embeds them inside a kineto-dynamical planning model with economic NMPC rather than treating the envelope as a standalone map.
+
 Earlier G-G-diagram-aware methods, such as [[path_tracking_for_autonomous_race_car_based_on_g_g_diagram]], use acceleration envelopes as control constraints but do not necessarily solve the problem of generating high-fidelity speed- and vertical-load-dependent envelopes.
 
 ## Representative Papers

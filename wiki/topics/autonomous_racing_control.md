@@ -31,6 +31,10 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 
 [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]] uses MPC tracking error as planner feedback, making the controller an information source for global trajectory adaptation rather than only a tracking module.
 
+[[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]] tightens the planning-control loop further: economic NMPC performs online minimum-time trajectory generation, while low-level controllers and repeated telemetry-driven learning determine whether the planned 3D-limit maneuvers are truly executable.
+
+[[model_structured_neural_networks_to_control_the_steering_dynamics_of_autonomous_race_cars]] adds a more interpretable learning-based control direction: [[model_structured_neural_networks]] embed vehicle-dynamics priors inside a neural steering controller, improving data efficiency and generalization on full-scale A2RL telemetry.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -40,6 +44,8 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
+- [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]]
+- [[model_structured_neural_networks_to_control_the_steering_dynamics_of_autonomous_race_cars]]
 
 ## Open Problems
 

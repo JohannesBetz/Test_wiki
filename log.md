@@ -49,3 +49,27 @@ Ingested `raw/pdfs/Wachter_SpatiallyAware.pdf`. Added a source summary, a deep p
 ## [2026-05-07] ingest | Multi-Stage Time-Variant Motion Planner
 
 Ingested `raw/pdfs/Langmann_A_Multi-Stage_Time-Variant_Motion_Planner_for_Agile_Autonomous_Driving_Maneuvers.pdf`. Added a source summary, a deep paper page for [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]], and a technique page for [[multi_stage_time_variant_motion_planning]]. Updated autonomous racing planning, online velocity profile generation, G-G-G-V diagrams, A2RL, and index pages. Pages touched: 9.
+
+## [2026-05-07] ingest | Kineto-Dynamical Planning on 3D Circuits
+
+Ingested `raw/pdfs/Piccinini_Kineto_Dynamical_Planning.pdf`. Added a source summary, a deep paper page for [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]], and a technique page for [[kineto_dynamical_planning]]. Updated autonomous racing planning/control, model predictive control, G-G-G-V diagrams, and index pages. Pages touched: 9.
+
+## [2026-05-07] ingest | Model-Structured Neural Steering Control
+
+Ingested `raw/pdfs/Piccinini_Model-structured-Networks.pdf`. Added a source summary, a deep paper page for [[model_structured_neural_networks_to_control_the_steering_dynamics_of_autonomous_race_cars]], and a technique page for [[model_structured_neural_networks]]. Updated autonomous racing control, A2RL, and index pages. Pages touched: 8.
+
+## [2026-05-07] ingest | Cognitive Navigation
+
+Ingested `raw/pdfs/Yang_Cognitive_navigation.pdf`. Added a source summary, a deep paper page for [[cognitive_navigation_review]], and a topic page for [[cognitive_navigation]]. Updated autonomous vehicle racing and index pages. Pages touched: 7.
+
+## [2026-05-07] ingest | Embodied Autonomous Intelligence
+
+Ingested `raw/pdfs/Yoshida_Embodied_Autonomous_Agents.pdf`. Added a source summary, a deep paper page for [[machine_survival_a_historical_perspective_on_embodied_autonomous_intelligence]], and a topic page for [[embodied_autonomous_intelligence]]. Updated cognitive navigation and index pages. Pages touched: 7.
+
+## [2026-05-07] ingest | Expert Knowledge-Driven Racing RL
+
+Ingested `raw/pdfs/Leng_ExpertKnowledge-drivenRacing.pdf`. Added a source summary, a deep paper page for [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]], and a technique page for [[trajectory_guided_dynamics_constrained_reinforcement_learning]]. Updated reinforcement learning, end-to-end autonomous racing, and index pages. Pages touched: 8.
+
+## [2026-05-07] ingest | Competitor-Aware Race Management
+
+Ingested `raw/pdfs/Vries_Competitor-aware_race_management.pdf`. Added a source summary, a deep paper page for [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]], and a technique page for [[competitor_aware_race_management]]. Updated autonomous racing planning, reinforcement learning, and index pages. Pages touched: 8.
