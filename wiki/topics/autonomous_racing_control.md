@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 6
+sources: 7
 ---
 
 # Autonomous Racing Control
@@ -29,6 +29,8 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 
 [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]] links online performance-envelope learning to control stress indicators, using ESC, TC, ABS, velocity error, lateral acceleration error, and lateral deviation as feedback for [[apex]].
 
+[[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]] uses MPC tracking error as planner feedback, making the controller an information source for global trajectory adaptation rather than only a tracking module.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -37,6 +39,7 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 - [[gripmap_an_efficient_spatially_resolved_constraint_framework_for_offline_and_online_trajectory_planning_in_autonomous_racing]]
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
+- [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
 
 ## Open Problems
 

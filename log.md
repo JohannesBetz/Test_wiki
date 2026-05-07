@@ -41,3 +41,7 @@ Ingested `raw/pdfs/Werner_Challenging_F1_drivers.pdf`. Added a source summary, a
 ## [2026-05-07] ingest | Online Velocity Profile Generation
 
 Ingested `raw/pdfs/Langmann_OnlineVelocity.pdf`. Added a source summary, a deep paper page for [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]], and a technique page for [[online_velocity_profile_generation]]. Updated APEX, autonomous racing planning, G-G-G-V diagrams, GripMap, and index pages. Pages touched: 8.
+
+## [2026-05-07] ingest | Spatially-Aware Adaptive Trajectory Optimization
+
+Ingested `raw/pdfs/Wachter_SpatiallyAware.pdf`. Added a source summary, a deep paper page for [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]], and a technique page for [[spatially_aware_adaptive_trajectory_optimization]]. Updated autonomous racing planning/control, GripMap, F1TENTH, and index pages. Pages touched: 9.

@@ -185,6 +185,9 @@
   },
   "active": "24d0f2669cdfb432",
   "lastOpenFiles": [
+    "wiki/techniques/spatially_aware_adaptive_trajectory_optimization.md",
+    "wiki/papers/spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing.md",
+    "wiki/sources/wachter_spatially_aware.md",
     "raw/pdfs/Wachter_SpatiallyAware.pdf",
     "raw/pdfs/2602.15642v1.pdf",
     "wiki/techniques/online_velocity_profile_generation.md",
@@ -213,14 +216,11 @@
     "raw/pdfs/Langmann_OnlineVelocity.pdf",
     "raw/pdfs/2505.05157v1.pdf",
     "raw/pdfs/Werner_GripMap.pdf",
-    "raw/pdfs/2504.12115v1.pdf",
     "wiki/topics/end_to_end_autonomous_racing.md",
     "wiki/sources/autonomous_vehicles_on_the_edge_survey.md",
     "wiki/sources/autonomous_racing_survey_bibliography.md",
     "wiki/papers/learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing.md",
     "wiki/simulators/rfactor_2.md",
-    "wiki/simulators/gran_turismo_sport.md",
-    "wiki/datasets/f1tenth.md",
     "Untitled.canvas"
   ]
 }

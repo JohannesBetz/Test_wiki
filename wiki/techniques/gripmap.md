@@ -1,7 +1,7 @@
 ---
 tags: [technique]
 date: 2026-05-07
-sources: 4
+sources: 5
 ---
 
 # GripMap
@@ -17,6 +17,8 @@ In its demonstrated form, GripMap scales baseline [[g_g_g_v_diagrams]] with a lo
 [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]] uses the GripMap representation as the spatial performance map inside [[apex]], updating `theta(s,n)` online from observer and predictor signals.
 
 [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]] shows how local scaling of dynamic constraints can be consumed by an online velocity planner.
+
+[[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]] uses a related adaptive constraint map, but updates it from MPC tracking error and feeds it into global NURBS raceline optimization.
 
 ## Why It Matters
 
@@ -40,6 +42,7 @@ The paper uses direct index computation from `(s, n)` into the lookup matrix, gi
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]]
+- [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
 
 ## Open Problems
 

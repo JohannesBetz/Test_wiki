@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 8
+sources: 9
 ---
 
 # Autonomous Racing Planning
@@ -32,6 +32,8 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 
 [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]] focuses on that online velocity planner: it adapts speed along a fixed 3D raceline to changing dynamic constraints and adds spatial-domain sampling so local trajectories respect apex and braking-point locations.
 
+[[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]] takes a trajectory-centric view: MPC tracking errors update a spatial constraint map, and CMA-ES reoptimizes a NURBS raceline and timing over repeated laps.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -42,6 +44,7 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]]
+- [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
 
 ## Open Problems
 
