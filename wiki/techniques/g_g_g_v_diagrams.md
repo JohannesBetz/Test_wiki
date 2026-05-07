@@ -1,7 +1,7 @@
 ---
 tags: [technique]
 date: 2026-05-07
-sources: 4
+sources: 5
 ---
 
 # G-G-G-V Diagrams
@@ -31,6 +31,8 @@ In [[autonomous_vehicle_racing]], planners and controllers often need dynamic co
 
 [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]] uses related G-G-style constraints to compute online feasible velocity profiles over a three-dimensional raceline.
 
+[[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]] uses G-G-G-V constraints to discard dynamically infeasible local trajectory samples.
+
 Earlier G-G-diagram-aware methods, such as [[path_tracking_for_autonomous_race_car_based_on_g_g_diagram]], use acceleration envelopes as control constraints but do not necessarily solve the problem of generating high-fidelity speed- and vertical-load-dependent envelopes.
 
 ## Representative Papers
@@ -39,6 +41,7 @@ Earlier G-G-diagram-aware methods, such as [[path_tracking_for_autonomous_race_c
 - [[gripmap_an_efficient_spatially_resolved_constraint_framework_for_offline_and_online_trajectory_planning_in_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]]
+- [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]]
 - [[path_tracking_for_autonomous_race_car_based_on_g_g_diagram]]
 
 ## Open Problems

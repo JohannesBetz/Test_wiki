@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 9
+sources: 10
 ---
 
 # Autonomous Racing Planning
@@ -34,6 +34,8 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 
 [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]] takes a trajectory-centric view: MPC tracking errors update a spatial constraint map, and CMA-ES reoptimizes a NURBS raceline and timing over repeated laps.
 
+[[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]] contributes a local multi-agent planning method: [[multi_stage_time_variant_motion_planning]] uses short first-stage horizons for agile avoidance and longer later stages for foresight and raceline recovery.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -45,6 +47,7 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]]
 - [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
+- [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]]
 
 ## Open Problems
 
@@ -57,3 +60,5 @@ GripMap adds a practical constraint-map problem: planners need local friction an
 Professional-driver interviews add another gap: planners should learn when to exploit curbs, track margins, and nonstandard lines from vehicle response rather than relying entirely on a predeclared drivable area.
 
 Online velocity planning adds a fixed-path limitation: speed can adapt quickly along the raceline, but feasibility becomes harder when the local planner deviates laterally for overtaking or obstacle avoidance.
+
+Multi-stage sampling adds a computational tradeoff: richer maneuver trees improve agility and robustness, but require strong pruning and eventually environment-aware sampling to stay real-time.

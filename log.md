@@ -45,3 +45,7 @@ Ingested `raw/pdfs/Langmann_OnlineVelocity.pdf`. Added a source summary, a deep 
 ## [2026-05-07] ingest | Spatially-Aware Adaptive Trajectory Optimization
 
 Ingested `raw/pdfs/Wachter_SpatiallyAware.pdf`. Added a source summary, a deep paper page for [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]], and a technique page for [[spatially_aware_adaptive_trajectory_optimization]]. Updated autonomous racing planning/control, GripMap, F1TENTH, and index pages. Pages touched: 9.
+
+## [2026-05-07] ingest | Multi-Stage Time-Variant Motion Planner
+
+Ingested `raw/pdfs/Langmann_A_Multi-Stage_Time-Variant_Motion_Planner_for_Agile_Autonomous_Driving_Maneuvers.pdf`. Added a source summary, a deep paper page for [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]], and a technique page for [[multi_stage_time_variant_motion_planning]]. Updated autonomous racing planning, online velocity profile generation, G-G-G-V diagrams, A2RL, and index pages. Pages touched: 9.

@@ -14,6 +14,7 @@
 - [[werner_challenging_f1_drivers|Werner Challenging F1 Drivers Source]] — manuscript on APEX online performance-envelope learning in physical race cars.
 - [[langmann_online_velocity|Langmann Online Velocity Source]] — arXiv paper on online velocity profiles for sampling-based autonomous racing planners.
 - [[wachter_spatially_aware|Wachter Spatially Aware Source]] — arXiv paper on controller-feedback-driven adaptive trajectory optimization.
+- [[langmann_multi_stage_time_variant_motion_planner|Langmann Multi-Stage Time-Variant Motion Planner Source]] — IEEE OJITS paper on agile multi-stage sampling-based motion planning.
 
 ## Papers
 
@@ -28,6 +29,7 @@
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning|Challenging F1 Drivers with Human-Inspired Online Learning (2026)]]
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments|Online Velocity Profile Generation and Tracking (2025)]]
 - [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing|Spatially-Aware Adaptive Trajectory Optimization (2026)]]
+- [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers|A Multi-Stage Time-Variant Motion Planner (2026)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -67,6 +69,7 @@
 - [[gripmap]]
 - [[online_velocity_profile_generation]]
 - [[spatially_aware_adaptive_trajectory_optimization]]
+- [[multi_stage_time_variant_motion_planning]]
 
 ## Models / Systems
 

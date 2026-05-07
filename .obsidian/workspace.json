@@ -11,10 +11,14 @@
             "id": "ac443c4483b75285",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/sources/werner_challenging_f1_drivers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "werner_challenging_f1_drivers"
             }
           }
         ]
@@ -181,7 +185,18 @@
   },
   "active": "ac443c4483b75285",
   "lastOpenFiles": [
+    "raw/pdfs/Piccinini_Kineto_Dynamical_Planning.pdf",
+    "raw/pdfs/Piccinini_.pdf",
+    "raw/pdfs/2502.03454v2.pdf",
+    "wiki/techniques/multi_stage_time_variant_motion_planning.md",
+    "wiki/papers/a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers.md",
+    "wiki/sources/langmann_multi_stage_time_variant_motion_planner.md",
+    "raw/pdfs/Piccinini_Model-structured-Networks.pdf",
+    "raw/pdfs/2507.20427v1.pdf",
+    "raw/pdfs/Langmann_A_Multi-Stage_Time-Variant_Motion_Planner_for_Agile_Autonomous_Driving_Maneuvers.pdf",
+    "raw/pdfs/A_Multi-Stage_Time-Variant_Motion_Planner_for_Agile_Autonomous_Driving_Maneuvers.pdf",
     "index.md",
+    "wiki/sources/werner_insights_racer.md",
     "log.md",
     "wiki/techniques/spatially_aware_adaptive_trajectory_optimization.md",
     "wiki/papers/spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing.md",
@@ -196,27 +211,16 @@
     "wiki/papers/challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning.md",
     "wiki/sources/werner_challenging_f1_drivers.md",
     "wiki/papers/accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing.md",
-    "wiki/sources/werner_insights_racer.md",
     "wiki/topics/professional_race_driver_expertise.md",
     "Untitled.base",
     "wiki/techniques/gripmap.md",
     "wiki/papers/gripmap_an_efficient_spatially_resolved_constraint_framework_for_offline_and_online_trajectory_planning_in_autonomous_racing.md",
     "wiki/sources/werner_gripmap.md",
     "raw/pdfs/Werner_Challenging_F1_drivers.pdf",
-    "raw/pdfs/Challenging_F1_drivers__IEEE_.pdf",
     "wiki/techniques/quasi_steady_state_vehicle_simulation.md",
     "wiki/techniques/g_g_g_v_diagrams.md",
     "wiki/papers/a_quasi_steady_state_black_box_simulation_approach_for_the_generation_of_g_g_g_v_diagrams.md",
     "wiki/sources/werner_gggv_diagramms.md",
-    "raw/pdfs/Werner_Insights-Racer.pdf",
-    "raw/pdfs/2405.02620v1.pdf",
-    "raw/pdfs/Langmann_OnlineVelocity.pdf",
-    "raw/pdfs/2505.05157v1.pdf",
-    "raw/pdfs/Werner_GripMap.pdf",
-    "wiki/topics/end_to_end_autonomous_racing.md",
-    "wiki/sources/autonomous_vehicles_on_the_edge_survey.md",
-    "wiki/sources/autonomous_racing_survey_bibliography.md",
-    "wiki/papers/learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing.md",
     "Untitled.canvas"
   ]
 }

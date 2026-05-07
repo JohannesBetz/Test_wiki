@@ -1,7 +1,7 @@
 ---
 tags: [dataset, platform]
 date: 2026-05-07
-sources: 1
+sources: 2
 ---
 
 # Abu Dhabi Autonomous Racing League
@@ -14,9 +14,12 @@ The Abu Dhabi Autonomous Racing League, or A2RL, is a full-scale autonomous raci
 
 [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]] uses A2RL 2025 as a major physical validation setting for [[apex]]. TUM Autonomous Motorsport's vehicle Hailey competes on the Yas Marina North layout against both autonomous competitors and Formula 1 driver Daniil Kvyat.
 
+[[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]] evaluates dynamic obstacle avoidance and overtaking scenarios on Yas Marina Circuit in an A2RL-inspired setting.
+
 ## Papers Using This
 
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
+- [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]]
 
 ## Notes
 

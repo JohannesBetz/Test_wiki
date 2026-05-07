@@ -1,7 +1,7 @@
 ---
 tags: [technique]
 date: 2026-05-07
-sources: 1
+sources: 2
 ---
 
 # Online Velocity Profile Generation
@@ -27,9 +27,12 @@ This gives [[autonomous_racing_planning]] a way to keep an offline raceline path
 
 [[apex]] learns local performance scaling values and [[gripmap]] stores spatially varying constraints. Online velocity profile generation consumes those constraints and turns them into a velocity reference that can be tracked by a local planner.
 
+[[multi_stage_time_variant_motion_planning]] is complementary: it focuses on local dynamic-agent maneuvers around the raceline, while online velocity profile generation focuses on adapting speed along the fixed raceline.
+
 ## Representative Papers
 
 - [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments]]
+- [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 
 ## Open Problems
