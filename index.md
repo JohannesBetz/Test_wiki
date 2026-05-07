@@ -8,6 +8,11 @@
 - [[wurman_outracing_gran_turismo|Outracing Gran Turismo Source]] — Nature paper on GT Sophy, a championship-level Gran Turismo racing agent.
 - [[wurman_outplaying_tennis_player|Outplaying Table Tennis Source]] — Nature paper on Ace, an autonomous table-tennis robot.
 - [[hou_orchestrating_cognitive_skill_distillation|Orchestrating Cognitive Skill Distillation Source]] — manuscript on CSDAL for autonomous racing policy learning.
+- [[werner_gggv_diagramms|Werner GGGV Diagrams Source]] — arXiv paper on black-box generation of G-G-G-V acceleration envelopes.
+- [[werner_gripmap|Werner GripMap Source]] — arXiv paper on spatially resolved grip constraints for autonomous racing planners.
+- [[werner_insights_racer|Werner Insights Racer Source]] — expert interview study on professional race-driver limit handling.
+- [[werner_challenging_f1_drivers|Werner Challenging F1 Drivers Source]] — manuscript on APEX online performance-envelope learning in physical race cars.
+- [[langmann_online_velocity|Langmann Online Velocity Source]] — arXiv paper on online velocity profiles for sampling-based autonomous racing planners.
 
 ## Papers
 
@@ -16,6 +21,11 @@
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning|Outracing Champion Gran Turismo Drivers With Deep Reinforcement Learning (2022)]]
 - [[outplaying_elite_table_tennis_players_with_an_autonomous_robot|Outplaying Elite Table Tennis Players With an Autonomous Robot (2026)]]
 - [[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing|Learn, Consolidate, Dominate (2026)]]
+- [[a_quasi_steady_state_black_box_simulation_approach_for_the_generation_of_g_g_g_v_diagrams|A Quasi-Steady-State Black Box Simulation Approach for G-G-G-V Diagrams (2025)]]
+- [[gripmap_an_efficient_spatially_resolved_constraint_framework_for_offline_and_online_trajectory_planning_in_autonomous_racing|GripMap (2025)]]
+- [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing|Accelerating Autonomy (2024)]]
+- [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning|Challenging F1 Drivers with Human-Inspired Online Learning (2026)]]
+- [[online_velocity_profile_generation_and_tracking_for_sampling_based_local_planning_algorithms_in_autonomous_racing_environments|Online Velocity Profile Generation and Tracking (2025)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -25,6 +35,7 @@
 - [[autonomous_drone_racing]]
 - [[robot_table_tennis]]
 - [[racing_etiquette]]
+- [[professional_race_driver_expertise]]
 - [[high_speed_perception]]
 - [[autonomous_racing_planning]]
 - [[autonomous_racing_control]]
@@ -49,6 +60,10 @@
 - [[curriculum_learning]]
 - [[hippocampal_inspired_skill_consolidation_and_distillation]]
 - [[alternating_phases_curriculum_learning]]
+- [[g_g_g_v_diagrams]]
+- [[quasi_steady_state_vehicle_simulation]]
+- [[gripmap]]
+- [[online_velocity_profile_generation]]
 
 ## Models / Systems
 
@@ -56,10 +71,12 @@
 - [[gt_sophy]]
 - [[ace]]
 - [[csdal]]
+- [[apex]]
 
 ## Datasets
 
 - [[swift_drone_racing_data]]
+- [[abu_dhabi_autonomous_racing_league]]
 
 ## Simulators
 

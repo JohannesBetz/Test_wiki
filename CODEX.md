@@ -45,18 +45,20 @@ The wiki accumulates knowledge from individual papers, datasets, and resources c
 tags: [paper|model|dataset|simulator|concept|topic|technique|analysis|source]
 date: YYYY-MM-DD
 fm_type: LLM|VLM|MLLM|DM|WM            # for paper/model pages
-task: autonomous_racing |Highly_dynamic_autonomous_system|both  # for paper pages
+task: autonomous_racing |highly_dynamic_autonomous_system|both  # for paper pages
 venue: "CVPR 2026"                       # for paper pages — always "Name YYYY" format
 sources: 0                               # number of sources this page draws from
 
 # Paper pages also carry these clustering tags (flat keys — grep-friendly):
 topic:                                   # research objectives (one or more)
-  - safety_critical_scenario | real_world_replication | adas_testing
-  - driving_image_generation | driving_video_generation | 3d_occupancy_generation
-  - closed_loop_generation | data_augmentation
-  - vqa | scenario_understanding | scenario_evaluation | risk_assessment
-  - end_to_end_planning
-tech_backbone: [transformer|vit|dit|mamba|cnn|detr]
+  - autonomous_racing | high_dynamic | high_agility
+  - safety | safety_assessment | safety_verification
+  - motion_planning | path_planning | trajectory_planning | optimization
+  - control | path_tracking | model_predictive_control
+  - foundational_model | reinforcement learning | curriculum_learning
+  - applied_robotics | race_cars | drones | robotics | humanoid | quadruped
+  - end_to_end_planning | end_to_end_software
+tech_backbone: [transformer|vit|cnn|RL]
 tech_representation: [bev|occupancy|gaussian_splatting|nerf|sdf|voxel|point_cloud]
 tech_generation: [diffusion|rectified_flow|autoregressive|vae|flow_matching|gan]
 tech_conditioning: [controlnet|camera_pose_control|text_conditioning|layout_conditioning|trajectory_conditioning]

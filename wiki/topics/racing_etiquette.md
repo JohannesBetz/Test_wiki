@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-07
-sources: 1
+sources: 2
 ---
 
 # Racing Etiquette
@@ -14,9 +14,12 @@ Racing etiquette refers to the under-specified norms and sportsmanship rules tha
 
 [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]] treats racing etiquette as a learning problem. The agent must be competitive but avoid behavior that human stewards would penalize. The authors tried to encode etiquette through collision penalties, rear-end penalties, and unsporting-collision penalties, then used human drivers and stewards to judge whether policies were too aggressive.
 
+[[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]] is not mainly about etiquette, but it helps explain the human side of racecraft: expert drivers use experience, visual cues, and vehicle feedback to decide when lines, curbs, braking points, and risk levels are acceptable.
+
 ## Representative Papers
 
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]]
+- [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 
 ## Open Problems
 
