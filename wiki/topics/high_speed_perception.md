@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 1
+sources: 3
 ---
 
 # High Speed Perception
@@ -20,10 +20,18 @@ In [[autonomous_vehicles_on_the_edge]], autonomous racing perception includes:
 - Free-space detection with semantic segmentation.
 - LiDAR distortion compensation for high-speed operation.
 
+In [[champion_level_drone_racing_using_deep_reinforcement_learning]], high-speed perception appears in an aerial setting: [[visual_inertial_odometry]] drifts under aggressive flight and motion blur, so gate detections are used as landmarks and fused with VIO through a Kalman filter.
+
+In [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]], high-speed perception appears in table tennis: APS cameras localize a fast ball in 3D, while [[event_based_vision]] estimates spin at low latency for high-speed, high-spin returns.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
+- [[champion_level_drone_racing_using_deep_reinforcement_learning]]
+- [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]]
 
 ## Open Problems
 
 The survey argues that racing-specific high-speed perception remains thin. Open issues include long-range detection beyond 100 m, motion blur, sensor synchronization, robust camera/radar/LiDAR fusion, sparse racetrack landmarks, and lack of public high-speed racing perception datasets.
+
+Swift adds an appearance-generalization caution: a perception stack can be fast enough for champion-level racing but still brittle when illumination or visual conditions differ from training.

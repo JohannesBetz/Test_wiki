@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 1
+sources: 2
 ---
 
 # Autonomous Racing Control
@@ -19,9 +19,12 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 - Learning-based control: iterative learning control, learning MPC, Gaussian-process model-error learning, adaptive MPC, DNN-assisted control, and online scaling/correction.
 - Drifting control: controllers for stable operation beyond normal handling limits at high sideslip angles.
 
+[[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing]] contributes a learned high-level policy that generates path/velocity modifications while a lower-level NMPC controller handles trajectory tracking under vehicle constraints.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
+- [[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing]]
 
 ## Open Problems
 
