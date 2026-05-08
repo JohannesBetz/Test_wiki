@@ -24,6 +24,8 @@ This framing is broad enough to cover classical navigation stacks, hybrid learne
 
 It also connects naturally to [[embodied_autonomous_intelligence]], which asks not only how perception, decision, and execution interact, but what deeper objective organizes the loop, such as viability or homeostatic stability.
 
+[[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]] adds a more engineering-heavy example of the same coupling. Its [[mechanism_experience_learning]] design mixes traffic interaction modeling, a learned driving-tendency prior, and constrained optimization so that learning and execution stay tightly linked during self-improvement.
+
 ## Relationship to Autonomous Racing
 
 In autonomous racing, the classical stack is usually written as [[high_speed_perception]] plus [[autonomous_racing_planning]] plus [[autonomous_racing_control]]. Cognitive navigation offers a more integrated lens on the same problem: those modules are not independent, but parts of one embodied loop operating under severe time and dynamics constraints.
@@ -34,7 +36,10 @@ This does not replace racing-specific methods. Instead, it helps explain why rac
 
 - [[cognitive_navigation_review]]
 - [[autonomous_vehicles_on_the_edge]]
+- [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]]
 
 ## Open Problems
 
 Open questions include how to build navigation systems that are simultaneously capable, interpretable, generalizable, and adaptable, and how to make those properties hold under real-time constraints in domains such as autonomous racing.
+
+The self-evolving perspective adds another tension: how much of a navigation stack should be allowed to adapt online, and what hard architectural constraints are needed so adaptation improves capability without creating unsafe exploration.

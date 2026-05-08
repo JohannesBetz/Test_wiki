@@ -30,6 +30,8 @@
 - [[bari_racing_in_simulator|Bari Racing in Simulator Source]] — AI Open 2026 paper on state-based PPO racing against a human simulator champion.
 - [[huang_fairplay_autonomous_racing|Huang Fair Play Autonomous Racing Source]] — arXiv paper on encoding sportsmanship directly into autonomous racing interaction planning.
 - [[kalaria_alpha_racer|Kalaria Alpha Racer Source]] — L4DC 2025 paper on real-time Nash-style multi-car racing with MPC and learned near-potential functions.
+- [[yang_safe_and_efficient_self_evolving|Yang Safe and Efficient Self-Evolving Source]] — IEEE T-ITS 2025 paper on hybrid safe self-improving autonomous-driving control with RL and constrained optimization.
+- [[authier_carcelen_enhancing_generalization|Authier-Carcelen Enhancing Generalization Source]] — track-agnostic PPO for zero-shot transfer across unseen racing tracks in 2D and TrackMania.
 
 ## Papers
 
@@ -60,6 +62,8 @@
 - [[human_professional_level_driving_agent_for_race_car_simulation_environments|Human Professional-Level Driving Agent (2026)]]
 - [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems|Fair Play in the Fast Lane (2025)]]
 - [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function|α-RACER (2025)]]
+- [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems|A Safe and Efficient Self-Evolving Algorithm (2025)]]
+- [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning|Enhancing Generalization Through Track-Agnostic RL (2025)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -115,6 +119,8 @@
 - [[vehicle_state_reinforcement_learning]]
 - [[sportsmanship_aware_racing_strategy]]
 - [[dynamic_near_potential_functions]]
+- [[mechanism_experience_learning]]
+- [[track_agnostic_reinforcement_learning]]
 
 ## Models / Systems
 

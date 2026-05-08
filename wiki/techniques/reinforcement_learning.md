@@ -34,6 +34,10 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 
 [[human_professional_level_driving_agent_for_race_car_simulation_environments]] provides a simulator-control case study: [[vehicle_state_reinforcement_learning]] can learn near-professional lap-time behavior from compact vehicle signals, but it may also exploit unrealistic simulator dynamics in ways that a physical racecar would not permit.
 
+[[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]] gives an adjacent-road-driving example of safety-structured RL: [[mechanism_experience_learning]] narrows exploration with hard constraints and a learned driving-tendency prior, aiming to keep training collision-free while preserving adaptation.
+
+[[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]] gives a geometry-generalization example: [[track_agnostic_reinforcement_learning]] uses PPO with local sensor or vision-plus-physics observations and an asymmetry-based reward so the policy can transfer to unseen tracks without explicit centerline features.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -47,6 +51,8 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 - [[welcome_to_the_era_of_experience]]
 - [[deep_reinforcement_learning_in_real_time_strategy_games_a_systematic_literature_review]]
 - [[human_professional_level_driving_agent_for_race_car_simulation_environments]]
+- [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]]
+- [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]]
 
 ## Open Problems
 
@@ -69,3 +75,7 @@ The era-of-experience framing adds a systems-level challenge: agents may need to
 The RTS-review perspective adds a hierarchy challenge: strong RL systems often need to coordinate low-level tactical execution with higher-level strategic choices, and bridging those levels remains difficult even in mature benchmark domains.
 
 The simulator-racing comparison adds a realism challenge: a fast RL policy may be genuinely skilled, partly overfit to the simulator, or both at once, so performance claims need qualitative behavioral analysis and not only reward or lap-time summaries.
+
+The self-evolving-driving example adds a structural challenge: RL may become much safer and more data efficient when embedded inside a constrained optimizer, but then the system inherits the biases and limits of that engineered policy class.
+
+Track-agnostic racing adds a representation challenge: removing explicit track priors can improve transfer across layouts, but the resulting policy may become more sensitive to local visual ambiguity or more limited in the strategic structure it can exploit.

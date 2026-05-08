@@ -26,6 +26,8 @@ Methods covered include CNNs, RNNs, LSTMs, fuzzy control, Bayesian optimization,
 
 [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]] focuses on privileged-information reduction: [[asymmetric_recurrent_actor_critic]] shows that champion-level competitive racing is possible from egocentric vision and onboard sensing, while still using privileged critic information during training.
 
+[[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]] studies a different prior-reduction problem: [[track_agnostic_reinforcement_learning]] removes explicit centerline and track-geometry features so a PPO policy can transfer zero-shot to unseen tracks.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -34,6 +36,7 @@ Methods covered include CNNs, RNNs, LSTMs, fuzzy control, Bayesian optimization,
 - [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]]
 - [[out_of_distribution_generalization_with_a_sparc_racing_100_unseen_vehicles_with_a_single_policy]]
 - [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]]
+- [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]]
 
 ## Open Problems
 
@@ -46,3 +49,5 @@ GT Sophy shows that integrated policies can learn advanced racing tactics when t
 SPARC sharpens the generalization problem: even if an end-to-end policy is fast, it may still be brittle under hidden dynamics shifts unless it can infer and adapt to context online.
 
 Vision-based GT7 racing sharpens a different realism problem: policies that rely less on privileged localization are more deployment-relevant, but they must solve partial observability and appearance robustness much more directly.
+
+Track-agnostic RL sharpens the geometry-generalization problem: even if a learned policy is fast, it may still rely on hidden track priors unless the observations and reward are designed to work without explicit map-like track features.

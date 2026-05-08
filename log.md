@@ -109,3 +109,11 @@ Ingested `raw/pdfs/Huang_FairPlay_Autonomous_Racing.pdf`. Added a source summary
 ## [2026-05-08] ingest | Alpha-RACER
 
 Ingested `raw/pdfs/kalaria_Alpha_racer.pdf`. Added a source summary, a deep paper page for [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]], and a technique page for [[dynamic_near_potential_functions]]. Updated autonomous racing planning, autonomous racing control, model predictive control, and index pages. Pages touched: 10.
+
+## [2026-05-08] ingest | Safe and Efficient Self-Evolving Driving
+
+Ingested `raw/pdfs/Yang_A_Safe_and_Efficient_Self-Evolving.pdf`. Added a source summary, a deep paper page for [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]], and a technique page for [[mechanism_experience_learning]]. Updated cognitive navigation, reinforcement learning, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Track-Agnostic RL Generalization
+
+Ingested `raw/pdfs/Carceleen_Enhancing_Generalization.pdf`. Added a source summary, a deep paper page for [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]], and a technique page for [[track_agnostic_reinforcement_learning]]. Updated end-to-end autonomous racing, reinforcement learning, autonomous racing simulation, and index pages. Pages touched: 9.
