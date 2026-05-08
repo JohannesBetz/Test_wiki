@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 11
+sources: 12
 ---
 
 # Autonomous Racing Planning
@@ -40,6 +40,12 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 
 [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]] pushes planning to the race-strategy level: [[competitor_aware_race_management]] uses a lower-level game-theoretic lap model and an upper-level RL policy to choose energy deployment, pit stops, and charging against a specific opponent over an entire electric endurance race.
 
+[[think_deep_and_fast_learning_neural_nonlinear_opinion_dynamics_from_inverse_dynamic_games_for_split_second_interactions]] targets an even shorter time scale: [[neural_nonlinear_opinion_dynamics]] gives the ego car a fast interaction-choice mechanism for overtaking versus waiting, learned from inverse dynamic games and designed to avoid indecision deadlocks.
+
+[[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems]] adds an explicit norm-aware interaction layer: [[sportsmanship_aware_racing_strategy]] uses a discrete Stackelberg game, MCTS, and generalized Nash trajectory planning so overtaking and defense can remain competitive while still respecting sportsmanship rules.
+
+[[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]] adds a different multi-agent planning route: [[dynamic_near_potential_functions]] use offline-learned game surrogates so the online planner can approximate Nash-equilibrium maneuver parameters for overtaking and blocking while still executing through MPC.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -54,6 +60,9 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 - [[a_multi_stage_time_variant_motion_planner_for_agile_autonomous_driving_maneuvers]]
 - [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]]
 - [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]]
+- [[think_deep_and_fast_learning_neural_nonlinear_opinion_dynamics_from_inverse_dynamic_games_for_split_second_interactions]]
+- [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems]]
+- [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]]
 
 ## Open Problems
 
@@ -72,3 +81,9 @@ Multi-stage sampling adds a computational tradeoff: richer maneuver trees improv
 Kineto-dynamical planning adds a model-selection tradeoff: richer reduced-order models can close the gap to high-fidelity minimum-time solutions, but they also require more careful identification and may generalize less gracefully across tracks and conditions.
 
 Competitor-aware race management adds a hierarchy tradeoff: strategic race-level policies can optimize energy and position over long horizons, but they depend on lower-level surrogate models of interaction that may break when the field grows beyond a few agents or when drafting assumptions shift.
+
+Neural nonlinear opinion dynamics adds an abstraction tradeoff: fast opinion-state models can resolve tactical choices quickly, but they may omit important structure when interactions become more uncertain, more crowded, or more multimodal.
+
+Sportsmanship-aware planning adds a norm-formalization tradeoff: explicit racecraft rules make behavior more inspectable, but planners still need a principled way to encode subjective steward judgments and keep the resulting games tractable in dense multi-car settings.
+
+Near-potential planning adds a representation tradeoff: moving game computation offline improves real-time feasibility, but the final behavior is only as expressive as the learned surrogate and the compact maneuver-parameter space it optimizes over.

@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 7
+sources: 8
 ---
 
 # Autonomous Vehicle Racing
@@ -21,12 +21,14 @@ In [[autonomous_vehicles_on_the_edge]], the scope is restricted to four-wheeled 
 - Learning-based control, especially repeated-lap learning and model-error compensation.
 - [[end_to_end_autonomous_racing]] using deep learning and [[reinforcement_learning]].
 - Multi-agent learned racing policies such as [[gt_sophy]] that combine speed, tactics, and [[racing_etiquette]].
+- Explicit fair-play interaction planners such as [[sportsmanship_aware_racing_strategy]], which represent sportsmanship rules directly rather than only through learned penalties.
 - Expert-guided learned policies such as [[csdal]] that combine [[knowledge_distillation]], [[curriculum_learning]], and RL for lap-time improvement.
 - Human-expertise studies such as [[professional_race_driver_expertise]], which translate driver limit detection and exploration strategies into autonomous racing design goals.
 - Online performance-envelope learning systems such as [[apex]], which adapt local planning and control constraints from observed system response.
 - Vehicle-dynamics constraint maps such as [[g_g_g_v_diagrams]], which turn high-fidelity simulation into acceleration envelopes for planners and controllers.
 - Spatial grip maps such as [[gripmap]], which make those constraints track-position-dependent for offline and online planning.
 - Platform-driven evaluation through [[f1tenth]], [[formula_student_driverless]], [[roborace]], [[indy_autonomous_challenge]], and simulation.
+- Shared-autonomy safety assistance such as [[human_centered_safety_filter]], where AI acts as a co-pilot rather than a fully autonomous driver.
 
 ## Representative Papers
 
@@ -37,6 +39,8 @@ In [[autonomous_vehicles_on_the_edge]], the scope is restricted to four-wheeled 
 - [[gripmap_an_efficient_spatially_resolved_constraint_framework_for_offline_and_online_trajectory_planning_in_autonomous_racing]]
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
+- [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]]
+- [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems]]
 
 ## Open Problems
 
@@ -51,3 +55,5 @@ In [[autonomous_vehicles_on_the_edge]], the scope is restricted to four-wheeled 
 - Racing-specific sensors, compute, and high-speed hardware.
 - Spatially resolved grip estimation and adaptation under changing track conditions.
 - Translating professional driver intuition, limit detection, and exploration into autonomous software modules.
+- Designing AI assistance that improves safety without eroding human agency, trust, or competitive feel.
+- Formalizing sportsmanship and steward-like judgment in a way that remains computationally practical during close racing.

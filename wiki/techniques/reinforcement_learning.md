@@ -1,7 +1,7 @@
 ---
 tags: [technique]
 date: 2026-05-06
-sources: 6
+sources: 10
 ---
 
 # Reinforcement Learning
@@ -26,6 +26,14 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 
 [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]] shows a different role for RL in racing: [[competitor_aware_race_management]] uses RL not for direct vehicle control, but for long-horizon race strategy over energy allocation, charging, and pit decisions in an electric endurance setting.
 
+[[out_of_distribution_generalization_with_a_sparc_racing_100_unseen_vehicles_with_a_single_policy]] studies a different RL failure mode: [[sparc]] uses contextual online adaptation so one learned racing policy can remain usable across many unseen vehicle variants rather than only within its training distribution.
+
+[[welcome_to_the_era_of_experience]] provides a broader research framing for RL and related methods: it argues that future high-capability agents will increasingly learn from persistent grounded interaction streams, making experience itself the dominant source of improvement rather than only human-generated data.
+
+[[deep_reinforcement_learning_in_real_time_strategy_games_a_systematic_literature_review]] provides adjacent-domain context: RTS games stress partial observability, large action spaces, sparse rewards, and mixed tactical/strategic reasoning, which makes them a useful comparison class for strategic multi-agent RL beyond racing.
+
+[[human_professional_level_driving_agent_for_race_car_simulation_environments]] provides a simulator-control case study: [[vehicle_state_reinforcement_learning]] can learn near-professional lap-time behavior from compact vehicle signals, but it may also exploit unrealistic simulator dynamics in ways that a physical racecar would not permit.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -35,6 +43,10 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 - [[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing]]
 - [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints]]
 - [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]]
+- [[out_of_distribution_generalization_with_a_sparc_racing_100_unseen_vehicles_with_a_single_policy]]
+- [[welcome_to_the_era_of_experience]]
+- [[deep_reinforcement_learning_in_real_time_strategy_games_a_systematic_literature_review]]
+- [[human_professional_level_driving_agent_for_race_car_simulation_environments]]
 
 ## Open Problems
 
@@ -49,3 +61,11 @@ Ace adds the difficulty of learning from surrogate objectives when the true matc
 CSDAL adds the challenge of relying on expert demonstrations without letting the student policy remain bounded by expert performance.
 
 Competitor-aware race management adds a modeling challenge of a different kind: the strategic RL agent is only as strong as the surrogate environment it learns in, so errors in the lower-level interaction model can distort the learned race policy.
+
+SPARC adds the OOD-generalization problem: even a strong learned controller may fail sharply when hidden vehicle parameters shift, so RL systems need adaptation mechanisms rather than only more in-distribution training data.
+
+The era-of-experience framing adds a systems-level challenge: agents may need to learn over long-lived streams with grounded rewards and consequences, which raises hard problems in safety, memory, credit assignment, and reward design.
+
+The RTS-review perspective adds a hierarchy challenge: strong RL systems often need to coordinate low-level tactical execution with higher-level strategic choices, and bridging those levels remains difficult even in mature benchmark domains.
+
+The simulator-racing comparison adds a realism challenge: a fast RL policy may be genuinely skilled, partly overfit to the simulator, or both at once, so performance claims need qualitative behavioral analysis and not only reward or lap-time summaries.

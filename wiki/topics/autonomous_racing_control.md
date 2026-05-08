@@ -35,6 +35,8 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 
 [[model_structured_neural_networks_to_control_the_steering_dynamics_of_autonomous_race_cars]] adds a more interpretable learning-based control direction: [[model_structured_neural_networks]] embed vehicle-dynamics priors inside a neural steering controller, improving data efficiency and generalization on full-scale A2RL telemetry.
 
+[[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]] adds a strategic-control coupling view: the low-level controller is still MPC, but the tracked reference is continuously reshaped by an online game-theoretic optimizer so control quality depends on both vehicle tracking and opponent-aware maneuver selection.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -46,9 +48,12 @@ Autonomous racing control turns a reference trajectory into steering, throttle, 
 - [[spatially_aware_adaptive_trajectory_optimization_with_controller_guided_feedback_for_autonomous_racing]]
 - [[kineto_dynamical_planning_and_accurate_execution_of_minimum_time_maneuvers_on_three_dimensional_circuits]]
 - [[model_structured_neural_networks_to_control_the_steering_dynamics_of_autonomous_race_cars]]
+- [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]]
 
 ## Open Problems
 
 The central problems are high-accuracy path/heading/velocity tracking, stable behavior under high lateral and longitudinal acceleration, real-time nonlinear modeling, and control policies that adapt to changing tires, friction, aerodynamics, and track conditions.
 
 The professional-driver perspective adds robust limit detection and recovery from limit understeer or limit oversteer as first-class control problems.
+
+Multi-agent MPC-based racing adds another problem: reference tracking is no longer enough if the reference itself must react strategically to opponents over longer horizons without making the online control loop too slow.

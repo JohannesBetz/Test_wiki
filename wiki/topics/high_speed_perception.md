@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 3
+sources: 4
 ---
 
 # High Speed Perception
@@ -24,14 +24,19 @@ In [[champion_level_drone_racing_using_deep_reinforcement_learning]], high-speed
 
 In [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]], high-speed perception appears in table tennis: APS cameras localize a fast ball in 3D, while [[event_based_vision]] estimates spin at low latency for high-speed, high-spin returns.
 
+In [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]], high-speed perception is folded directly into a learned racing policy: egocentric camera input and onboard sensors must support competitive multi-agent driving without explicit global localization at inference time.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
 - [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]]
+- [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]]
 
 ## Open Problems
 
 The survey argues that racing-specific high-speed perception remains thin. Open issues include long-range detection beyond 100 m, motion blur, sensor synchronization, robust camera/radar/LiDAR fusion, sparse racetrack landmarks, and lack of public high-speed racing perception datasets.
 
 Swift adds an appearance-generalization caution: a perception stack can be fast enough for champion-level racing but still brittle when illumination or visual conditions differ from training.
+
+Vision-based GT7 racing adds an occlusion-memory challenge: perception may be local and incomplete, so competitive behavior depends on remembering track and opponent context rather than only reading the current frame.

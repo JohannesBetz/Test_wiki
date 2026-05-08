@@ -73,3 +73,39 @@ Ingested `raw/pdfs/Leng_ExpertKnowledge-drivenRacing.pdf`. Added a source summar
 ## [2026-05-07] ingest | Competitor-Aware Race Management
 
 Ingested `raw/pdfs/Vries_Competitor-aware_race_management.pdf`. Added a source summary, a deep paper page for [[a_competitor_aware_race_management_policy_a_game_theoretical_approach]], and a technique page for [[competitor_aware_race_management]]. Updated autonomous racing planning, reinforcement learning, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | SPARC OOD Racing
+
+Ingested `raw/pdfs/Grooten_OOD-racing.pdf`. Added a source summary, a deep paper page for [[out_of_distribution_generalization_with_a_sparc_racing_100_unseen_vehicles_with_a_single_policy]], and a technique page for [[sparc]]. Updated reinforcement learning, end-to-end autonomous racing, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Era of Experience
+
+Ingested `raw/pdfs/Silver_Area-of-Experience.pdf`. Added a source summary, a deep paper page for [[welcome_to_the_era_of_experience]], and a topic page for [[era_of_experience]]. Updated reinforcement learning, embodied autonomous intelligence, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Think Deep and Fast
+
+Ingested `raw/pdfs/Hu_Think_Deep_and_Fast_for_Split-Second_Interactions.pdf`. Added a source summary, a deep paper page for [[think_deep_and_fast_learning_neural_nonlinear_opinion_dynamics_from_inverse_dynamic_games_for_split_second_interactions]], and a technique page for [[neural_nonlinear_opinion_dynamics]]. Updated autonomous racing planning and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Safety with Agency
+
+Ingested `raw/pdfs/Donggeon_Safety_with_Agency.pdf`. Added a source summary, a deep paper page for [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]], and a technique page for [[human_centered_safety_filter]]. Updated highly dynamic autonomy, autonomous vehicle racing, and index pages. Pages touched: 9.
+
+## [2026-05-08] ingest | RL in Strategic Games
+
+Ingested `raw/pdfs/Barros_RL-in-strategic_games.pdf`. Added a source summary, a deep paper page for [[deep_reinforcement_learning_in_real_time_strategy_games_a_systematic_literature_review]], and a topic page for [[real_time_strategy_games]]. Updated reinforcement learning and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Vision-Based Champion-Level GT7 RL
+
+Ingested `raw/pdfs/Lee_A_Champion-Level_Vision-Based_Reinforcement_Learning.pdf`. Added a source summary, a deep paper page for [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]], and a technique page for [[asymmetric_recurrent_actor_critic]]. Updated end-to-end autonomous racing, high-speed perception, and index pages. Pages touched: 9.
+
+## [2026-05-08] ingest | Human Professional-Level Simulator Racing
+
+Ingested `raw/pdfs/Bari_Racing-in_simulator.pdf`. Added a source summary, a deep paper page for [[human_professional_level_driving_agent_for_race_car_simulation_environments]], and a technique page for [[vehicle_state_reinforcement_learning]]. Updated autonomous racing simulation, reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-08] ingest | Fair Play in the Fast Lane
+
+Ingested `raw/pdfs/Huang_FairPlay_Autonomous_Racing.pdf`. Added a source summary, a deep paper page for [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems]], and a technique page for [[sportsmanship_aware_racing_strategy]]. Updated racing etiquette, autonomous racing planning, autonomous vehicle racing, and index pages. Pages touched: 10.
+
+## [2026-05-08] ingest | Alpha-RACER
+
+Ingested `raw/pdfs/kalaria_Alpha_racer.pdf`. Added a source summary, a deep paper page for [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]], and a technique page for [[dynamic_near_potential_functions]]. Updated autonomous racing planning, autonomous racing control, model predictive control, and index pages. Pages touched: 10.

@@ -21,6 +21,15 @@
 - [[yoshida_embodied_autonomous_agents|Yoshida Embodied Autonomous Agents Source]] — review paper on embodied autonomous intelligence and machine survival.
 - [[leng_expert_knowledge_driven_racing|Leng Expert Knowledge-Driven Racing Source]] — arXiv paper on expert-guided and dynamics-constrained RL for autonomous racing.
 - [[vries_competitor_aware_race_management|Vries Competitor-Aware Race Management Source]] — TU/e thesis on game-theoretic electric-racing strategy and race-level RL.
+- [[grooten_ood_racing|Grooten OOD Racing Source]] — AAAI-26 paper on contextual RL that races 100 unseen vehicles with one policy.
+- [[silver_area_of_experience|Silver Area of Experience Source]] — Silver and Sutton note on the shift from human-data AI to experience-driven agents.
+- [[hu_think_deep_and_fast|Hu Think Deep and Fast Source]] — ICRA 2025 paper on learned opinion dynamics for split-second racing interactions.
+- [[donggeon_safety_with_agency|Donggeon Safety with Agency Source]] — arXiv paper on human-centered safety filtering for AI-assisted motorsports.
+- [[barros_rl_in_strategic_games|Barros RL in Strategic Games Source]] — systematic review of deep RL in real-time strategy games.
+- [[lee_champion_level_vision_based_rl|Lee Champion-Level Vision-Based RL Source]] — RA-L 2025 paper on vision-only champion-level GT7 racing.
+- [[bari_racing_in_simulator|Bari Racing in Simulator Source]] — AI Open 2026 paper on state-based PPO racing against a human simulator champion.
+- [[huang_fairplay_autonomous_racing|Huang Fair Play Autonomous Racing Source]] — arXiv paper on encoding sportsmanship directly into autonomous racing interaction planning.
+- [[kalaria_alpha_racer|Kalaria Alpha Racer Source]] — L4DC 2025 paper on real-time Nash-style multi-car racing with MPC and learned near-potential functions.
 
 ## Papers
 
@@ -42,6 +51,15 @@
 - [[machine_survival_a_historical_perspective_on_embodied_autonomous_intelligence|Machine Survival: A Historical Perspective on Embodied Autonomous Intelligence (2026)]]
 - [[expert_knowledge_driven_reinforcement_learning_for_autonomous_racing_via_trajectory_guidance_and_dynamics_constraints|Expert Knowledge-driven Reinforcement Learning for Autonomous Racing (2026)]]
 - [[a_competitor_aware_race_management_policy_a_game_theoretical_approach|A Competitor-aware Race Management Policy (2026)]]
+- [[out_of_distribution_generalization_with_a_sparc_racing_100_unseen_vehicles_with_a_single_policy|Out-of-Distribution Generalization with a SPARC (2026)]]
+- [[welcome_to_the_era_of_experience|Welcome to the Era of Experience (2025)]]
+- [[think_deep_and_fast_learning_neural_nonlinear_opinion_dynamics_from_inverse_dynamic_games_for_split_second_interactions|Think Deep and Fast (2025)]]
+- [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports|Safety with Agency (2025)]]
+- [[deep_reinforcement_learning_in_real_time_strategy_games_a_systematic_literature_review|Deep RL in RTS Games (2025)]]
+- [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7|Champion-Level Vision-Based RL in GT7 (2025)]]
+- [[human_professional_level_driving_agent_for_race_car_simulation_environments|Human Professional-Level Driving Agent (2026)]]
+- [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems|Fair Play in the Fast Lane (2025)]]
+- [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function|α-RACER (2025)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -60,6 +78,8 @@
 - [[autonomous_racing_simulation]]
 - [[cognitive_navigation]]
 - [[embodied_autonomous_intelligence]]
+- [[era_of_experience]]
+- [[real_time_strategy_games]]
 
 ## Techniques
 
@@ -88,6 +108,13 @@
 - [[model_structured_neural_networks]]
 - [[trajectory_guided_dynamics_constrained_reinforcement_learning]]
 - [[competitor_aware_race_management]]
+- [[sparc]]
+- [[neural_nonlinear_opinion_dynamics]]
+- [[human_centered_safety_filter]]
+- [[asymmetric_recurrent_actor_critic]]
+- [[vehicle_state_reinforcement_learning]]
+- [[sportsmanship_aware_racing_strategy]]
+- [[dynamic_near_potential_functions]]
 
 ## Models / Systems
 

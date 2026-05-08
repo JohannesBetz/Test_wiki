@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 7
+sources: 8
 ---
 
 # Highly Dynamic Autonomous System
@@ -26,6 +26,8 @@ This topic connects [[autonomous_vehicle_racing]] to adjacent agile robotics dom
 
 [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]] adds a physical-system learning example: [[apex]] learns performance constraints online while keeping exploration bounded by interpretable safety indicators.
 
+[[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]] adds a human-in-the-loop safety example: [[human_centered_safety_filter]] shows that highly dynamic autonomy is not only about keeping the machine stable, but also about preserving operator agency and comfort when AI intervenes near failure boundaries.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -35,6 +37,7 @@ This topic connects [[autonomous_vehicle_racing]] to adjacent agile robotics dom
 - [[gripmap_an_efficient_spatially_resolved_constraint_framework_for_offline_and_online_trajectory_planning_in_autonomous_racing]]
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
+- [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]]
 
 ## Open Problems
 
@@ -47,3 +50,5 @@ Ace adds another transfer gap: in real-time human-robot sports, the real objecti
 GripMap adds a localization of uncertainty problem: the usable dynamic envelope can vary across space, and systems need ways to learn or update those local constraints without becoming too conservative everywhere.
 
 Professional-racer interviews add a learning-speed problem: highly dynamic autonomy still lacks the few-shot adaptability expert humans show when conditions change.
+
+Human-centered safety filtering adds a collaboration problem: an intervention policy can improve safety yet still degrade performance if it feels abrupt, opaque, or controlling to the human operator.
