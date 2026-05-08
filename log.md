@@ -117,3 +117,43 @@ Ingested `raw/pdfs/Yang_A_Safe_and_Efficient_Self-Evolving.pdf`. Added a source 
 ## [2026-05-08] ingest | Track-Agnostic RL Generalization
 
 Ingested `raw/pdfs/Carceleen_Enhancing_Generalization.pdf`. Added a source summary, a deep paper page for [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]], and a technique page for [[track_agnostic_reinforcement_learning]]. Updated end-to-end autonomous racing, reinforcement learning, autonomous racing simulation, and index pages. Pages touched: 9.
+
+## [2026-05-08] ingest | DRL Real-World Robotics Survey
+
+Ingested `raw/pdfs/Tang_DRL_Survey.pdf`. Added a source summary, a deep paper page for [[deep_reinforcement_learning_for_robotics_a_survey_of_real_world_successes]], and a topic page for [[real_world_robotic_reinforcement_learning]]. Updated reinforcement learning, highly dynamic autonomous systems, embodied autonomous intelligence, and index pages. Pages touched: 9.
+
+## [2026-05-08] ingest | Safety-Assured High-Speed MAV Navigation
+
+Ingested `raw/pdfs/Ren_safety_assured_MAVS.pdf`. Added a source summary, a deep paper page for [[safety_assured_high_speed_navigation_for_mavs]], a model/system page for [[super]], and a technique page for [[safety_assured_high_speed_aerial_navigation]]. Updated highly dynamic autonomous systems, high-speed perception, autonomous drone racing, and index pages. Pages touched: 11.
+
+## [2026-05-08] ingest | Foundation Models and Intelligent Decision-Making
+
+Ingested `raw/pdfs/Huang_FMs_Challanges_and_perspectives.pdf`. Added a source summary, a deep paper page for [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]], and a topic page for [[foundation_models_for_intelligent_decision_making]]. Updated cognitive navigation, embodied autonomous intelligence, era of experience, reinforcement learning, and index pages. Pages touched: 10.
+
+## [2026-05-08] ingest | Autonomous Drone Racing Survey
+
+Ingested `raw/pdfs/Hanover_Autonomous_Drone_Racing_A_Survey.pdf`. Added a source summary and a deep paper page for [[autonomous_drone_racing_a_survey]]. Updated autonomous drone racing, high-speed perception, highly dynamic autonomous systems, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Human vs. Machine Wargaming
+
+Ingested `raw/pdfs/Lamparth_HumanvsMachine.pdf`. Added a source summary, a deep paper page for [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations]], and a topic page for [[ai_wargaming]]. Updated real-time strategy games, foundation models for intelligent decision-making, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | Limits of Deep Learning Sequence Reasoning
+
+Ingested `raw/pdfs/Zubi_Limits_Deep_Learning.pdf`. Added a source summary, a deep paper page for [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory]], and a topic page for [[compositional_reasoning_limits_in_sequence_models]]. Updated foundation models for intelligent decision-making, era of experience, and index pages. Pages touched: 8.
+
+## [2026-05-08] ingest | RaceVLA
+
+Ingested `raw/pdfs/Seripva_RaceVLA.pdf`. Added a source summary, a deep paper page for [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]], a model page for [[racevla]], and a technique page for [[vision_language_action_models]]. Updated autonomous drone racing, end-to-end autonomous racing, foundation models for intelligent decision-making, high-speed perception, and index pages. Pages touched: 10.
+
+## [2026-05-08] ingest | Vision-Based Pursuit-Evasion Robot Policies
+
+Ingested `raw/pdfs/Bacjsi_Learning_Vision-based_Pursuit-Evasion_Robot_Policies.pdf`. Added a source summary, a deep paper page for [[learning_vision_based_pursuit_evasion_robot_policies]], and a topic page for [[pursuit_evasion_robotics]]. Updated reinforcement learning, highly dynamic autonomous systems, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-08] ingest | Multi-Pursuit Evasion for Safe Drone Navigation
+
+Ingested `raw/pdfs/Xiao_Learning_Multipursuit_Evasion_for_Safe_Targeted_Navigation_of_Drones.pdf`. Added a source summary, a deep paper page for [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]], and a technique page for [[asynchronous_multistage_deep_reinforcement_learning]]. Updated pursuit-evasion robotics, reinforcement learning, highly dynamic autonomous systems, real-world robotic reinforcement learning, autonomous drone racing, and index pages. Pages touched: 10.
+
+## [2026-05-08] ingest | Learning Motion Planning and Control Survey
+
+Ingested `raw/pdfs/Wang_A_Survey_on_Learning_Motion_Planning_and_Control_for_Mobile_Robots_Toward_Embodied_Intelligence.pdf`. Added a source summary and a deep paper page for [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]]. Updated cognitive navigation, embodied autonomous intelligence, real-world robotic reinforcement learning, reinforcement learning, and index pages. Pages touched: 8.

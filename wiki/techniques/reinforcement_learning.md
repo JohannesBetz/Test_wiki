@@ -38,6 +38,16 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 
 [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]] gives a geometry-generalization example: [[track_agnostic_reinforcement_learning]] uses PPO with local sensor or vision-plus-physics observations and an asymmetry-based reward so the policy can transfer to unseen tracks without explicit centerline features.
 
+[[deep_reinforcement_learning_for_robotics_a_survey_of_real_world_successes]] adds a broader robotics reality check: [[real_world_robotic_reinforcement_learning]] asks which DRL successes have actually crossed into physical deployment and which still remain mostly simulation-bound.
+
+[[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]] adds a broader architectural context: RL is increasingly framed as one component inside larger multimodal decision systems rather than the only path to intelligent sequential behavior.
+
+[[learning_vision_based_pursuit_evasion_robot_policies]] adds a strategic-interaction robotics example: a fully observable teacher supervises a partially observable visual pursuer so a physical robot can learn interception behavior under uncertainty.
+
+[[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]] adds a multi-agent aerial example: [[asynchronous_multistage_deep_reinforcement_learning]] trains evader and pursuer teams across stages so a drone can learn safe target-reaching behavior against multiple adversaries.
+
+[[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]] adds a broader mobile-robot framing: RL is one major path to learned motion generation, but it should be read alongside imitation learning and other embodied control approaches rather than as the whole story.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -53,6 +63,11 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 - [[human_professional_level_driving_agent_for_race_car_simulation_environments]]
 - [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]]
 - [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]]
+- [[deep_reinforcement_learning_for_robotics_a_survey_of_real_world_successes]]
+- [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]]
+- [[learning_vision_based_pursuit_evasion_robot_policies]]
+- [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]]
+- [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]]
 
 ## Open Problems
 
@@ -79,3 +94,13 @@ The simulator-racing comparison adds a realism challenge: a fast RL policy may b
 The self-evolving-driving example adds a structural challenge: RL may become much safer and more data efficient when embedded inside a constrained optimizer, but then the system inherits the biases and limits of that engineered policy class.
 
 Track-agnostic racing adds a representation challenge: removing explicit track priors can improve transfer across layouts, but the resulting policy may become more sensitive to local visual ambiguity or more limited in the strategic structure it can exploit.
+
+The robotics-success survey adds a deployment challenge: even when DRL solves a task in simulation, physical success usually depends on much more than the RL algorithm alone, including safe data collection, sim-to-real engineering, and disciplined evaluation on hardware.
+
+The foundation-model survey adds an integration challenge: if RL becomes one tool inside larger foundation-model-based decision systems, then the hard problem shifts toward how those layers should share state, rewards, plans, and safety constraints.
+
+Pursuit-evasion robotics adds an interaction challenge: when another agent is actively evasive, RL systems must reason through partial observability and latent intent rather than only optimize against a static environment.
+
+Multi-pursuer drone navigation adds a nonstationarity challenge: when several adaptive adversaries co-evolve, the learning problem can become unstable unless the training structure actively manages opponent drift.
+
+The mobile-robot survey adds a scope challenge: RL is powerful, but many robust planning-and-control systems may require hybridizing it with imitation, structure, and classical control rather than expecting one learning paradigm to do everything.

@@ -26,6 +26,10 @@ It also connects naturally to [[embodied_autonomous_intelligence]], which asks n
 
 [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]] adds a more engineering-heavy example of the same coupling. Its [[mechanism_experience_learning]] design mixes traffic interaction modeling, a learned driving-tendency prior, and constrained optimization so that learning and execution stay tightly linked during self-improvement.
 
+[[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]] adds a broader AI perspective: [[foundation_models_for_intelligent_decision_making]] suggests that future navigation systems may increasingly draw on multimodal pretrained decision substrates rather than only narrow task-specific pipelines.
+
+[[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]] adds a mobile-robot learning perspective: planning and control are framed not just as downstream optimizers, but as embodied learned behaviors coupled tightly to perception and task interaction.
+
 ## Relationship to Autonomous Racing
 
 In autonomous racing, the classical stack is usually written as [[high_speed_perception]] plus [[autonomous_racing_planning]] plus [[autonomous_racing_control]]. Cognitive navigation offers a more integrated lens on the same problem: those modules are not independent, but parts of one embodied loop operating under severe time and dynamics constraints.
@@ -37,9 +41,15 @@ This does not replace racing-specific methods. Instead, it helps explain why rac
 - [[cognitive_navigation_review]]
 - [[autonomous_vehicles_on_the_edge]]
 - [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]]
+- [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]]
+- [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]]
 
 ## Open Problems
 
 Open questions include how to build navigation systems that are simultaneously capable, interpretable, generalizable, and adaptable, and how to make those properties hold under real-time constraints in domains such as autonomous racing.
 
 The self-evolving perspective adds another tension: how much of a navigation stack should be allowed to adapt online, and what hard architectural constraints are needed so adaptation improves capability without creating unsafe exploration.
+
+The foundation-model perspective adds a different tension: richer multimodal priors may improve context understanding and transfer, but it is still unclear how to reconcile those broad models with the latency, verifiability, and safety demands of real-time navigation.
+
+The mobile-robot learning survey adds a stack-integration tension: as planning and control become more learned, it becomes harder to decide which structure should remain explicit and which should be absorbed into an embodied policy.

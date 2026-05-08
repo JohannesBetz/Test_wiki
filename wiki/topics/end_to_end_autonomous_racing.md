@@ -28,6 +28,8 @@ Methods covered include CNNs, RNNs, LSTMs, fuzzy control, Bayesian optimization,
 
 [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]] studies a different prior-reduction problem: [[track_agnostic_reinforcement_learning]] removes explicit centerline and track-geometry features so a PPO policy can transfer zero-shot to unseen tracks.
 
+[[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]] pushes the abstraction further: [[racevla]] uses [[vision_language_action_models]] so first-person video and language prompts are mapped toward direct drone control, making it one of the clearest sensor-and-instruction-to-action examples in the vault.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -37,6 +39,7 @@ Methods covered include CNNs, RNNs, LSTMs, fuzzy control, Bayesian optimization,
 - [[out_of_distribution_generalization_with_a_sparc_racing_100_unseen_vehicles_with_a_single_policy]]
 - [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]]
 - [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]]
+- [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]]
 
 ## Open Problems
 
@@ -51,3 +54,5 @@ SPARC sharpens the generalization problem: even if an end-to-end policy is fast,
 Vision-based GT7 racing sharpens a different realism problem: policies that rely less on privileged localization are more deployment-relevant, but they must solve partial observability and appearance robustness much more directly.
 
 Track-agnostic RL sharpens the geometry-generalization problem: even if a learned policy is fast, it may still rely on hidden track priors unless the observations and reward are designed to work without explicit map-like track features.
+
+RaceVLA sharpens a newer systems problem: end-to-end control may become more multimodal and more instruction-conditioned, but high-speed physical deployment exposes whether large pretrained policies can meet real latency, reliability, and embodiment constraints.

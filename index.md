@@ -32,6 +32,16 @@
 - [[kalaria_alpha_racer|Kalaria Alpha Racer Source]] — L4DC 2025 paper on real-time Nash-style multi-car racing with MPC and learned near-potential functions.
 - [[yang_safe_and_efficient_self_evolving|Yang Safe and Efficient Self-Evolving Source]] — IEEE T-ITS 2025 paper on hybrid safe self-improving autonomous-driving control with RL and constrained optimization.
 - [[authier_carcelen_enhancing_generalization|Authier-Carcelen Enhancing Generalization Source]] — track-agnostic PPO for zero-shot transfer across unseen racing tracks in 2D and TrackMania.
+- [[tang_drl_survey|Tang DRL Survey Source]] — broad survey of which deep-RL robotics results have actually succeeded in the physical world.
+- [[ren_safety_assured_mavs|Ren Safety Assured MAVs Source]] — Science Robotics paper on the SUPER drone for safety-assured >20 m/s navigation in unknown clutter.
+- [[huang_fms_challenges_and_perspectives|Huang FMs Challenges and Perspectives Source]] — broad review of foundation models as substrates for intelligent decision-making.
+- [[hanover_autonomous_drone_racing_survey|Hanover Autonomous Drone Racing Survey Source]] — field survey of autonomous drone racing as a benchmark for agile onboard autonomy.
+- [[lamparth_human_vs_machine|Lamparth Human vs Machine Source]] — empirical comparison of expert humans and LLMs in military-style wargame simulations.
+- [[zubic_limits_deep_learning|Zubic Limits Deep Learning Source]] — theory-plus-experiments on why current sequence models fail at compositional reasoning.
+- [[serpiva_racevla|Serpiva RaceVLA Source]] — arXiv paper on adapting vision-language-action models to FPV racing-drone control.
+- [[bajcsy_learning_vision_based_pursuit_evasion|Bajcsy Vision-Based Pursuit-Evasion Source]] — ICRA paper on learning visually grounded pursuit-evasion behavior for a physical quadruped robot.
+- [[xiao_learning_multipursuit_evasion|Xiao Multi-Pursuit Evasion Source]] — TAI paper on multi-stage adversarial RL for safe target-reaching drone evasion.
+- [[wang_learning_motion_planning_control_survey|Wang Learning Motion Planning and Control Survey Source]] — TNNLS survey on learning-based motion planning and control for mobile robots under embodied-intelligence framing.
 
 ## Papers
 
@@ -64,6 +74,16 @@
 - [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function|α-RACER (2025)]]
 - [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems|A Safe and Efficient Self-Evolving Algorithm (2025)]]
 - [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning|Enhancing Generalization Through Track-Agnostic RL (2025)]]
+- [[deep_reinforcement_learning_for_robotics_a_survey_of_real_world_successes|DRL for Robotics: Real-World Successes (2025)]]
+- [[safety_assured_high_speed_navigation_for_mavs|Safety-Assured High-Speed Navigation for MAVs (2025)]]
+- [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives|Foundation Models and Intelligent Decision-Making (2025)]]
+- [[autonomous_drone_racing_a_survey|Autonomous Drone Racing: A Survey (2024)]]
+- [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations|Human vs. Machine in Wargame Simulations (2024)]]
+- [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory|Limits of Deep Learning in Sequence Modeling (2025)]]
+- [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour|RaceVLA (2025)]]
+- [[learning_vision_based_pursuit_evasion_robot_policies|Learning Vision-based Pursuit-Evasion Robot Policies (2024)]]
+- [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones|Learning Multipursuit Evasion for Safe Targeted Navigation of Drones (2024)]]
+- [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence|Learning Motion Planning and Control for Mobile Robots (2026)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -84,6 +104,11 @@
 - [[embodied_autonomous_intelligence]]
 - [[era_of_experience]]
 - [[real_time_strategy_games]]
+- [[real_world_robotic_reinforcement_learning]]
+- [[foundation_models_for_intelligent_decision_making]]
+- [[ai_wargaming]]
+- [[compositional_reasoning_limits_in_sequence_models]]
+- [[pursuit_evasion_robotics]]
 
 ## Techniques
 
@@ -121,6 +146,9 @@
 - [[dynamic_near_potential_functions]]
 - [[mechanism_experience_learning]]
 - [[track_agnostic_reinforcement_learning]]
+- [[safety_assured_high_speed_aerial_navigation]]
+- [[vision_language_action_models]]
+- [[asynchronous_multistage_deep_reinforcement_learning]]
 
 ## Models / Systems
 
@@ -129,6 +157,8 @@
 - [[ace]]
 - [[csdal]]
 - [[apex]]
+- [[super]]
+- [[racevla]]
 
 ## Datasets
 

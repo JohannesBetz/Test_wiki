@@ -28,6 +28,16 @@ This topic connects [[autonomous_vehicle_racing]] to adjacent agile robotics dom
 
 [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]] adds a human-in-the-loop safety example: [[human_centered_safety_filter]] shows that highly dynamic autonomy is not only about keeping the machine stable, but also about preserving operator agency and comfort when AI intervenes near failure boundaries.
 
+[[deep_reinforcement_learning_for_robotics_a_survey_of_real_world_successes]] adds a broader robotics comparison: among real-world DRL domains, agile drone racing appears as one of the clearest highly dynamic successes, while many other robotic applications still lag in physical maturity.
+
+[[safety_assured_high_speed_navigation_for_mavs]] adds a complementary non-racing aerial example: [[super]] shows that high-speed autonomy in unknown clutter can be made much safer with long-range 3D LIDAR and [[safety_assured_high_speed_aerial_navigation]], while still exceeding 20 m/s in the real world.
+
+[[autonomous_drone_racing_a_survey]] adds the broader aerial field map: it treats drone racing as a benchmark where every part of the stack is pushed to the limit simultaneously, making it one of the cleanest laboratories for highly dynamic autonomy.
+
+[[learning_vision_based_pursuit_evasion_robot_policies]] adds an interactive terrestrial example: a visual quadruped pursuer must act under partial observability against an evasive agent, which makes uncertainty management and anticipatory behavior central parts of competent embodied action.
+
+[[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]] adds an aerial multi-agent example: a drone must move fast enough to escape several pursuers while still reaching a target, making strategic adversarial interaction part of the dynamics problem rather than a separate layer above it.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -38,6 +48,11 @@ This topic connects [[autonomous_vehicle_racing]] to adjacent agile robotics dom
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]]
+- [[deep_reinforcement_learning_for_robotics_a_survey_of_real_world_successes]]
+- [[safety_assured_high_speed_navigation_for_mavs]]
+- [[autonomous_drone_racing_a_survey]]
+- [[learning_vision_based_pursuit_evasion_robot_policies]]
+- [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]]
 
 ## Open Problems
 
@@ -52,3 +67,13 @@ GripMap adds a localization of uncertainty problem: the usable dynamic envelope 
 Professional-racer interviews add a learning-speed problem: highly dynamic autonomy still lacks the few-shot adaptability expert humans show when conditions change.
 
 Human-centered safety filtering adds a collaboration problem: an intervention policy can improve safety yet still degrade performance if it feels abrupt, opaque, or controlling to the human operator.
+
+The robotics-survey perspective adds a maturity problem: highly dynamic domains can produce spectacular DRL demonstrations, but the field still lacks consistent standards for when a physical result counts as genuinely robust rather than carefully staged.
+
+SUPER adds a sensing-and-planning coupling problem: high-speed guarantees depend heavily on long-range perception and fast replanning, so safety can collapse quickly if sensing range, map fidelity, or computation margin shrinks.
+
+The ADR survey adds a co-design problem: some of the hardest barriers in highly dynamic systems arise not from any single module, but from how aerodynamic modeling, sensing, state estimation, planning, and control amplify one another’s weaknesses at the edge of performance.
+
+Pursuit-evasion adds an intent-inference problem: a highly dynamic system may need to estimate what another agent is trying to do, not only where that agent is right now.
+
+Multi-pursuer aerial pursuit-evasion adds a game-dynamics problem: even if one vehicle is well controlled, success can still fail if the learning process does not capture how several opponents jointly constrain escape geometry.

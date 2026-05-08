@@ -26,12 +26,21 @@ In [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]], high-spee
 
 In [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]], high-speed perception is folded directly into a learned racing policy: egocentric camera input and onboard sensors must support competitive multi-agent driving without explicit global localization at inference time.
 
+In [[safety_assured_high_speed_navigation_for_mavs]], high-speed perception appears in a different aerial form: long-range 3D LIDAR is used not only for obstacle detection but also to distinguish known free space directly on point clouds, which is what makes [[safety_assured_high_speed_aerial_navigation]] practical at speeds above 20 m/s.
+
+[[autonomous_drone_racing_a_survey]] broadens the aerial perspective by showing how camera models, IMU calibration, motion blur, dynamic range, and sensor placement interact with planning and control at racing speeds, not only with perception in isolation.
+
+[[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]] adds a multimodal variant: FPV perception is no longer only an input to explicit estimation modules, but part of a [[vision_language_action_models|language-conditioned policy]] that must convert visual context into control under tight timing constraints.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
 - [[outplaying_elite_table_tennis_players_with_an_autonomous_robot]]
 - [[a_champion_level_vision_based_reinforcement_learning_agent_for_competitive_racing_in_gran_turismo_7]]
+- [[safety_assured_high_speed_navigation_for_mavs]]
+- [[autonomous_drone_racing_a_survey]]
+- [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]]
 
 ## Open Problems
 
@@ -40,3 +49,9 @@ The survey argues that racing-specific high-speed perception remains thin. Open 
 Swift adds an appearance-generalization caution: a perception stack can be fast enough for champion-level racing but still brittle when illumination or visual conditions differ from training.
 
 Vision-based GT7 racing adds an occlusion-memory challenge: perception may be local and incomplete, so competitive behavior depends on remembering track and opponent context rather than only reading the current frame.
+
+SUPER adds a long-range obstacle-resolution challenge: at high speed, even small objects such as wires become mission-critical, so perception systems need both sufficient range and enough spatial fidelity to keep safety guarantees meaningful.
+
+The ADR survey adds a sensor-stack realism challenge: high-speed flight pushes not just algorithms but the calibration, latency, and physical placement of sensors, so perception quality can degrade for reasons that are partly hardware and partly algorithmic.
+
+RaceVLA adds a grounding challenge: once perception is folded into a large multimodal action model, it becomes harder to separate whether failures come from sensing, language conditioning, latent world modeling, or action decoding.
