@@ -4,6 +4,7 @@ date: 2026-05-06
 task: autonomous_racing
 venue: "IEEE OJ-ITS 2023"
 sources: 1
+year: "2023"
 topic:
   - autonomous_racing_survey
   - high_speed_perception

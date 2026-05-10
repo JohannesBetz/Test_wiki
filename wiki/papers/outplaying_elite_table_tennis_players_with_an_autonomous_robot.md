@@ -4,6 +4,7 @@ date: 2026-05-07
 task: Highly_dynamic_autonomous_system
 venue: "Nature 2026"
 sources: 1
+year: "2026"
 topic:
   - robot_table_tennis
   - high_speed_perception

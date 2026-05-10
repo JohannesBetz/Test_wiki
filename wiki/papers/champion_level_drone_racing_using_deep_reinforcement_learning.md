@@ -4,6 +4,7 @@ date: 2026-05-07
 task: Highly_dynamic_autonomous_system
 venue: "Nature 2023"
 sources: 1
+year: "2023"
 topic:
   - autonomous_drone_racing
   - high_speed_perception

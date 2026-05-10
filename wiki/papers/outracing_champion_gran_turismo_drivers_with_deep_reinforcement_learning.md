@@ -4,6 +4,7 @@ date: 2026-05-07
 task: autonomous_racing
 venue: "Nature 2022"
 sources: 1
+year: "2022"
 topic:
   - autonomous_racing
   - reinforcement_learning

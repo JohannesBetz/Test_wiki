@@ -4,6 +4,7 @@ date: 2026-05-07
 task: autonomous_racing
 venue: "Information Sciences 2026 manuscript"
 sources: 1
+year: "2026"
 topic:
   - autonomous_racing
   - trajectory_planning
