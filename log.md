@@ -157,3 +157,331 @@ Ingested `raw/pdfs/Xiao_Learning_Multipursuit_Evasion_for_Safe_Targeted_Navigati
 ## [2026-05-08] ingest | Learning Motion Planning and Control Survey
 
 Ingested `raw/pdfs/Wang_A_Survey_on_Learning_Motion_Planning_and_Control_for_Mobile_Robots_Toward_Embodied_Intelligence.pdf`. Added a source summary and a deep paper page for [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]]. Updated cognitive navigation, embodied autonomous intelligence, real-world robotic reinforcement learning, reinforcement learning, and index pages. Pages touched: 8.
+
+## [2026-05-13] ingest | Data-Driven Racing Driver Training
+
+Ingested `raw/pdfs/Bae_Data-Driven_Driver_Training_via_Counterfactual_and_Language-Based_Guidance_in_Racing_Scenarios.pdf`. Added a source summary, a deep paper page for [[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]], and a topic page for [[racing_driver_training]]. Updated professional race driver expertise, autonomous racing simulation, autonomous vehicle racing, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | Lipschitz-Regularized Learned Dynamics for Racing MPC
+
+Ingested `raw/pdfs/LpischitzMPC_Autonomous_Racing.pdf`. Added a source summary, a deep paper page for [[lipschitz_regularized_learned_dynamics_for_autonomous_racing_mpc]], and a technique page for [[lipschitz_regularized_learned_dynamics]]. Updated model predictive control, autonomous racing control, and index pages. Pages touched: 8.
+
+## [2026-05-13] ingest | Real-Time Neural MPC
+
+Ingested `raw/pdfs/Salzmann_Real-Time_Neural_MPC_Deep_Learning_Model_Predictive_Control_for_Quadrotors_and_Agile_Robotic_Platforms.pdf`. Added a source summary, a deep paper page for [[real_time_neural_mpc_deep_learning_model_predictive_control_for_quadrotors_and_agile_robotic_platforms]], and a technique page for [[neural_mpc]]. Updated model predictive control, highly dynamic autonomous systems, autonomous drone racing, and index pages. Pages touched: 10.
+
+## [2026-05-13] ingest | ForzaETH Race Stack
+
+Ingested `raw/pdfs/Baumann_ForzaETH_Stack.pdf`. Added a source summary, a deep paper page for [[forzaeth_race_stack_scaled_autonomous_head_to_head_racing_on_fully_commercial_off_the_shelf_hardware]], and a model/system page for [[forzaeth_race_stack]]. Updated F1TENTH, autonomous racing platforms, autonomous vehicle racing, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | Deep Dynamics
+
+Ingested `raw/pdfs/Behl_Deep_Dynamics_Vehicle_Dynamics_Modeling_With_a_Physics-Constrained_Neural_Network_for_Autonomous_Racing.pdf`. Added a source summary, a deep paper page for [[deep_dynamics_vehicle_dynamics_modeling_with_a_physics_constrained_neural_network_for_autonomous_racing]], and a technique page for [[physics_constrained_vehicle_dynamics_networks]]. Updated model-structured neural networks, autonomous racing control, and index pages. Pages touched: 8.
+
+## [2026-05-13] ingest | One Model to Drift Them All
+
+Ingested `raw/pdfs/Djoimou_One_Model_to_Drift_Them_Al.pdf`. Added a source summary, a deep paper page for [[one_model_to_drift_them_all_physics_informed_conditional_diffusion_model_for_driving_at_the_limits]], and a topic page for [[autonomous_drifting]]. Updated autonomous racing control, model predictive control, and index pages. Pages touched: 8.
+
+## [2026-05-13] ingest | Risk-Averse MPC in Adverse Conditions
+
+Ingested `raw/pdfs/Lew_Risk-Averse_Model_Predictive_Control_for_Racing_in_Adverse_Conditions.pdf`. Added a source summary, a deep paper page for [[risk_averse_model_predictive_control_for_racing_in_adverse_conditions]], and a technique page for [[risk_averse_model_predictive_control]]. Updated autonomous racing control, model predictive control, highly dynamic autonomous systems, and index pages. Pages touched: 10.
+
+## [2026-05-13] ingest | High-Speed Accurate Robot Control
+
+Ingested `raw/pdfs/Atreya_High-Speed_Accurate_Robot_Control_using_Learned_Forward_Kinodynamics_and_Non-linear_Least_Squares_Optimization.pdf`. Added a source summary, a deep paper page for [[high_speed_accurate_robot_control_using_learned_forward_kinodynamics_and_non_linear_least_squares_optimization]], and a technique page for [[learned_forward_kinodynamics]]. Updated F1TENTH, highly dynamic autonomous systems, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | er.autopilot 1.1
+
+Ingested `raw/pdfs/Ajoub_er.autopilot_1.1_A_Software_Stack_for_Autonomous_Racing_on_Oval_and_Road_Course_Tracks.pdf`. Added a source summary, a deep paper page for [[er_autopilot_1_1_a_software_stack_for_autonomous_racing_on_oval_and_road_course_tracks]], and a model/system page for [[er_autopilot_1_1]]. Updated autonomous racing platforms, autonomous vehicle racing, Indy Autonomous Challenge, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | Terrain-Aware Rally Kinodynamic Model
+
+Ingested `raw/pdfs/Lee_Learning_Terrain-Aware_Kinodynamic_Model_for_Autonomous_Off-Road_Rally_Driving_With_Model_Predictive_Path_Integral_Control.pdf`. Added a source summary, a deep paper page for [[learning_terrain_aware_kinodynamic_model_for_autonomous_off_road_rally_driving_with_model_predictive_path_integral_control]], and a technique page for [[model_predictive_path_integral_control]]. Updated model predictive control, highly dynamic autonomous systems, and index pages. Pages touched: 8.
+
+## [2026-05-26] ingest | PhysHSI
+
+Ingested `raw/pdfs/Wang_PhyHSI.pdf`. Added a source summary, a deep paper page for [[physhsi_towards_a_real_world_generalizable_and_natural_humanoid_scene_interaction_system]], and a model/system page for [[physhsi]]. Updated [[adversarial_motion_priors]], humanoid hardware, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomous systems, and the root index. Pages touched: 10.
+
+## [2026-05-26] ingest | Agility Meets Stability
+
+Ingested `raw/pdfs/PAN_Agility_Meets_Stability.pdf`. Added a source summary and a deep paper page for [[agility_meets_stability_versatile_humanoid_control_with_heterogeneous_data]]. Updated humanoid hardware, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomous systems, and the root index. Pages touched: 8.
+
+## [2026-05-26] ingest | SONIC
+
+Ingested `raw/pdfs/Luo_SONIC_motion_tracking.pdf`. Added a source summary, a deep paper page for [[sonic_supersizing_motion_tracking_for_natural_humanoid_whole_body_control]], and a model/system page for [[sonic]]. Updated humanoid hardware, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomous systems, and the root index. Pages touched: 9.
+
+## [2026-05-26] ingest | PIE
+
+Ingested `raw/pdfs/Luo_PIE.pdf`. Added a source summary, a deep paper page for [[pie_parkour_with_implicit_explicit_learning_framework_for_legged_robots]], and a model/system page for [[pie]]. Updated perceptive locomotion, quadrupedal locomotion, quadruped hardware, real-world robotic reinforcement learning, highly dynamic autonomous systems, and the root index. Pages touched: 10.
+
+## [2026-05-26] ingest | Benchmarking Man Vs Machine
+
+Ingested `raw/pdfs/Hermansdorfer_Benchmarking_Man_Vs_Machine.pdf`. Added a source summary for [[hermansdorfer_benchmarking_man_vs_machine]] and upgraded [[benchmarking_of_a_software_stack_for_autonomous_racing_against_a_professional_human]] from a lightweight bibliography stub to a real paper note. Updated professional race driver expertise, autonomous vehicle racing, and the root index. Pages touched: 6.
+
+## [2026-05-26] ingest | Human-Machine Gap in Car Racing
+
+Ingested `raw/pdfs/Alcala_On_the_HumanMachine_Gap_in_Car_Racing_A_Comparative_Analysis_of_Machine_Performance_Against_Human_Drivers.pdf`. Added a source summary and a deep paper page for [[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of_machine_performance_against_human_drivers]]. Updated professional race driver expertise, autonomous vehicle racing, and the root index. Pages touched: 6.
+
+## [2026-05-26] ingest | Extreme Parkour
+
+Ingested `raw/pdfs/Cheng_Extreme_Parkour.pdf`. Added a source summary and a deep paper page for [[extreme_parkour_with_legged_robots]]. Updated perceptive locomotion, quadrupedal locomotion, quadruped hardware, real-world robotic reinforcement learning, highly dynamic autonomous systems, and the root index. Pages touched: 8.
+
+## [2026-05-26] ingest | HumanPlus
+
+Ingested `raw/pdfs/FU_HumanPlus.pdf`. Added a source summary, a deep paper page for [[humanplus_humanoid_shadowing_and_imitation_from_humans]], and a model/system page for [[humanplus]]. Updated humanoid hardware, embodied autonomous intelligence, real-world robotic reinforcement learning, and the root index. Pages touched: 9.
+
+## [2026-05-26] ingest | DreamControl
+
+Ingested `raw/pdfs/Kalaria_DreamControl.pdf`. Added a source summary, a deep paper page for [[dreamcontrol_human_inspired_whole_body_humanoid_control_for_scene_interaction_via_guided_diffusion]], and a model/system page for [[dreamcontrol]]. Updated humanoid hardware, embodied autonomous intelligence, real-world robotic reinforcement learning, highly dynamic autonomous systems, and the root index. Pages touched: 10.
+
+## [2026-05-26] ingest | BeyondMimic
+
+Ingested `raw/pdfs/Liao_BeyondMimic.pdf`. Added a source summary, a deep paper page for [[beyondmimic_from_motion_tracking_to_versatile_humanoid_control_via_guided_diffusion]], and a model/system page for [[beyondmimic]]. Updated humanoid hardware, embodied autonomous intelligence, real-world robotic reinforcement learning, highly dynamic autonomous systems, and the root index. Pages touched: 10.
+
+## [2026-05-13] analysis | Main Concept for High-Speed Autonomous Systems
+
+Added [[main_concept_for_high_speed_autonomous_systems]] as a cross-paper synthesis note in `wiki/analyses/`. Linked it from highly dynamic autonomous systems, autonomous vehicle racing, autonomous drone racing, professional race driver expertise, and index pages. Pages touched: 6.
+
+## [2026-05-13] analysis | Ranked Top 5 Techniques for Fast and Agile Autonomy
+
+Added [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] as a comparative synthesis note in `wiki/analyses/`. Ranked the vault's top five technique families for fast and agile autonomy, and made the domain-specific calls for best current racecar approach, best current drone approach, and best long-term research bet. Linked it from highly dynamic autonomous systems, autonomous vehicle racing, autonomous drone racing, autonomous racing control, foundation models for intelligent decision-making, the two existing analysis pages, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | Adversarial ToM for Safety-Critical Driving
+
+Ingested `raw/pdfs/BI_Learning_What_They_Pretend_to_Think_Adversarial_ToM_for_Safety-Critical_Driving_Policies.pdf`. Added a source summary, a high-level paper page for [[learning_what_they_pretend_to_think_adversarial_tom_for_safety_critical_driving_policies]], and a technique page for [[adversarial_theory_of_mind]]. Updated autonomous racing planning, cognitive navigation, and index pages. Pages touched: 8.
+
+## [2026-05-20] ingest | Robust Spatiotemporal Motion Planning
+
+Ingested `raw/pdfs/Zhang_Robust_Spatiotemporal_Planning.pdf`. Added a source summary, a high-level paper page for [[robust_spatiotemporal_motion_planning_for_multi_agent_autonomous_racing_via_topological_gap_identification_and_accelerated_mpc]], and a technique page for [[robust_spatiotemporal_motion_planning]]. Updated autonomous racing planning, model predictive control, and index pages. Pages touched: 8.
+
+## [2026-05-20] ingest | Formula-1 Data-Driven Initialization
+
+Ingested `raw/pdfs/Schehadeh_F1Data_to_F1Tenth.pdf`. Added a source summary, a high-level paper page for [[efficient_trajectory_optimization_for_autonomous_racing_via_formula_1_data_driven_initialization]], and a technique page for [[formula_1_data_driven_initialization]]. Updated F1TENTH, autonomous racing platforms, professional race driver expertise, and index pages. Pages touched: 9.
+
+## [2026-05-21] maintenance | Source-Note Backlinks
+
+Ran a lint pass and fixed nine orphaned source-note pages by adding them to the `Sources` section of [index](index.md). This restored inbound wikilinks for the recent source summaries covering adversarial ToM, robust spatiotemporal planning, F1-data priors, vision-augmented system identification, learned predictive games, behavior-constrained RL, FAEL, agile robot navigation, and HYPRACTIVE. Pages touched: 2.
+
+## [2026-05-21] analysis refinement | Experience
+
+Integrated user-provided synthesis about the transition from the era of human data to the era of experience. Expanded [[welcome_to_the_era_of_experience]], [[era_of_experience]], and [[experience_as_a_central_element_in_autonomous_systems]] to make the human-data shortcut, grounded-experience regime, and fossil-fuel versus renewable-energy framing more explicit. Pages touched: 4.
+
+## [2026-05-21] analysis | ERC-Idea
+
+Added [[erc_idea]] as a hypothesis-testing analysis page around the claim that superhuman autonomous performance can be learned from experience in extreme environments. The note captures the positive evidence from racing and agile robotics, but also surfaces the main concerns around safety, transfer, narrowness of current evidence, and the continued need for structure in the learning-and-control stack. Linked it from experience, highly dynamic autonomy, APEX, foundation-model, and index pages. Pages touched: 6.
+
+## [2026-05-22] ingest | High-Speed Quadruped Control and Navigation
+
+Ingested `raw/pdfs/Kim_High-speed-control_quadrupeds.pdf`. Added a source summary, a high-level paper page for [[high_speed_control_and_navigation_for_quadrupedal_robots_on_complex_and_discrete_terrain]], and a topic page for [[quadrupedal_locomotion]]. Updated highly dynamic autonomy, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 8.
+
+## [2026-05-22] ingest | Rapid Quadruped Locomotion via RL
+
+Ingested `raw/pdfs/Margolis_Rapid-locomotion_Quadruped.pdf`. Added a source summary and a paper page for [[rapid_locomotion_via_reinforcement_learning]]. Updated quadrupedal locomotion, highly dynamic autonomy, real-world robotic reinforcement learning, reinforcement learning, sim-to-real transfer, curriculum learning, and index pages. Pages touched: 9.
+
+## [2026-05-22] ingest | Highly Dynamic Quadruped Locomotion via MPC
+
+Ingested `raw/pdfs/Kim_HighlyDynamic_Locomotion_Quadruped.pdf`. Added a source summary and a paper page for [[highly_dynamic_quadruped_locomotion_via_whole_body_impulse_control_and_model_predictive_control]]. Updated quadrupedal locomotion, highly dynamic autonomy, model predictive control, and index pages. Pages touched: 8.
+
+## [2026-05-22] schema | Hardware Taxonomy
+
+Normalized the new `wiki/hardware/` directory and added main hardware anchor pages for [[cars_and_race_cars]], [[drones]], [[quadrupeds]], [[humanoids]], [[mobile_robots]], [[table_tennis_robots]], and [[multiple_robot_embodiments]]. Linked the hardware branch into index and the main embodiment topics. Pages touched: 15.
+
+## [2026-05-22] schema | Hardware Metadata Across Papers
+
+Ran a full hardware pass across all paper pages. Added a `hardware_used` frontmatter field and a visible `Hardware Used` section to every paper note, then linked the substantial embodiment topics back into the new hardware taxonomy. The classification distinguishes racecars, drones, quadrupeds, humanoids, mobile robots, table-tennis robots, and broad multi-embodiment survey papers, while leaving non-hardware or abstract papers explicitly unassigned. Pages touched: 313+.
+
+## [2026-05-22] ingest | Rapid Motor Adaptation for Legged Robots
+
+Ingested `raw/pdfs/Kumar_Rapid Motor Adaptation for Legged Robots.pdf`. Added a source summary, a paper page for [[rma_rapid_motor_adaptation_for_legged_robots]], and a technique page for [[rapid_motor_adaptation]]. Updated quadrupedal locomotion, highly dynamic autonomy, real-world robotic reinforcement learning, reinforcement learning, sim-to-real transfer, and index pages. Pages touched: 10.
+
+## [2026-05-22] ingest | Robust Perceptive Locomotion in the Wild
+
+Ingested `raw/pdfs/Miki_learning_Robust_perceptive_Locomotion.pdf`. Added a source summary, a paper page for [[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild]], and a technique page for [[perceptive_locomotion]]. Updated quadrupedal locomotion, high-speed perception, highly dynamic autonomy, real-world robotic reinforcement learning, reinforcement learning, sim-to-real transfer, quadruped hardware, and index pages. Pages touched: 11.
+
+## [2026-05-22] ingest | Perceptive Locomotion through NMPC
+
+Ingested `raw/pdfs/Grandia_Perceptive Locomotion_NMPC.pdf`. Added a source summary, a paper page for [[perceptive_locomotion_through_nonlinear_model_predictive_control]], and a technique page for [[perceptive_nonlinear_model_predictive_control]]. Updated perceptive locomotion, model predictive control, quadrupedal locomotion, high-speed perception, highly dynamic autonomy, quadruped hardware, and index pages. Pages touched: 10.
+
+## [2026-05-22] ingest | Attention-Based Map Encoding for Generalized Legged Locomotion
+
+Ingested `raw/pdfs/He_Attentiopn_based_Locomotion.pdf`. Added a source summary, a paper page for [[attention_based_map_encoding_for_learning_generalized_legged_locomotion]], and a technique page for [[attention_based_map_encoding]]. Updated perceptive locomotion, quadrupedal locomotion, real-world robotic reinforcement learning, embodied autonomous intelligence, humanoid hardware, multiple-embodiment hardware, and index pages. Pages touched: 10.
+
+## [2026-05-22] ingest | Perceptive Humanoid Parkour
+
+Ingested `raw/pdfs/WU_Humanoid_Parkour.pdf`. Added a source summary, a paper page for [[perceptive_humanoid_parkour_chaining_dynamic_human_skills_via_motion_matching]], and a technique page for [[motion_matching]]. Updated humanoid hardware, embodied autonomous intelligence, highly dynamic autonomy, and index pages. Pages touched: 8.
+
+## [2026-05-22] ingest | Real-World Humanoid Locomotion with RL
+
+Ingested `raw/pdfs/Radosavovic_Realworld_Locomotion_RL.pdf`. Added a source summary and a paper page for [[real_world_humanoid_locomotion_with_reinforcement_learning]]. Updated humanoid hardware, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomy, and index pages. Pages touched: 8.
+
+## [2026-05-22] ingest | Humanoid Parkour Learning
+
+Ingested `raw/pdfs/Zhuang_Humanoid_Parkour_Learning.pdf`. Added a source summary and a paper page for [[humanoid_parkour_learning]]. Updated humanoid hardware, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomy, and index pages. Pages touched: 8.
+
+## [2026-05-22] ingest | Agile Soccer Skills for a Bipedal Robot
+
+Ingested `raw/pdfs/Haarnoja_Learning_agile_Soccer.pdf`. Added a source summary and a paper page for [[learning_agile_soccer_skills_for_a_bipedal_robot_with_deep_reinforcement_learning]]. Updated humanoid hardware, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomy, and index pages. Pages touched: 8.
+
+## [2026-05-22] ingest | Robot Parkour Learning
+
+Ingested `raw/pdfs/Zhuang_Robot_Parkour.pdf`. Added a source summary and a paper page for [[robot_parkour_learning]]. Updated quadruped hardware, quadrupedal locomotion, real-world robotic reinforcement learning, embodied autonomous intelligence, highly dynamic autonomy, and index pages. Pages touched: 9.
+
+## [2026-05-20] ingest | Vision-Augmented On-Track System Identification
+
+Ingested `raw/pdfs/WU_On_track_System_Identification.pdf`. Added a source summary, a high-level paper page for [[vision_augmented_on_track_system_identification_for_autonomous_racing_via_attention_based_priors_and_iterative_neural_correction]], and a technique page for [[vision_augmented_system_identification]]. Updated autonomous racing control, high-speed perception, and index pages. Pages touched: 9.
+
+## [2026-05-20] ingest | Strategizing at Speed
+
+Ingested `raw/pdfs/Papuc_Strategizing_at_Speed.pdf`. Added a source summary, a high-level paper page for [[strategizing_at_speed_a_learned_model_predictive_game_for_multi_agent_drone_racing]], and a technique page for [[learned_model_predictive_game]]. Updated autonomous drone racing, model predictive control, and index pages. Pages touched: 9.
+
+## [2026-05-20] ingest | Behavior-Constrained Reinforcement Learning
+
+Ingested `raw/pdfs/JU_Behavior_Constraint_RL.pdf`. Added a source summary, a high-level paper page for [[behavior_constrained_reinforcement_learning_with_receding_horizon_credit_assignment_for_high_performance_control]], and a technique page for [[behavior_constrained_reinforcement_learning]]. Updated end-to-end autonomous racing, reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-20] ingest | FAEL
+
+Ingested `raw/pdfs/Huang_FAEL_Fast_Autonomous_Exploration_for_Large-scale_Environments_With_a_Mobile_Robot.pdf`. Added a source summary, a high-level paper page for [[fael_fast_autonomous_exploration_for_large_scale_environments_with_a_mobile_robot]], and a technique page for [[fast_autonomous_exploration]]. Updated cognitive navigation, embodied autonomous intelligence, and index pages. Pages touched: 9.
+
+## [2026-05-20] ingest | Hallucinated Learning and Sober Deployment
+
+Ingested `raw/pdfs/Xiao_Agile_Robot_Navigation_through_Hallucinated_Learning_and_Sober_Deployment.pdf`. Added a source summary, a high-level paper page for [[agile_robot_navigation_through_hallucinated_learning_and_sober_deployment]], and a technique page for [[hallucinated_learning_and_sober_deployment]]. Updated highly dynamic autonomous systems, real-world robotic reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-21] ingest | HYPRACTIVE Introduction
+
+Ingested `raw/pdfs/Introducing HYPRACTIVE – HYPR’s Artificial Intelligence For Autonomous Mobility_.pdf`. Added a source summary, a lightweight document page for [[introducing_hypractive_hyprs_artificial_intelligence_for_autonomous_mobility]], and a system page for [[hypractive]]. Updated embodied autonomous intelligence, autonomous racing platforms, and index pages. Pages touched: 8.
+
+## [2026-05-21] analysis | Experience as a Central Element
+
+Added [[experience_as_a_central_element_in_autonomous_systems]] as a cross-paper synthesis note in `wiki/analyses/`. The note identifies which papers in the vault treat experience as central, distinguishes manifesto-level experience arguments from online-adaptation and deployment-grounding uses of experience, and links the result back to era-of-experience, APEX, professional race-driver expertise, reinforcement learning, and index pages. Pages touched: 6.
+
+## [2026-05-13] ingest | Real-World Robot Foundation Models Review
+
+Ingested `raw/pdfs/Kawaharazuka_Real-world robot applications of foundation models  a review.pdf`. Added a source summary, a deep paper page for [[real_world_robot_applications_of_foundation_models_a_review]], and a topic page for [[real_world_robotic_foundation_models]]. Updated foundation models for intelligent decision-making, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | General-Purpose Robots via Foundation Models
+
+Ingested `raw/pdfs/Francis_Towards_General_Robots_With_FM.pdf`. Added a source summary and a deep paper page for [[towards_general_purpose_robots_via_foundation_models_a_survey_and_meta_analysis]]. Updated real-world robotic foundation models, foundation models for intelligent decision-making, embodied autonomous intelligence, and index pages. Pages touched: 8.
+
+## [2026-05-13] ingest | Harmonized Beyond-the-Limit Control
+
+Ingested `raw/pdfs/Zhao_A_Harmonized_Approach_Beyond-the-Limit_Control_for_Autonomous_Vehicles_Balancing_Performance_and_Safety_in_Unpredictable_Environments.pdf`. Added a source summary, a deep paper page for [[a_harmonized_approach_beyond_the_limit_control_for_autonomous_vehicles_balancing_performance_and_safety_in_unpredictable_environments]], and a technique page for [[harmonized_beyond_the_limit_control]]. Updated autonomous racing control, highly dynamic autonomous systems, and index pages. Pages touched: 8.
+
+## [2026-05-13] ingest | Foundation Models in Robotics Survey
+
+Ingested `raw/pdfs/Firoozi_Foundation_Models_in_Robotics.pdf`. Added a source summary and a deep paper page for [[foundation_models_in_robotics_applications_challenges_and_the_future]]. Updated real-world robotic foundation models, foundation models for intelligent decision-making, embodied autonomous intelligence, and index pages. Pages touched: 8.
+
+## [2026-05-13] analysis | Can Foundation Models Achieve Highly Dynamic Behavior?
+
+Added [[can_foundation_models_achieve_highly_dynamic_behavior]] as a cross-branch synthesis note in `wiki/analyses/`. Also added [[large_language_models]] and [[vision_language_models]] so the vault now makes the `LLM -> VLM -> VLA` connection explicit across the foundation-model and high-dynamics branches. Pages touched: 9.
+
+## [2026-05-13] ingest | Race Against the Machine Dataset
+
+Ingested `raw/pdfs/Bosello_Race_Against_the_Machine_A_Fully-Annotated_Open-Design_Dataset_of_Autonomous_and_Piloted_High-Speed_Flight.pdf`. Added a source summary, a deep paper page for [[race_against_the_machine_a_fully_annotated_open_design_dataset_of_autonomous_and_piloted_high_speed_flight]], and a dataset page for [[race_against_the_machine_dataset]]. Updated autonomous drone racing, high-speed perception, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | LLM and AI Agents for Autonomous Systems
+
+Ingested `raw/pdfs/Ferrag_LLM_and_AI_Agents_for_Autonomous_Systems_A_Survey_of_Applications_Datasets_and_Security_Challenges.pdf`. Added a source summary, a deep paper page for [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]], and a topic page for [[ai_agents_for_autonomous_systems]]. Updated foundation models for intelligent decision-making, highly dynamic autonomous systems, the foundation-model analysis branch, and index pages. Pages touched: 9.
+
+## [2026-05-13] ingest | Dashing for the Golden Snitch
+
+Ingested `raw/pdfs/Wang_Dashing_for_the_Golden_Snitch_Multi-Drone_Time-Optimal_Motion_Planning_with_Multi-Agent_Reinforcement_Learning.pdf`. Added a source summary, a deep paper page for [[dashing_for_the_golden_snitch_multi_drone_time_optimal_motion_planning_with_multi_agent_reinforcement_learning]], and a technique page for [[multi_agent_time_optimal_motion_planning]]. Updated autonomous drone racing, real-world robotic reinforcement learning, reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-22] ingest | BeamDojo
+
+Ingested `raw/pdfs/Wang_BeamDojo.pdf`. Added a source summary and a deep paper page for [[beamdojo_learning_agile_humanoid_locomotion_on_sparse_footholds]]. Linked it into humanoids, perceptive locomotion, highly dynamic autonomous systems, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-22] ingest | Agile But Safe
+
+Ingested `raw/pdfs/HE_Agile_But_Safe.pdf`. Added a source summary, a deep paper page for [[agile_but_safe_learning_collision_free_high_speed_legged_locomotion]], and a technique page for [[agile_but_safe_locomotion]]. Linked it into quadrupedal locomotion, highly dynamic autonomous systems, real-world robotic reinforcement learning, reinforcement learning, quadruped hardware, and index pages. Pages touched: 10.
+
+## [2026-05-22] ingest | Legged Locomotion in Challenging Terrains
+
+Ingested `raw/pdfs/Agrawal_LeggedLocomotion_Challenging_Terrains.pdf`. Added a source summary and a deep paper page for [[legged_locomotion_in_challenging_terrains_using_egocentric_vision]]. Linked it into quadrupedal locomotion, perceptive locomotion, high-speed perception, real-world robotic reinforcement learning, quadruped hardware, and index pages. Pages touched: 9.
+
+## [2026-05-24] ingest | Barkour Benchmark
+
+Ingested `raw/pdfs/Calewerts_Barkour_Benchmark.pdf`. Added a source summary, a deep paper page for [[barkour_benchmarking_animal_level_agility_with_quadruped_robots]], and a benchmark page for [[barkour]]. Linked it into quadrupedal locomotion, highly dynamic autonomous systems, quadruped hardware, and index pages. Pages touched: 9.
+
+## [2026-05-26] ingest | Adversarial Motion Priors for Legged Locomotion
+
+Ingested `raw/pdfs/Learning_Robust_and_Agile_Legged_Locomotion_Using_Adversarial_Motion_Priors.pdf`. Added a source summary, a deep paper page for [[learning_robust_and_agile_legged_locomotion_using_adversarial_motion_priors]], and a technique page for [[adversarial_motion_priors]]. Linked it into quadrupedal locomotion, reinforcement learning, quadruped hardware, and index pages. Pages touched: 9.
+
+## [2026-05-26] ingest | Animal Gaits with Motion Matching
+
+Ingested `raw/pdfs/Animal_Gaits_on_Quadrupedal_Robots_Using_Motion_Matching_and_Model-Based_Control.pdf`. Added a source summary and a deep paper page for [[animal_gaits_on_quadrupedal_robots_using_motion_matching_and_model_based_control]]. Linked it into motion matching, quadrupedal locomotion, highly dynamic autonomous systems, quadruped hardware, and index pages. Pages touched: 8.
+
+## [2026-05-26] ingest | Learning Visual Parkour from Generated Images
+
+Ingested `raw/pdfs/Yu_Learning Visual Parkour from Generated Images.pdf`. Added a source summary, a deep paper page for [[learning_visual_parkour_from_generated_images]], and a model page for [[lucidsim]]. Linked it into sim-to-real transfer, high-speed perception, quadrupedal locomotion, quadruped hardware, and index pages. Pages touched: 10.
+
+## [2026-05-26] ingest | Hiking in the Wild
+
+Ingested `raw/pdfs/Zhu_Hiking_in-The-wild.pdf`. Added a source summary and a deep paper page for [[hiking_in_the_wild_a_scalable_perceptive_parkour_framework_for_humanoids]]. Linked it into humanoids, highly dynamic autonomous systems, high-speed perception, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 9.
+
+## [2026-05-26] ingest | HuB Extreme Humanoid Balance
+
+Ingested `raw/pdfs/Zhang_ HuB_Learning Extreme Humanoid Balance.pdf`. Added a source summary, a deep paper page for [[hub_learning_extreme_humanoid_balance]], and a model page for [[hub]]. Linked it into humanoids, highly dynamic autonomous systems, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 10.
+
+## [2026-05-26] ingest | PARC Physics-Based RL
+
+Ingested `raw/pdfs/XU_PARC_Physic_based-RL.pdf`. Added a source summary, a deep paper page for [[parc_physics_based_augmentation_with_reinforcement_learning_for_character_controllers]], and a model page for [[parc]]. Linked it into quadrupedal locomotion, reinforcement learning, quadruped hardware, and index pages. Pages touched: 9.
+
+## [2026-05-26] ingest | KungfuBot
+
+Ingested `raw/pdfs/Xie_KungfuBot.pdf`. Added a source summary, a deep paper page for [[kungfubot_physics_based_humanoid_whole_body_control_for_learning_highly_dynamic_skills]], and a model page for [[kungfubot]]. Linked it into humanoids, highly dynamic autonomous systems, embodied autonomous intelligence, real-world robotic reinforcement learning, and index pages. Pages touched: 10.
+
+## [2026-05-26] ingest | How Fast Is Too Fast
+
+Ingested `raw/pdfs/Falanga_How_fast_is_too_fast.pdf`. Added a source summary and upgraded the bibliography stub for [[how_fast_is_too_fast_the_role_of_perception_latency_in_high]] into a real paper note. Linked it into high-speed perception, autonomous drone racing, highly dynamic autonomous systems, drone hardware, and index pages. Pages touched: 9.
+
+## [2026-05-26] ingest | Hybrid Internal Model
+
+Ingested `raw/pdfs/Long_HYBRID_INTERNAL_MODEL.pdf`. Added a source summary, a deep paper page for [[hybrid_internal_model_learning_agile_legged_locomotion_with_simulated_robot_response]], and a technique page for [[hybrid_internal_model]]. Linked it into quadrupedal locomotion, quadruped hardware, reinforcement learning, sim-to-real transfer, highly dynamic autonomous systems, real-world robotic reinforcement learning, and index pages. Pages touched: 12.
+
+## [2026-05-26] ingest | Learning Humanoid Locomotion with Perceptive Internal Model
+
+Ingested `raw/pdfs/Long_Learning_Humanoid_Locomotion.pdf`. Added a source summary for [[long_learning_humanoid_locomotion]], a deep paper page for [[learning_humanoid_locomotion_with_perceptive_internal_model]], a model/system page for [[pim]], and a technique page for [[perceptive_internal_model]]. Updated existing technique pages for [[hybrid_internal_model]] and [[perceptive_locomotion]], the humanoid hardware page, the highly dynamic topic page, and the root index. Pages touched: 9.
+
+## [2026-05-26] ingest | AGILEFLIGHT Grant
+
+Ingested `raw/grants/ERC_ConsodilatorGrant_Scaramuzza_Low-latency Perception and Action for Agile Vision-based Flight _ AGILEFLIGHT _ Project _ Fact Sheet _ H2020 _ CORDIS _ European Commission.pdf`. Created the grant summary page [[agileflight]] under `wiki/grant/`. Linked it to the [[swift]] model, the [[champion_level_drone_racing_using_deep_reinforcement_learning]] and [[how_fast_is_too_fast_the_role_of_perception_latency_in_high]] papers, the [[autonomous_drone_racing]] topic, and the root index. Pages touched: 6.
+
+## [2026-05-26] ingest | AGILEFLIGHT Publications
+
+Ingested `raw/grants/ERC_ConsodilatorGrant_Scaramuzza__AgileFlight_AllPapers.pdf`. Created the source page [[agileflight_publications]], updated the [[agileflight]] grant page with the 72-publication index, and created new paper deep-dives for [[agilicious_open_source_and_open_hardware_agile_quadrotor_for_vision_based_flight]], [[actor_critic_model_predictive_control_differentiable_optimization_meets_reinforcement_learning_for_agile_flight]], [[learning_agile_quadrotor_flight_in_the_real_world]], and [[dream_to_fly_model_based_reinforcement_learning_for_vision_based_drone_flight]]. Created technique pages for [[differentiable_simulation]], [[preference_based_reinforcement_learning]], and [[actor_critic_model_predictive_control]]. Updated the root index. Pages touched: 10.
+
+## [2026-05-26] maintenance | Grant Ingest Convention
+
+Updated `CODEX.md` to formalize the new grant branch. Added `grant` as a first-class page tag, defined `wiki/grant/` page conventions and frontmatter, documented separate workflows for grant fact sheets versus grant publication lists, and added grant-linking rules so future ERC/DFG/Horizon grant ingests stay consistent. Pages touched: 2.
+
+## [2026-05-26] ingest | TRUST Grant
+
+Ingested `raw/grants/ERC_StartingGrant_TRUST_Control without Trust_ A Distributionally Robust Approach _ TRUST _ Project _ Fact Sheet _ H2020 _ CORDIS _ European Commission.pdf`. Created the grant summary page [[trust]] under `wiki/grant/` and linked it into the root index. Positioned it near autonomous racing control, risk-averse MPC, highly dynamic autonomous systems, and FormulaZero as the vault's main distributionally robust control anchors. Pages touched: 3.
+
+## [2026-05-26] ingest | RECOVER.ME Grant
+
+Ingested `raw/grants/ERC_StartingGrant_Leidner_Robotic Emulation of Human Failure Comprehension for Vastly Enhanced Resilience through Metacognition _ RECOVER.ME _ Project _ Fact Sheet _ HORIZON _ CORDIS _ European Commission.pdf`. Created the grant summary page [[recover_me]] under `wiki/grant/` and linked it into the root index. Positioned it near embodied autonomous intelligence, cognitive navigation, highly dynamic autonomous systems, and agentic-autonomy themes as the vault's main metacognitive resilience anchor. Pages touched: 3.
+
+## [2026-05-26] ingest | INTERACT Grant
+
+Ingested `raw/grants/ERC_StartingGrant_INTERACT_Intuitive_Interaction_for_Robots_Among_Humans.pdf`. Created the grant summary page [[interact]] under `wiki/grant/` and linked it into the root index. Positioned it near embodied autonomous intelligence, cognitive navigation, highly dynamic autonomous systems, and agentic-autonomy themes as the vault's main human-centered multi-robot interaction grant anchor. Pages touched: 3.
+
+## [2026-05-26] ingest | SIREN Grant
+
+Ingested `raw/grants/ERC_STartingGrant_Chalvatzaki_Structured Interactive Perception and Learning for Holistic Robotic Embodied Intelligence _ SIREN _ Project _ Fact Sheet _ HORIZON _ CORDIS _ European Commission.pdf`. Created the grant summary page [[siren]] under `wiki/grant/` and linked it into the root index. Positioned it near embodied autonomous intelligence, cognitive navigation, mobile-robot embodied learning, and multisensory interactive perception as the vault's main holistic embodied-intelligence grant anchor. Pages touched: 3.
+
+## [2026-05-26] ingest | LeMo Grant
+
+Ingested `raw/grants/ERC_StartingGrant_Hutter_Learning Mobility for Real Legged Robots _ LeMo _ Project _ Fact Sheet _ H2020 _ CORDIS _ European Commission.pdf`. Created the grant summary page [[lemo]] under `wiki/grant/` and linked it into the root index. Positioned it near quadrupedal locomotion, real-world robotic reinforcement learning, sim-to-real transfer, and embodied autonomous intelligence as the vault's main learned legged-mobility grant anchor. Pages touched: 3.
+
+## [2026-05-26] ingest | Modi Competitive Chess
+
+Ingested `raw/pdfs/Modi_The_Effects_of_Computer_and_AI_Engines_on_Competit.pdf`. Added a source summary in [[modi_competitive_chess]], a deep paper page for [[the_effects_of_computer_and_ai_engines_on_competitive_chess]], and a new topic page [[competitive_chess]]. Updated [[real_time_strategy_games]] and the root index. Pages touched: 6.
+
+## [2026-05-26] ingest | Zilberman AGI Imagined
+
+Ingested `raw/pdfs/Zibermann_AGI imagined.pdf`. Added a source summary in [[zilberman_agi_imagined]], a deep paper page for [[agi_imagined_how_is_agi_configured_by_the_theories_of_mind]], and a new topic page [[artificial_general_intelligence]]. Updated [[embodied_autonomous_intelligence]], [[foundation_models_for_intelligent_decision_making]], [[era_of_experience]], and the root index. Pages touched: 8.
+
+## [2026-05-26] ingest | Amaritei Humans vs. Machine Motorsport
+
+Ingested `raw/pdfs/Ameritei_Humans-vs-Machine.pdf`. Added a source summary in [[amaritei_humans_vs_machine_motorsport]], a deep paper page for [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]], and linked it into [[professional_race_driver_expertise]], [[autonomous_vehicle_racing]], and the root index. Pages touched: 6.

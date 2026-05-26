@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -47,6 +48,11 @@ _To be filled after reading the paper._
 ## Datasets Used
 
 _To be filled after reading the paper._
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

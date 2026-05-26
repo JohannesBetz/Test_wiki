@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [multiple_robot_embodiments]
 simulators_used: []
 ---
 
@@ -51,6 +52,11 @@ The survey argues that real-world DRL has genuinely succeeded in some important 
 Champion-level drone racing is one of the standout high-dynamic examples. The paper also highlights strong locomotion successes in quadrupeds and other embodied robots. By contrast, areas such as urban autonomous driving still show limited real-world DRL maturity and often remain confined to simulation or tightly controlled field tests.
 
 Across domains, the paper emphasizes a recurring pattern: successful real-world DRL usually depends on more than an off-the-shelf RL algorithm. It often requires simulation-to-real transfer, strong inductive structure, careful reward and data design, and system-level engineering around the learner.
+
+## Hardware Used
+
+- [[multiple_robot_embodiments]]
+
 
 ## Related Work
 

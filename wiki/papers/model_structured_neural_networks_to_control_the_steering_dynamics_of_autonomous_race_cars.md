@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [abu_dhabi_autonomous_racing_league]
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -56,6 +57,11 @@ The clearest generalization result appears when training data is reduced. On the
 The error-distribution analysis shows that `MS-NN-steer` has lower mean, variance, and peak steering errors than the benchmarks on both training and validation data. The initialization study also shows that its RMSE varies much less across random seeds than the general-purpose neural network, indicating a more stable training process.
 
 The paper argues that this is practically important for racing teams: collecting full-scale data is expensive, and a controller that still generalizes under smaller datasets and lighter hyperparameter tuning is much easier to deploy.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

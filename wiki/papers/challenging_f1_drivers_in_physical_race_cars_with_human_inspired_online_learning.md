@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [abu_dhabi_autonomous_racing_league]
 models_used: [apex]
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -60,6 +61,11 @@ In physical validation at the Mercedes-Benz Immendingen handling course on 28 Oc
 At [[abu_dhabi_autonomous_racing_league|A2RL 2025]] on the Yas Marina North layout, TUM Autonomous Motorsport's Hailey sets a 58.183 s best autonomous race lap. Daniil Kvyat's human reference is 57.569 s, leaving Hailey 0.61 s or 1.07% behind. In the AI-vs-AI grand final, Hailey records the fastest autonomous lap and reaches reported maximum accelerations of -29.2 m/s2 longitudinally and 29.5 m/s2 laterally.
 
 Across a six-week A2RL testing and event period, the paper reports 58 sessions and 2000 km driven with APEX continuously enabled, without spins, crashes, or tire-set losses due to flat-spotting.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

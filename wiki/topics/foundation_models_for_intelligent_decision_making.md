@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-08
-sources: 1
+sources: 5
 ---
 
 # Foundation Models for Intelligent Decision-Making
@@ -22,11 +22,27 @@ The key promise is broader transfer and adaptivity than narrow task-specific mod
 
 In this framing, foundation models do not replace decision-making. They become a new substrate for how decisions can be represented, contextualized, and adapted across tasks.
 
+Within the vault, one useful progression is [[large_language_models]] -> [[vision_language_models]] -> [[vision_language_action_models]], moving from abstract reasoning to multimodal grounding and then to embodied action.
+
 [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations]] gives a concrete stress test of that vision in a high-stakes setting: even when LLMs can generate plausible strategic recommendations, their aggression levels, sensitivity to framing, and simulated group dynamics may diverge from expert-human behavior.
 
 [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory]] adds a more structural warning: even if sequence models look broadly capable, [[compositional_reasoning_limits_in_sequence_models]] may prevent them from performing reliable multi-step reasoning on the kinds of chained decision problems many intelligent systems would require.
 
 [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]] adds a concrete embodied-control example: instead of using a foundation model for abstract decision support, [[racevla]] adapts a [[vision_language_action_models|vision-language-action model]] to produce racing-drone control actions from FPV video and language prompts.
+
+[[real_world_robot_applications_of_foundation_models_a_review]] adds a deployment filter on the whole topic: the real issue is not just whether foundation models can represent decisions broadly, but whether they remain useful once a physical robot imposes sensing noise, timing limits, safety requirements, and action-grounding demands.
+
+[[towards_general_purpose_robots_via_foundation_models_a_survey_and_meta_analysis]] adds a robotics-generality framing: foundation models are not only being proposed as decision substrates, but as a possible route toward more reusable robot competence across embodiments and tasks.
+
+[[foundation_models_in_robotics_applications_challenges_and_the_future]] adds a robotics-applications framing: foundation models may contribute across perception, planning, decision support, and action-related interfaces, but their value depends heavily on how they are embedded in the autonomy stack.
+
+[[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]] adds an agent-and-security framing: as LLMs evolve into more agentic autonomy components, the question shifts from usefulness alone to datasets, evaluation, and attack surface in safety-critical autonomous systems.
+
+[[ranked_top_5_techniques_for_fast_and_agile_autonomy]] places this branch in the vault's broader competitive picture: foundation-model approaches are not yet the best current answer for fast and agile autonomy, but they are the strongest long-term bet if `LLM -> VLM -> VLA` systems can eventually close the latency, grounding, and stability gap to specialized controllers.
+
+[[erc_idea]] adds a more skeptical strategic layer: if superhuman autonomy in extreme environments is the goal, foundation models may still matter, but the vault currently suggests they will need to sit inside a more experience-driven, safety-aware, and control-grounded architecture rather than replace that architecture outright.
+
+[[agi_imagined_how_is_agi_configured_by_the_theories_of_mind]] adds a deeper conceptual warning underneath that whole branch: some disagreements about foundation-model futures are really disagreements about what a mind is, and therefore about whether broad pretrained symbolic competence should count as the main path toward AGI at all.
 
 ## Relationship to Embodied and Autonomous Systems
 
@@ -40,6 +56,10 @@ For autonomous systems, the interesting question is whether foundation models ca
 - [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations]]
 - [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory]]
 - [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]]
+- [[real_world_robot_applications_of_foundation_models_a_review]]
+- [[towards_general_purpose_robots_via_foundation_models_a_survey_and_meta_analysis]]
+- [[foundation_models_in_robotics_applications_challenges_and_the_future]]
+- [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]]
 
 ## Open Problems
 
@@ -50,3 +70,11 @@ The wargaming evidence adds another problem: foundation models may need much str
 The sequence-limits evidence adds a deeper problem: some failures may not be patched away with better prompting alone if the underlying model architecture remains weak at composition-heavy reasoning.
 
 RaceVLA adds a robotics problem: even if foundation-model-style control works in principle, embodied deployment may still be bottlenecked by inference rate, onboard compute, and the mismatch between pretrained priors and aggressive real-world dynamics.
+
+The real-world robotics review sharpens that problem into a broader systems question: how much of foundation-model usefulness survives contact with physical deployment once latency, embodiment, and safety become non-negotiable?
+
+The general-robots survey adds a complementary ambition question: even if deployment improves, what kind of "generality" is actually being achieved, and how much is still task-conditioned reuse rather than robust open-ended embodied competence?
+
+The robotics-applications survey adds a systems question: even before true generality is reached, which components of robot autonomy benefit most from foundation models, and which remain bottlenecked by data, embodiment, or control precision?
+
+The agentic-autonomy survey adds a security question: even if model capabilities improve, how should autonomous systems benchmark and defend agent-like models whose reasoning, delegation, and tool use may enlarge the system's attack surface?

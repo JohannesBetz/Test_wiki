@@ -21,6 +21,10 @@ APEX, short for Adaptive Performance Envelope eXploration, is a human-inspired o
 
 [[online_velocity_profile_generation]] is the planning-side consumer of the learned map: updated performance-envelope constraints are converted into a feasible velocity reference over the raceline.
 
+[[experience_as_a_central_element_in_autonomous_systems]] situates APEX inside the vault's broader experience theme: it is one of the clearest examples where repeated grounded interaction is the main mechanism of improvement rather than a side effect of offline training.
+
+[[erc_idea]] uses APEX as one of the key pieces of evidence for a stronger hypothesis: experience-driven learning may be a route to superhuman autonomy in extreme environments, but only when that experience is filtered through interpretable envelope estimation and tightly bounded exploration.
+
 ## Why It Matters
 
 APEX is a concrete answer to the gap identified by [[professional_race_driver_expertise]]: expert humans learn the limit quickly through conservative experience, probing observations, and anticipation of changing conditions. APEX implements a machine version of that loop while staying compatible with a modular autonomous racing stack.

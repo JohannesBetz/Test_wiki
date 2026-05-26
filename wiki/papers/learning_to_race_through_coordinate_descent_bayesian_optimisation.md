@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [mobile_robots]
 simulators_used: []
 ---
 
@@ -51,6 +52,11 @@ _To be filled after reading the paper._
 ## Datasets Used
 
 _To be filled after reading the paper._
+
+## Hardware Used
+
+- [[mobile_robots]]
+
 
 ## Related Work
 

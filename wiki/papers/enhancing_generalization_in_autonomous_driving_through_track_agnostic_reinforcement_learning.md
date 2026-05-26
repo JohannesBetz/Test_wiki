@@ -19,6 +19,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -54,6 +55,11 @@ On three unseen 2D tracks, the same trained agent completes all tracks and remai
 Ablation results show that removing the asymmetry reward substantially hurts transfer to unseen tracks, dropping completion rates sharply on the harder alternatives.
 
 In the 3D TrackMania evaluation, the zero-shot agent completes 5 out of 5 unseen official tracks, with near-100 percent average completion on the easiest map and lower completion on more obstacle-heavy tracks. After fine-tuning, the method reaches lap times comparable to average human players on 3 of 4 evaluated tracks and beats the average-player benchmark on one.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

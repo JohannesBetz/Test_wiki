@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -62,6 +63,11 @@ In 99 three-car races, the method beats all tested baselines:
 - against self-play RL opponents, it wins 91 races.
 
 The strongest qualitative comparison is against short-horizon IBR: the paper argues that IBR can win local accelerations or straight-line moves but loses long-horizon track position because it does not preserve global raceline reasoning as effectively.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

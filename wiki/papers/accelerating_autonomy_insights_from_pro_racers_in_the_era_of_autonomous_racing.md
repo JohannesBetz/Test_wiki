@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -48,6 +49,11 @@ Drivers reach the limit through progressive exploration. They test braking point
 Driving at the limit is an integrated stability-control problem. Human drivers use trail braking, load transfer, throttle modulation, steering release, curb interaction, and deliberate rotation to manage understeer and oversteer. This suggests that autonomous controllers should reason about stability, track limits, path tracking, and speed tracking as situation-dependent priorities.
 
 Rain and changing conditions reveal the importance of adaptation. Experts describe reducing dynamic input by roughly 30-50% on initial wet laps, then quickly reexploring available grip while changing racing line and avoiding rubbered-in wet areas. This connects directly to local grip estimation and spatial constraint maps such as [[gripmap]].
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

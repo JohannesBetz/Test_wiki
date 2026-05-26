@@ -19,6 +19,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: []
 simulators_used: []
 ---
 
@@ -48,6 +49,11 @@ The review reports that some architectures generalize better across both micro- 
 This paper provides context for strategic multi-agent RL beyond racing. RTS games are a useful comparison class because they stress several of the same decision-making bottlenecks that appear in competitive autonomous systems: opponent modeling, delayed consequences, partial information, and the tension between local action quality and global strategic outcome.
 
 That makes the review a helpful companion to vault entries on racing RL and game-theoretic planning, even though the control modality is different.
+
+## Hardware Used
+
+- No specific demonstration hardware is identified on the current page.
+
 
 ## Related Work
 

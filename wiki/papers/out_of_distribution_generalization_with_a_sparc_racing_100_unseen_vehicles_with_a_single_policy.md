@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -48,6 +49,11 @@ In autonomous racing, it uses a high-fidelity Gran Turismo 7 setup and evaluates
 In a second benchmark family, the method is tested in wind-perturbed MuJoCo environments. The point of the two-domain evaluation is to show that the adaptation mechanism is not racing-specific, even though racing provides the most demanding and vivid test case.
 
 The paper's main claim is not absolute superhuman racing performance, but robust generalization under contextual shift.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

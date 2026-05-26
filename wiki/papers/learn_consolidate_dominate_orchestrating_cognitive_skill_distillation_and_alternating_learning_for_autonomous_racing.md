@@ -21,6 +21,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: [csdal]
+hardware_used: [cars_and_race_cars]
 simulators_used: [rfactor_2]
 ---
 
@@ -61,6 +62,11 @@ On Atlanta 2017, CSDAL reduces the expert lap time from 90.4 s to 84.1 s. On Mug
 ## Datasets Used
 
 Expert data are collected from driver-in-the-loop operation in [[rfactor_2]]. For each track, the top 10 shortest expert laps are used to train the teacher model.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

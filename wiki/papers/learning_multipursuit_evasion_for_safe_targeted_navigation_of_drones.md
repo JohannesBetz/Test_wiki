@@ -19,6 +19,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -56,6 +57,11 @@ It also adds two practically useful analyses:
 - and a success-rate heatmap that shows how geometry affects the evader's chances.
 
 Most importantly for this vault, the authors also validate the learned policies in physical drone experiments with real-time flight. That moves the work beyond a pure game-theory or simulator result.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

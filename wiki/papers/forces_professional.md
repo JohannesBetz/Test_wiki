@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: []
 simulators_used: []
 ---
 
@@ -47,6 +48,11 @@ _To be filled after reading the paper._
 ## Datasets Used
 
 _To be filled after reading the paper._
+
+## Hardware Used
+
+- No specific demonstration hardware is identified on the current page.
+
 
 ## Related Work
 

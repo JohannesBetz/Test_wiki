@@ -10,6 +10,8 @@ sources: 1
 
 Robot table tennis studies robotic systems that perceive, plan, and hit table-tennis balls in real time, often against human opponents. It is a demanding benchmark for [[Highly_dynamic_autonomous_system|highly dynamic autonomous systems]] because the ball can be fast, highly spinning, and tactically shaped by the opponent.
 
+The main hardware anchor for this branch is [[table_tennis_robots]].
+
 ## Key Approaches
 
 - High-speed ball localization and spin estimation.

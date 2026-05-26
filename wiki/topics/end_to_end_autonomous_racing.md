@@ -30,6 +30,8 @@ Methods covered include CNNs, RNNs, LSTMs, fuzzy control, Bayesian optimization,
 
 [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]] pushes the abstraction further: [[racevla]] uses [[vision_language_action_models]] so first-person video and language prompts are mapped toward direct drone control, making it one of the clearest sensor-and-instruction-to-action examples in the vault.
 
+[[behavior_constrained_reinforcement_learning_with_receding_horizon_credit_assignment_for_high_performance_control]] adds a structured-RL perspective: end-to-end control may remain learned, yet still benefit from explicit behavior constraints and shorter-horizon credit structure when high-performance control would otherwise make unconstrained RL too brittle.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -56,3 +58,5 @@ Vision-based GT7 racing sharpens a different realism problem: policies that rely
 Track-agnostic RL sharpens the geometry-generalization problem: even if a learned policy is fast, it may still rely on hidden track priors unless the observations and reward are designed to work without explicit map-like track features.
 
 RaceVLA sharpens a newer systems problem: end-to-end control may become more multimodal and more instruction-conditioned, but high-speed physical deployment exposes whether large pretrained policies can meet real latency, reliability, and embodiment constraints.
+
+Behavior-constrained RL adds a training-structure problem: even if direct policy learning is expressive enough, high-performance control may still require carefully shaping both the behavioral search space and the temporal credit signal to remain stable and useful.

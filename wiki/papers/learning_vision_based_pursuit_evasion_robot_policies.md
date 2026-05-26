@@ -19,6 +19,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [quadrupeds]
 simulators_used: []
 ---
 
@@ -52,6 +53,11 @@ This is interesting because it does not treat partial observability only as a nu
 The policy is deployed on a physical quadruped robot in outdoor or unstructured pursuit-evasion interactions. The headline qualitative result is that the learned robot exhibits nontrivial strategic behaviors: it slows down to reduce uncertainty, accelerates when detection improves, and attempts anticipatory interception rather than only greedy chasing.
 
 For this vault, the most important result is not a single benchmark number but the demonstration that physically deployed vision-based policies can produce useful multi-agent behavior under partial observability.
+
+## Hardware Used
+
+- [[quadrupeds]]
+
 
 ## Related Work
 

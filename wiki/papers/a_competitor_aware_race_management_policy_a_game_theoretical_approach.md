@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -48,6 +49,11 @@ The framework is demonstrated on a two-agent, 45-lap electric endurance race. Th
 The most important result is qualitative but strong: strategies optimized for finishing position differ fundamentally from single-agent minimum-time strategies. An agent may intentionally accept slower local laps if that preserves energy, improves race-end positioning, or creates a better overtaking window later.
 
 The thesis also argues that purely short-horizon competitive planners are too limited for this setting because battery and charging decisions span the full race horizon. That motivates the upper-level RL policy over the learned surrogate race model.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

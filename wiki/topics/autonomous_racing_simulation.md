@@ -24,11 +24,14 @@ Autonomous racing simulation provides synthetic tracks, vehicle dynamics, sensor
 
 [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]] adds a simulator-diversity perspective: the same track-agnostic PPO idea is tested in both a custom 2D sensor-based environment and a richer 3D TrackMania setup, using simulation variety itself as a generalization stress test.
 
+[[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]] adds a simulator-as-coaching-lab perspective: the simulator is not only for training autonomous agents, but also for evaluating whether machine-generated corner advice can measurably improve human racing performance.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
 - [[human_professional_level_driving_agent_for_race_car_simulation_environments]]
 - [[enhancing_generalization_in_autonomous_driving_through_track_agnostic_reinforcement_learning]]
+- [[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]]
 
 ## Open Problems
 
@@ -37,3 +40,5 @@ Simulation must balance high-fidelity vehicle dynamics, sensor realism, opponent
 The Bari paper adds a realism-audit problem: a simulator may produce very fast agents whose driving style is partly shaped by unrealistic actuation or contact models, so simulator success needs qualitative scrutiny as well as lap-time metrics.
 
 Track-agnostic RL adds a benchmark-design problem: if a simulator exposes centerlines or other privileged geometry too directly, agents may look robust while actually overfitting to track-specific features that disappear on new layouts.
+
+The driver-training paper adds a human-learning validity problem: simulator feedback may improve lap times, but it still needs to be checked whether the learned habits transfer safely and usefully to physical driving.

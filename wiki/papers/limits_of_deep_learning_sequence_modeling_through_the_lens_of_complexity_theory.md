@@ -17,6 +17,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: []
 simulators_used: []
 ---
 
@@ -55,6 +56,11 @@ Empirically, the paper evaluates models on:
 Across these tasks, the paper reports strong degradation as compositional depth increases. Even with Chain-of-Thought prompting, models often fail to produce stable multi-step reasoning and instead rely on brittle shortcuts whose errors compound downstream.
 
 The main message is not that prompting never helps, but that prompting does not erase the underlying computational bottlenecks.
+
+## Hardware Used
+
+- No specific demonstration hardware is identified on the current page.
+
 
 ## Related Work
 

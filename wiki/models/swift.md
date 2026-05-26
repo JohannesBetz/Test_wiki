@@ -1,7 +1,7 @@
 ---
 tags: [model]
-date: 2026-05-07
-sources: 1
+date: 2026-05-26
+sources: 2
 ---
 
 # Swift
@@ -17,6 +17,10 @@ Swift is the autonomous drone-racing system introduced in [[champion_level_drone
 - Gate-based pose correction fused with [[visual_inertial_odometry]] using a Kalman filter.
 - Control policy trained with [[proximal_policy_optimization]].
 - [[empirical_residual_modeling]] for observation and dynamics errors to improve [[sim_to_real_transfer]].
+
+## Funding / Grants
+
+- Developed under the European Research Council (ERC) Consolidator Grant [[agileflight]].
 
 ## Representative Papers
 

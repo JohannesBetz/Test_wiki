@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [abu_dhabi_autonomous_racing_league]
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -50,6 +51,11 @@ In simulation on Yas Marina Circuit turns 6 and 7, the authors reduce accelerati
 In an obstacle scenario, a static object blocks the raceline and the vehicle starts laterally offset with reduced grip. The online velocity profile improves tracking and produces a 1.18 s sector-time advantage over the offline-profile configuration.
 
 The full planning step averages 114 ms, while online velocity-profile generation alone averages 43 ms in Python on an Intel Core i7-1270P CPU.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

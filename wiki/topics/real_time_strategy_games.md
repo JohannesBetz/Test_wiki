@@ -31,10 +31,13 @@ RTS games are not racing, but they are good conceptual neighbors for strategic a
 
 The analogy is not perfect: racing adds continuous control, vehicle dynamics, and physical safety constraints. Still, RTS work is a useful source of ideas for opponent modeling, strategy learning, and hierarchical decision making.
 
+[[competitive_chess]] adds a different strategic-game comparison point. Chess is not real time and lacks the same partial-observability and coordination structure as RTS games, but it is still a useful historical example of how strong machine systems can transform expert human competition in a domain once treated as a high-water mark of human intelligence.
+
 ## Representative Papers
 
 - [[deep_reinforcement_learning_in_real_time_strategy_games_a_systematic_literature_review]]
 - [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations]]
+- [[the_effects_of_computer_and_ai_engines_on_competitive_chess]]
 
 ## Open Problems
 

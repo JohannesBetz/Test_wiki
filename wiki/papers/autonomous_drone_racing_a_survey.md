@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -51,6 +52,11 @@ Because this is a survey, the main result is a field-level synthesis. The paper 
 One important framing from the paper is that lap time acts as a compact metric of progress across the full stack. To improve that one number, systems must solve many coupled problems at once.
 
 The survey also identifies the remaining barriers to broadly useful ADR systems: robust perception under blur and lighting shifts, opponent-aware racing, generalization across tracks and tasks, safety, and the gap between closed racing tracks and real-world deployment scenarios.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

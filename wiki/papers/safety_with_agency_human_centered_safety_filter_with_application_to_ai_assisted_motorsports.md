@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -50,6 +51,11 @@ The paper evaluates the method in Assetto Corsa under high-speed edge-driving co
 The abstract reports two main findings. First, relative to no assistance, HCSF improves both safety and user satisfaction without compromising agency or comfort. Second, relative to a conventional safety filter, HCSF improves agency, comfort, and satisfaction while maintaining at least the same robustness.
 
 The experimental setup is also notable: the paper includes an in-person user study with 83 human participants. That makes the work stronger on human-factors evidence than many racing-safety papers, which usually stop at simulated trajectory metrics alone.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

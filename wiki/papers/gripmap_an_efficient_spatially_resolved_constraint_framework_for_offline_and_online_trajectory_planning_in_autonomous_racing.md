@@ -22,6 +22,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [indy_autonomous_challenge]
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -53,6 +54,11 @@ At Yas Marina Circuit in the A2RL context, iterative GripMap refinement produced
 In a ROS2 Python runtime test, the online planner sampled 1,000 trajectories per planning step with 40 discretization points each. GripMap-informed planning averaged 0.1565 s, while the baseline without GripMap averaged 0.1553 s. The added overhead is about 0.77%.
 
 The paper also revisits a Las Vegas Motor Speedway IAC spin-out. The original planner assumed enough grip for an outside overtake on a dusty banked turn. A high-fidelity resimulation with reduced off-line grip reproduced the failure, while GripMap-informed planning reduced corner-entry speed by up to 7 m/s, moved the planned trajectory toward a higher-grip region, and kept planned tire utilization within the local limit.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

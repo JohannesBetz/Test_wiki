@@ -17,6 +17,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: [carla]
 ---
 
@@ -56,6 +57,11 @@ The main reported claims are:
 - and it performs better overall than a comparison MPC setup and a comparison soft actor-critic baseline.
 
 The RL baseline can drive faster on average but still collides. The MPC baseline remains safe but shows less reasonable lane-change behavior and lower efficiency. The proposed hybrid method aims to sit between those extremes.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

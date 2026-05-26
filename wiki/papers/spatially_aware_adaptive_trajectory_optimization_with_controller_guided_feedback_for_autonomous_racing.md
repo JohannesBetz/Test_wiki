@@ -21,6 +21,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [f1tenth]
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -56,6 +57,11 @@ In simulation, adaptive optimization consistently improves lap time over the sta
 In a low-friction-region experiment, the system adapts over three laps after discovering two localized low-friction areas, updating the constraint map and changing both trajectory shape and timing.
 
 On real F1TENTH hardware, the authors test low-, medium-, and high-friction tire configurations. Starting from a conservative 7.53 s baseline, the system converges after about 10 laps to 5.73 s, 5.56 s, and 5.29 s respectively, with a reported 7.60% lap-time improvement without explicit friction parameterization or environmental sensing.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

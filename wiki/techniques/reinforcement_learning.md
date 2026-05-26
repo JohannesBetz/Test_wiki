@@ -46,7 +46,23 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 
 [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]] adds a multi-agent aerial example: [[asynchronous_multistage_deep_reinforcement_learning]] trains evader and pursuer teams across stages so a drone can learn safe target-reaching behavior against multiple adversaries.
 
+[[dashing_for_the_golden_snitch_multi_drone_time_optimal_motion_planning_with_multi_agent_reinforcement_learning]] adds a different multi-agent aerial use case: RL is applied not to pursuit-evasion, but to joint time-optimal motion planning for several drones that must coordinate their aggressive trajectories in shared space.
+
 [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]] adds a broader mobile-robot framing: RL is one major path to learned motion generation, but it should be read alongside imitation learning and other embodied control approaches rather than as the whole story.
+
+[[rapid_locomotion_via_reinforcement_learning]] adds a quadruped agility case: structured model-free RL, when paired with an adaptive command curriculum and disciplined sim-to-real updates, can yield physically serious high-speed locomotion rather than only benchmark-friendly simulated gaits.
+
+[[rma_rapid_motor_adaptation_for_legged_robots]] adds a latent-adaptation case: RL can be used not only to learn a locomotion policy, but to learn a policy plus an online adaptation module that infers hidden environment and dynamics variables from recent experience.
+
+[[hybrid_internal_model_learning_agile_legged_locomotion_with_simulated_robot_response]] adds an internal-response-modeling case: RL can also be structured around a learned hybrid internal model that estimates explicit velocity and an implicit disturbance-relevant response from minimal sensing.
+
+[[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild]] adds a perception-fusion case: RL can also train a privileged teacher whose behavior is distilled into a student policy that learns to use noisy exteroceptive terrain information on real hardware rather than only clean simulator state.
+
+[[agile_but_safe_learning_collision_free_high_speed_legged_locomotion]] adds a safety-switching case: RL can also be used inside a structured locomotion stack where aggressive motion, recovery behavior, and a learned reach-avoid safety signal are trained as distinct but coordinated components.
+
+[[learning_robust_and_agile_legged_locomotion_using_adversarial_motion_priors]] adds a motion-prior case: RL can also be guided by an adversarially learned prior over desirable motion, so the controller is optimized not only for task success but for locomotion structure itself.
+
+[[parc_physics_based_augmentation_with_reinforcement_learning_for_character_controllers]] adds a capability-expansion case: RL can also be used inside an iterative framework that grows the motion dataset available for agile terrain traversal rather than treating the demonstration set as fixed.
 
 ## Representative Papers
 
@@ -67,7 +83,15 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 - [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]]
 - [[learning_vision_based_pursuit_evasion_robot_policies]]
 - [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]]
+- [[dashing_for_the_golden_snitch_multi_drone_time_optimal_motion_planning_with_multi_agent_reinforcement_learning]]
 - [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]]
+- [[rapid_locomotion_via_reinforcement_learning]]
+- [[rma_rapid_motor_adaptation_for_legged_robots]]
+- [[hybrid_internal_model_learning_agile_legged_locomotion_with_simulated_robot_response]]
+- [[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild]]
+- [[agile_but_safe_learning_collision_free_high_speed_legged_locomotion]]
+- [[learning_robust_and_agile_legged_locomotion_using_adversarial_motion_priors]]
+- [[parc_physics_based_augmentation_with_reinforcement_learning_for_character_controllers]]
 
 ## Open Problems
 
@@ -103,4 +127,24 @@ Pursuit-evasion robotics adds an interaction challenge: when another agent is ac
 
 Multi-pursuer drone navigation adds a nonstationarity challenge: when several adaptive adversaries co-evolve, the learning problem can become unstable unless the training structure actively manages opponent drift.
 
+Multi-drone time-optimal planning adds a coordination challenge: even if every single drone can fly aggressively, the joint RL problem may still become brittle when several agents must negotiate time-optimal trajectories without excessive conflict or deadlock.
+
 The mobile-robot survey adds a scope challenge: RL is powerful, but many robust planning-and-control systems may require hybridizing it with imitation, structure, and classical control rather than expecting one learning paradigm to do everything.
+
+[[behavior_constrained_reinforcement_learning_with_receding_horizon_credit_assignment_for_high_performance_control]] adds a control-aware optimization challenge: RL for high-performance systems may need explicit behavior constraints and receding-horizon credit structure, not only better rewards or larger policy classes.
+
+[[experience_as_a_central_element_in_autonomous_systems]] adds a cross-paper synthesis: many of the strongest RL-relevant entries in the vault are not just about learning a policy, but about how experience is collected, structured, constrained, and validated in the real world.
+
+Rapid quadruped locomotion sharpens that same synthesis: strong physical RL results often depend on carefully structuring experience through curriculum schedules and transfer procedures rather than only on choosing an RL algorithm.
+
+RMA sharpens it further: some of the most interesting RL systems in robotics are not just policy learners, but policy-plus-adaptation learners.
+
+Hybrid Internal Model sharpens it in a different direction: some RL locomotion systems may succeed less by sensing the world more directly and more by learning a better internal response representation of how the body reacts to the world.
+
+Perceptive locomotion sharpens it in another direction: once RL is asked to integrate noisy sensing into control, the learning problem becomes partly about discovering a trust policy over modalities, not only about optimizing motion.
+
+Agile But Safe sharpens it in another direction: once RL is embedded in a multi-policy safety architecture, the hard problem becomes not only how to learn fast control, but how to learn when fast control should give way to recovery.
+
+Adversarial motion priors sharpen it in yet another direction: once RL is guided by a learned prior over good motion, the hard problem becomes how to keep that prior helpful without letting it become a hidden bottleneck on adaptability.
+
+PARC sharpens it in a different direction: once RL is used to help grow the motion dataset itself, the hard problem becomes how to keep that growth physically meaningful instead of merely simulator-plausible.

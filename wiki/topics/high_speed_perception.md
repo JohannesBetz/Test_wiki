@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 4
+sources: 5
 ---
 
 # High Speed Perception
@@ -32,6 +32,22 @@ In [[safety_assured_high_speed_navigation_for_mavs]], high-speed perception appe
 
 [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]] adds a multimodal variant: FPV perception is no longer only an input to explicit estimation modules, but part of a [[vision_language_action_models|language-conditioned policy]] that must convert visual context into control under tight timing constraints.
 
+[[vision_augmented_on_track_system_identification_for_autonomous_racing_via_attention_based_priors_and_iterative_neural_correction]] adds a different perception-to-control link: vision may matter not only for localization or obstacle awareness, but also for shaping the prior used in racing-relevant system identification.
+
+[[race_against_the_machine_a_fully_annotated_open_design_dataset_of_autonomous_and_piloted_high_speed_flight]] adds a data-resource perspective: high-speed perception research also needs open annotated flight data that make aggressive aerial sensing failures and success cases measurable in a reproducible way.
+
+[[how_fast_is_too_fast_the_role_of_perception_latency_in_high]] adds a harder systems-limit perspective: in fast flight, perception does not merely support control quality, it directly limits how fast a vehicle can safely move before sensing delay and sensing range make avoidance physically implausible.
+
+[[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild]] adds a legged-robotics perspective: high-speed perception is not only about detecting distant objects for cars and drones, but also about deciding whether terrain observations are reliable enough to change foot placement and body motion before contact.
+
+[[perceptive_locomotion_through_nonlinear_model_predictive_control]] adds a control-embedded legged perspective: high-speed perception can also matter by changing the feasible set of a real-time optimizer through terrain-aware constraints, not only by feeding a learned policy.
+
+[[legged_locomotion_in_challenging_terrains_using_egocentric_vision]] adds a compact egocentric-vision legged perspective: high-speed perception in embodied systems can also be intensely local, where the issue is not long-range sensing but whether onboard visual context is sufficient to shape the next few body motions on rough ground.
+
+[[learning_visual_parkour_from_generated_images]] adds a generated-visual-data legged perspective: high-speed perception can also bottleneck on whether the training world is visually rich enough for RGB-only transfer, not only on the runtime sensor stack.
+
+[[hiking_in_the_wild_a_scalable_perceptive_parkour_framework_for_humanoids]] adds a depth-driven humanoid perspective: high-speed perception in embodied systems can also mean whether raw depth input is stable and actionable enough for foothold-safe whole-body control in unstructured outdoor terrain.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -41,6 +57,13 @@ In [[safety_assured_high_speed_navigation_for_mavs]], high-speed perception appe
 - [[safety_assured_high_speed_navigation_for_mavs]]
 - [[autonomous_drone_racing_a_survey]]
 - [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]]
+- [[race_against_the_machine_a_fully_annotated_open_design_dataset_of_autonomous_and_piloted_high_speed_flight]]
+- [[how_fast_is_too_fast_the_role_of_perception_latency_in_high]]
+- [[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild]]
+- [[perceptive_locomotion_through_nonlinear_model_predictive_control]]
+- [[legged_locomotion_in_challenging_terrains_using_egocentric_vision]]
+- [[learning_visual_parkour_from_generated_images]]
+- [[hiking_in_the_wild_a_scalable_perceptive_parkour_framework_for_humanoids]]
 
 ## Open Problems
 
@@ -55,3 +78,17 @@ SUPER adds a long-range obstacle-resolution challenge: at high speed, even small
 The ADR survey adds a sensor-stack realism challenge: high-speed flight pushes not just algorithms but the calibration, latency, and physical placement of sensors, so perception quality can degrade for reasons that are partly hardware and partly algorithmic.
 
 RaceVLA adds a grounding challenge: once perception is folded into a large multimodal action model, it becomes harder to separate whether failures come from sensing, language conditioning, latent world modeling, or action decoding.
+
+The Race Against the Machine dataset adds an evaluation challenge: without sufficiently open and well-annotated aggressive-flight datasets, it is hard to know whether a perception system is genuinely robust or simply tuned to one private experimental setup.
+
+How Fast Is Too Fast adds a latency-budget challenge: even a strong controller may be irrelevant if sensing delay and sensing range together leave too little time for avoidance at the target speed.
+
+Perceptive quadruped locomotion adds a reliability-allocation challenge: when sensing fails intermittently, should a fast embodied system slow down, trust learned fusion, or fall back to proprioceptive control until perception becomes usable again?
+
+Perceptive NMPC adds an optimizer-interface challenge: if perception is turned into constraints, how coarse can those constraints become before the controller remains fast but stops respecting the real terrain?
+
+Egocentric-vision locomotion adds a compactness challenge: if one wants perception to stay lightweight enough for small embodied systems, how much terrain structure can be omitted before locomotion robustness starts to fail?
+
+Visual parkour from generated images adds a realism-generation challenge: if RGB-only transfer depends on generated imagery, what visual inaccuracies are harmless and what inaccuracies quietly poison real-world deployment?
+
+Hiking in the Wild adds a depth-stability challenge: if raw depth drives the policy directly, how sensitive is the whole control loop to viewpoint jitter, partial observations, and terrain-edge ambiguity in the wild?

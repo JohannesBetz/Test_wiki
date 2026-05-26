@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: [racevla]
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -52,6 +53,11 @@ The paper reports that RaceVLA outperforms generic VLA baselines such as OpenVLA
 The main qualitative result is specialization: a VLA trained for general robotic behavior is not enough on its own, but a racing-specific fine-tuning pass produces much stronger motion and semantic generalization in a drone-racing setting.
 
 The manuscript also reports real-flight capability with average speed around 1.04 m/s and peak speed around 2.02 m/s. Those speeds are far below elite FPV racing, but they are still meaningful as an early embodied demonstration of VLA-style control in a domain with sharp dynamics and narrow margins.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

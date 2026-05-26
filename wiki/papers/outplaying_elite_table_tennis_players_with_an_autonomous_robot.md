@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: [ace]
+hardware_used: [table_tennis_robots]
 simulators_used: [table_tennis_simulation]
 doi: "10.1038/s41586-026-10338-5"
 ---
@@ -56,6 +57,11 @@ Ace won points more through consistent returns and spin diversity than through o
 ## Datasets Used
 
 The paper reports that all data needed to evaluate the conclusions are present in the paper or supplementary materials. It does not introduce a named static dataset page for the wiki.
+
+## Hardware Used
+
+- [[table_tennis_robots]]
+
 
 ## Related Work
 

@@ -1,9 +1,9 @@
 ---
 tags: [paper]
-date: 2026-05-07
+date: 2026-05-26
 task: Highly_dynamic_autonomous_system
 venue: "Nature 2023"
-sources: 1
+sources: 2
 year: "2023"
 topic:
   - autonomous_drone_racing
@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [swift_drone_racing_data]
 models_used: [swift]
+hardware_used: [drones]
 simulators_used: [quadrotor_simulation]
 doi: "10.1038/s41586-023-06419-4"
 ---
@@ -54,6 +55,14 @@ Segment analysis shows Swift gaining time at the start and in tight turns, espec
 ## Datasets Used
 
 - [[swift_drone_racing_data]]: motion-capture recordings and analysis code released on Zenodo.
+
+## Hardware Used
+
+- [[drones]]
+
+## Funding / Grants
+
+- Supported by the European Research Council (ERC) Consolidator Grant [[agileflight]].
 
 ## Related Work
 

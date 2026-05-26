@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: [gt_sophy]
+hardware_used: [drones]
 simulators_used: [gran_turismo_sport]
 doi: "10.1038/s41586-021-04357-7"
 ---
@@ -61,6 +62,11 @@ The agent learned tactical behaviors including contextual corner passing, slipst
 ## Datasets Used
 
 The paper reports no static dataset. Training data are generated from scratch during learning. Race videos are available through the public GT Sophy project page.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

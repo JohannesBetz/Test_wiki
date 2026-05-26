@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -50,6 +51,11 @@ The paper evaluates `TraD-RL` in a high-fidelity simulator modeled after the Ber
 The ablation study is the most informative part. According to the authors, trajectory guidance prevents conservative local optima and improves exploration efficiency, while the dynamics-constraints module suppresses hazardous behaviors such as excessive yaw rate, large sideslip, and tail-happy instability.
 
 The conclusion frames the result as a synergistic performance-safety optimization: guidance helps the policy find faster solutions, and explicit constraints keep those solutions inside a safe dynamic envelope.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

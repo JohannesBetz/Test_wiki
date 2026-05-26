@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: []
 simulators_used: []
 ---
 
@@ -55,6 +56,11 @@ The paper also discusses future directions and grand challenges for embodied aut
 This paper is not about autonomous racing directly, but it is useful as conceptual scaffolding. Racing systems are usually built around explicit performance objectives such as lap time, safety, and constraint satisfaction. This review asks what changes when autonomy is grounded first in internal regulation and survival.
 
 That makes it a useful companion to [[cognitive_navigation_review]] and to the broader stack summarized in [[autonomous_vehicles_on_the_edge]], especially when thinking about robustness, adaptation, and embodied agency.
+
+## Hardware Used
+
+- No specific demonstration hardware is identified on the current page.
+
 
 ## Notes / Critique
 

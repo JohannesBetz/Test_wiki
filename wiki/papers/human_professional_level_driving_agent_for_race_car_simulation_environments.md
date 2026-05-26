@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: [torcs]
 ---
 
@@ -48,6 +49,11 @@ The paper compares the best learned lap with the best lap of a human champion an
 The deeper contribution is the driving-style analysis. The authors show that the agent can learn expert-like ideas such as using track width and operating near the grip limit, but it also develops distinctly simulator-driven artifacts. These include extremely sharp steering changes enabled by missing actuator rate limits and braking patterns that can induce full wheel lock yet still remain competitive in the simulator.
 
 That makes the result more nuanced than a simple “agent beats human” story. The paper is as much about understanding what simulator RL actually learns as it is about headline performance.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

@@ -18,6 +18,16 @@ For [[autonomous_vehicle_racing]], this expertise is useful as a design target: 
 
 [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]] operationalizes these ideas in [[apex]], translating expert-driver learning into experience-driven initialization, observation-driven adaptation, and anticipation-driven prediction.
 
+[[benchmarking_of_a_software_stack_for_autonomous_racing_against_a_professional_human]] adds an earlier benchmarking-oriented translation: before autonomy can claim human-like limit handling, it helps to compare the software stack directly against a professional race driver and inspect the resulting telemetry gap.
+
+[[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of_machine_performance_against_human_drivers]] adds a broader comparative-analysis translation: beyond one stack-versus-one-driver benchmark, the field also needs a clearer account of which dimensions of racing performance still remain unevenly human.
+
+[[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]] adds a more future-facing translation: the question is not only where the gap currently is, but what would count as meaningful machine competition inside motorsport once autonomous systems become visible participants rather than only engineering experiments.
+
+[[efficient_trajectory_optimization_for_autonomous_racing_via_formula_1_data_driven_initialization]] adds a narrower planning-oriented translation: expert Formula 1 behavior may be useful not only as inspiration for autonomous learning loops, but also as direct initialization structure for racing trajectory optimization.
+
+[[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]] adds a coaching-oriented perspective: rather than extracting driver expertise to improve autonomous software directly, it uses data-driven classification, counterfactual explanation, and language feedback to help novice humans move toward expert corner behavior.
+
 Important recurring skills include:
 
 - Fusing many feedback channels to detect the limit.
@@ -35,13 +45,24 @@ For [[autonomous_racing_planning]], professional-driver behavior motivates self-
 
 For [[autonomous_racing_control]], the main implication is that at-limit operation needs situation-aware prioritization between stability, path tracking, speed tracking, and track limits.
 
+[[main_concept_for_high_speed_autonomous_systems]] generalizes this lesson: expert performance is fundamentally about adaptive limit handling, and autonomous systems need a machine equivalent of that skill.
+
+[[experience_as_a_central_element_in_autonomous_systems]] makes the parallel explicit: in this branch of the vault, experience is not just what humans have, but what autonomous systems increasingly need in order to refine competence under real conditions.
+
 ## Representative Papers
 
 - [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
 - [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]]
 - [[benchmarking_of_a_software_stack_for_autonomous_racing_against_a_professional_human]]
+- [[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of_machine_performance_against_human_drivers]]
+- [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]]
 - [[what_makes_a_good_driver_on_public_roads_and_race_tracks_an]]
+- [[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]]
 
 ## Open Problems
 
 Open problems include robust fused limit detection, autonomous exploration of the vehicle limit, local grip estimation before enough laps are available, learning when and how to use curbs, and translating human intuition into interpretable planning/control modules.
+
+The AI-coaching perspective adds another question: how can expert behavior be translated into feedback that actually changes a learner's driving rather than only describing it after the fact?
+
+The benchmarking perspective adds a neighboring question: what is the right evaluation protocol for comparing human and autonomous at-limit driving without reducing the comparison to lap time alone?

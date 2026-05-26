@@ -21,6 +21,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -55,6 +56,11 @@ Finally, the lateral acceleration is corrected into the velocity-vector frame so
 The method is validated on a simplified force-constrained point-mass vehicle with an analytical G-G envelope. The generated simulation points closely match the analytical boundary, supporting the correctness of the ramp-steer and detection procedure.
 
 The authors also apply the workflow to a high-fidelity two-track race-car model with speed- and pitch-dependent aerodynamics. Compared with a fixed-aerodynamics baseline, the generated envelopes show small but meaningful changes in forward acceleration, braking potential, and combined acceleration regions. This demonstrates why black-box simulation can be valuable: model complexity can be added without deriving a differentiable optimization model for every subsystem.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

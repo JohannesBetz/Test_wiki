@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: [abu_dhabi_autonomous_racing_league]
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -58,6 +59,11 @@ The best runtime tradeoff is achieved by expanding only the lowest-cost 10% of f
 With opponent prediction errors, the multi-stage planner completes the lap without collisions, while the single-stage and hybrid graph planners record collisions. In 100 reactive-opponent runs, the multi-stage planner achieves 93 successful overtakes with 2 collisions, versus 87 overtakes and 8 collisions for the single-stage planner.
 
 Closed-loop high-fidelity simulation confirms that the generated trajectories are dynamically feasible and trackable with an MPC controller.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

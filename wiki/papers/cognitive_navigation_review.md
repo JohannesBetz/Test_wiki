@@ -20,6 +20,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [mobile_robots]
 simulators_used: []
 ---
 
@@ -54,6 +55,11 @@ Its future-work framing is especially notable. The authors emphasize a cognitive
 This paper is broader than autonomous racing, but it is still helpful as a conceptual reference. Racing systems are often implemented as separate perception, planning, and control modules; this review provides a language for thinking about how those modules should behave as one integrated cognitive loop.
 
 It is therefore a good companion to [[autonomous_vehicles_on_the_edge]], especially when comparing classical autonomy pipelines with learned or hybrid systems that blur module boundaries.
+
+## Hardware Used
+
+- [[mobile_robots]]
+
 
 ## Notes / Critique
 

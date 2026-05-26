@@ -22,6 +22,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: [carla, f1tenth_gym, roborace_simulator, svl_simulator, torcs]
 ---
 
@@ -55,6 +56,11 @@ For hardware, it compares small-scale platforms and full-size racing platforms b
 ## Datasets Used
 
 The survey does not center a benchmark dataset. It highlights the lack of public datasets for high-speed autonomous racing perception and notes that this limits systematic progress on racing-specific sensing and detection.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

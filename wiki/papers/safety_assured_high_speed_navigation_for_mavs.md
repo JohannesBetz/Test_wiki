@@ -17,6 +17,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: [super]
+hardware_used: [drones]
 simulators_used: []
 ---
 
@@ -54,6 +55,11 @@ The paper also demonstrates abilities that are especially relevant for real depl
 - avoiding thin obstacles such as wires down to 2.5 mm,
 - navigating through dense wooded clutter and narrow spaces,
 - and supporting applied tasks such as target tracking, waypoint following, and autonomous exploration.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

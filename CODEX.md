@@ -17,16 +17,19 @@ The wiki accumulates knowledge from individual papers, datasets, and resources c
 | ------------------ | ------ | --------------------------------------------------------------------------|
 | `raw/`             | User   | Source documents — immutable, never modified by Codex                     |
 | `raw/assets/`      | User   | Downloaded images from articles                                           |
+| `raw/grants/`      | User   | Existing Grants, summary of grants, full grants, ERC Grants               |
 | `Racing-Survey/`   | User   | The survey repo — use as reference but do not modify                      |
 | `wiki/`            | Codex | All generated markdown pages                                               |
 | `wiki/sources/`    | Codex | One summary page per ingested source, grouped by venue                     |
+| `wiki/grant/`      | Codex | One summary page per grant (ERC Grant, DFG Grant)                          |
 | `wiki/papers/`     | Codex | Deep-dive pages on individual papers                                       |
 | `wiki/models/`     | Codex | Pages for algorithms (LLMs, VLMs, DMs, WMs)                                |
 | `wiki/datasets/`   | Codex | Pages for datasets, each with "Papers using this" list                     |
+| `wiki/hardware/`   | Codex | Pages for hardware used: Race car, humanoid, quadruped, drone              |
 | `wiki/simulators/` | Codex | Pages for simulation platforms, with paper lists                           |
 | `wiki/concepts/`   | Codex | FM-type taxonomy only (LLM, VLM, MLLM, DM, WM, VLA)                        |
 | `wiki/topics/`     | Codex | Research objectives (algorithms, analysis, deployment, application, etc.)  |
-| `wiki/techniques/` | Codex | Cross-cutting methods (diffusion, BEV, LoRA, NeRF, etc.)                   |
+| `wiki/techniques/` | Codex | Cross-cutting methods (diffusion, MPC, RL, )                   |
 | `wiki/analyses/`   | Codex | Saved query answers and comparative analyses                               |
 | `index.md`         | Codex | Content catalog — updated on every ingest                                  |
 | `log.md`           | Codex | Append-only chronological log                                              |
@@ -37,12 +40,12 @@ The wiki accumulates knowledge from individual papers, datasets, and resources c
 
 **Filenames:** snake_case, e.g. `chatscene.md`, `nuscenes_dataset.md`, `scenario_generation_llm.md`
 
-**Internal links:** Obsidian wikilink style — `[[page_name]]` or `[[page_name|display text]]`
+**Internal links:** Obsidian wikilink style — `\[\[page_name\]\]` or `\[\[page_name|display text\]\]`
 
 **Frontmatter** (add to every wiki page):
 ```yaml
 ---
-tags: [paper|model|dataset|simulator|concept|topic|technique|analysis|source]
+tags: [paper|model|dataset|simulator|concept|topic|technique|analysis|source|grant]
 date: YYYY-MM-DD
 fm_type: LLM|VLM|MLLM|DM|WM            # for paper/model pages
 task: autonomous_racing |highly_dynamic_autonomous_system|both  # for paper pages
@@ -71,6 +74,18 @@ simulators_used: [carla|metadrive|sumo|waymax]
 ---
 ```
 
+**Grant pages** in `wiki/grant/` may additionally use:
+```yaml
+grant_id: "864042"
+acronym: "AGILEFLIGHT"
+coordinator: "Davide Scaramuzza"
+host_institution: "Universitat Zurich"
+start_date: "2020-09-01"
+end_date: "2025-08-31"
+funding_scheme: "ERC-COG - Consolidator Grant"
+total_budget: "2,000,000.00 EUR"
+```
+
 **Headings:** Use `##` for top-level sections (page title is `#`).
 
 **Cross-references:** Always wikilink: model names, dataset names, paper nicknames, concept terms. When creating a new page, add backlinks in related existing pages.
@@ -79,7 +94,7 @@ simulators_used: [carla|metadrive|sumo|waymax]
 ```markdown
 # Paper Nickname (Year)
 
-> Full title | Venue | [[Author]] et al.
+> Full title | Venue | `\[\[Author\]\]` et al.
 
 ## Summary
 ## Method
@@ -99,6 +114,18 @@ simulators_used: [carla|metadrive|sumo|waymax]
 ## Open Problems
 ```
 
+**Grant page format:**
+```markdown
+# GRANT_ACRONYM
+
+## Project Metadata
+## Objective
+## Relevance to the Vault
+## Key Project Publications
+## Related Models / Topics / Techniques
+## Notes
+```
+
 ---
 
 ## Domain Entities
@@ -111,6 +138,7 @@ Track these as first-class wiki pages:
 | Foundation Models | GPT-4, CLIP, Stable Diffusion, UniAD | `wiki/models/` |
 | Datasets | nuScenes, CARLA, Waymo OD | `wiki/datasets/` |
 | Simulators | CARLA, SUMO, LGSVL | `wiki/simulators/` |
+| Grants | ERC, DFG, Horizon Europe projects | `wiki/grant/` |
 | FM-type concepts | LLM, VLM, MLLM, DM, WM | `wiki/concepts/` |
 | Research topics | Scenario generation, safety-critical, VQA | `wiki/topics/` |
 | Techniques | Diffusion, BEV, LoRA, NeRF, CoT | `wiki/techniques/` |
@@ -153,6 +181,56 @@ When the user says `ingest raw/<filename>`, follow these steps in order:
 
 A single source may touch 10–20 wiki pages. That's expected and good.
 
+### Grant Ingest Workflow
+
+When the user says `ingest raw/grants/<filename>`, decide which of these two cases it is:
+
+1. **Grant fact sheet / project summary / award document**
+2. **Grant publication list / project bibliography / grant output index**
+
+Then follow the matching workflow:
+
+#### A. Grant fact sheet / project summary
+
+1. **Read** the source file at `raw/grants/<filename>`
+2. **Create or update** `wiki/grant/<slug>.md` with `tags: [grant]`
+3. Capture the key metadata when recoverable:
+   - title
+   - acronym
+   - grant ID
+   - coordinator / PI
+   - host institution
+   - funding scheme
+   - start/end dates
+   - total budget
+4. Add:
+   - `## Objective`
+   - `## Relevance to the Vault`
+   - `## Key Project Publications` (if known)
+   - `## Related Models / Topics / Techniques`
+5. **Link the grant page back** into already known funded papers, models, topics, and techniques via a `## Funding / Grants` section where appropriate
+6. **Update** `index.md` under `## Grants`
+7. **Append** to `log.md`
+
+#### B. Grant publication list / bibliography / output index
+
+1. **Read** the source file at `raw/grants/<filename>`
+2. **Create** a source-style registry page in `wiki/sources/<slug>.md` with `tags: [source]`
+3. **Update** the corresponding `wiki/grant/<slug>.md` page with a structured publication overview
+4. **Create or upgrade** deep paper pages for the most important publications in the grant output
+5. **Create or update** technique/model/topic pages that emerge repeatedly from the grant portfolio
+6. Add `## Funding / Grants` backlinks on funded paper or model pages when the support relationship is explicit enough
+7. **Update** `index.md` under both `## Sources` and `## Grants`
+8. **Append** to `log.md`
+
+### Grant Linking Rules
+
+- Use `wiki/grant/` for the grant itself, not `wiki/sources/`
+- Use `wiki/sources/` for publication lists, grant bibliographies, or grant-output compilations
+- Add `## Funding / Grants` only when the funding relationship is explicit in the source or strongly established by the project context
+- Grants are first-class context objects: link them to papers, models, datasets, topics, and techniques when they explain why a research branch exists or coheres
+- Prefer one canonical grant page per project acronym or grant ID, then update it over time instead of creating duplicates
+
 ---
 
 ## Query Workflow
@@ -165,10 +243,11 @@ When the user asks a question:
 4. **Offer to file the answer** as `wiki/analyses/<slug>.md` — comparative analyses are reusable
 
 Example queries this wiki is optimized for:
-- "What are the main LLM-based approaches to safety-critical scenario generation?"
-- "How do diffusion models compare to LLMs for scenario generation?"
-- "Which papers use CARLA for closed-loop evaluation?"
-- "What datasets are most commonly used for scenario analysis benchmarks?"
+- "What are the main approaches to enable autonomous racing?"
+- "Which papers use CARLA for simulation?"
+- "What datasets are most commonly used for autonomous racing?"
+- "Which papers came out of AGILEFLIGHT or another ERC grant?"
+- "Which grant seems to have driven the strongest work on agile drone flight?"
 
 ---
 

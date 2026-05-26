@@ -21,6 +21,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [cars_and_race_cars]
 simulators_used: []
 ---
 
@@ -57,6 +58,11 @@ The offline minimum-lap-time solution using the paper's own kineto-dynamical mod
 Compared with the 3D point-mass benchmark from Rowold et al., the proposed method is better in closed loop. The benchmark appears faster offline because it overestimates the feasible acceleration envelope, but once executed online it laps in 116.110 s, which is 0.788 s slower than the proposed system.
 
 The paper also shows the value of true 3D geometry. On an artificial 2D Mugello version, the learned driver laps in 118.839 s, while on the real 3D track it improves to 115.322 s by exploiting banking and slope for additional cornering and braking performance.
+
+## Hardware Used
+
+- [[cars_and_race_cars]]
+
 
 ## Related Work
 

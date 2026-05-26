@@ -22,6 +22,8 @@ This differs from more classical racing pipelines, where perception, localizatio
 
 This technique belongs near [[foundation_models_for_intelligent_decision_making]], [[end_to_end_autonomous_racing]], and [[autonomous_drone_racing]].
 
+It can also be read as the next step after [[large_language_models]] and [[vision_language_models]]: instead of stopping at reasoning or grounding, a `VLA` turns multimodal context into direct action.
+
 Its promise is broader transfer and easier task conditioning than narrow task-specific controllers. Its risk is that high-speed embodied domains expose latency, distribution shift, and action-reliability failures much more harshly than slower tabletop or manipulation settings.
 
 ## Representative Papers

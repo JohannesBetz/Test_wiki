@@ -18,6 +18,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [drones]
 simulators_used: [gran_turismo_sport]
 ---
 
@@ -46,6 +47,11 @@ The paper evaluates the agent in Gran Turismo 7 against 19 built-in AI opponents
 The paper also reports ablations showing that the asymmetric architecture, recurrent memory module, and regularization strategies each contribute meaningfully to performance.
 
 The broader claim is that this is the first vision-based autonomous racing agent to demonstrate champion-level competitive performance in multi-opponent racing scenarios.
+
+## Hardware Used
+
+- [[drones]]
+
 
 ## Related Work
 

@@ -46,6 +46,10 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 
 [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]] adds a different multi-agent planning route: [[dynamic_near_potential_functions]] use offline-learned game surrogates so the online planner can approximate Nash-equilibrium maneuver parameters for overtaking and blocking while still executing through MPC.
 
+[[learning_what_they_pretend_to_think_adversarial_tom_for_safety_critical_driving_policies]] adds an adjacent intent-modeling route from safety-critical driving: [[adversarial_theory_of_mind]] suggests that a planner may need to reason about what another vehicle is strategically signaling or concealing, not only about its most likely geometric future.
+
+[[robust_spatiotemporal_motion_planning_for_multi_agent_autonomous_racing_via_topological_gap_identification_and_accelerated_mpc]] adds a corridor-selection route for dense racing interaction: [[robust_spatiotemporal_motion_planning]] emphasizes that a planner may need to identify topologically distinct space-time gaps between moving vehicles and commit to one quickly enough for MPC-based execution to exploit it.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -87,3 +91,5 @@ Neural nonlinear opinion dynamics adds an abstraction tradeoff: fast opinion-sta
 Sportsmanship-aware planning adds a norm-formalization tradeoff: explicit racecraft rules make behavior more inspectable, but planners still need a principled way to encode subjective steward judgments and keep the resulting games tractable in dense multi-car settings.
 
 Near-potential planning adds a representation tradeoff: moving game computation offline improves real-time feasibility, but the final behavior is only as expressive as the learned surrogate and the compact maneuver-parameter space it optimizes over.
+
+Robust spatiotemporal planning adds a corridor-selection tradeoff: explicit gap topology may improve overtaking clarity and robustness, but the planner still has to decide how early to commit to one evolving space-time corridor when surrounding agents may react.

@@ -17,6 +17,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: []
 simulators_used: []
 ---
 
@@ -56,6 +57,11 @@ The major reported findings are:
 - and LLMs do not meaningfully reflect strong human player-trait differences such as extreme pacifism or aggressiveness.
 
 The main practical conclusion is caution: even when a model appears broadly aligned with expert choices at a coarse level, its finer strategic tendencies may still be badly mismatched for real high-stakes use.
+
+## Hardware Used
+
+- No specific demonstration hardware is identified on the current page.
+
 
 ## Related Work
 

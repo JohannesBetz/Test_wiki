@@ -19,6 +19,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: [mobile_robots]
 simulators_used: []
 ---
 
@@ -50,6 +51,11 @@ The embodied-intelligence framing matters here because the paper is not only cat
 As a survey, the main result is synthesis rather than a benchmark. The paper's contribution is to show how learning methods are reshaping planning and control for mobile robots and to position that trend within the broader embodied-intelligence agenda.
 
 For this vault, the most useful result is conceptual: it gives a cleaner map of how learning-based control and planning fit between classical robotics and newer embodied-autonomy views.
+
+## Hardware Used
+
+- [[mobile_robots]]
+
 
 ## Related Work
 

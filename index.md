@@ -5,6 +5,7 @@
 - [[autonomous_vehicles_on_the_edge_survey|Autonomous Vehicles on the Edge Survey]] — foundational survey of autonomous vehicle racing through 2021.
 - [[autonomous_racing_survey_bibliography|Autonomous Racing Survey Bibliography]] — normalized registry for the BibTeX file in `Racing-Survey/`.
 - [[scaramuzza_champion_level_drone_racing|Champion-Level Drone Racing Source]] — Nature paper on Swift, an onboard autonomous FPV drone-racing system.
+- [[agileflight_publications|AGILEFLIGHT Publications Source]] — compiled publication listing of 72 papers from the UZH RPG group funded by the AGILEFLIGHT grant.
 - [[wurman_outracing_gran_turismo|Outracing Gran Turismo Source]] — Nature paper on GT Sophy, a championship-level Gran Turismo racing agent.
 - [[wurman_outplaying_tennis_player|Outplaying Table Tennis Source]] — Nature paper on Ace, an autonomous table-tennis robot.
 - [[hou_orchestrating_cognitive_skill_distillation|Orchestrating Cognitive Skill Distillation Source]] — manuscript on CSDAL for autonomous racing policy learning.
@@ -34,19 +35,107 @@
 - [[authier_carcelen_enhancing_generalization|Authier-Carcelen Enhancing Generalization Source]] — track-agnostic PPO for zero-shot transfer across unseen racing tracks in 2D and TrackMania.
 - [[tang_drl_survey|Tang DRL Survey Source]] — broad survey of which deep-RL robotics results have actually succeeded in the physical world.
 - [[ren_safety_assured_mavs|Ren Safety Assured MAVs Source]] — Science Robotics paper on the SUPER drone for safety-assured >20 m/s navigation in unknown clutter.
+- [[falanga_how_fast_is_too_fast|Falanga How Fast Is Too Fast Source]] — RA-L paper on how perception latency and sensing range constrain safe high-speed sense-and-avoid flight.
 - [[huang_fms_challenges_and_perspectives|Huang FMs Challenges and Perspectives Source]] — broad review of foundation models as substrates for intelligent decision-making.
 - [[hanover_autonomous_drone_racing_survey|Hanover Autonomous Drone Racing Survey Source]] — field survey of autonomous drone racing as a benchmark for agile onboard autonomy.
+- [[long_hybrid_internal_model|Long Hybrid Internal Model Source]] — ICLR 2024 paper on learning agile quadruped locomotion through a disturbance-aware hybrid internal response model.
+- [[long_learning_humanoid_locomotion|Long Learning Humanoid Locomotion Source]] — arXiv 2024 paper on learning humanoid locomotion through perceptive internal model state estimation and PPO.
 - [[lamparth_human_vs_machine|Lamparth Human vs Machine Source]] — empirical comparison of expert humans and LLMs in military-style wargame simulations.
+- [[modi_competitive_chess|Modi Competitive Chess Source]] — reflective paper on how Deep Blue, Stockfish, and AlphaZero changed competitive chess practice.
+- [[zilberman_agi_imagined|Zilberman AGI Imagined Source]] — conceptual paper on how theories of mind shape what researchers mean by AGI.
+- [[amaritei_humans_vs_machine_motorsport|Amaritei Humans vs. Machine Motorsport Source]] — future-facing motorsport paper asking whether autonomous vehicles can genuinely compete.
 - [[zubic_limits_deep_learning|Zubic Limits Deep Learning Source]] — theory-plus-experiments on why current sequence models fail at compositional reasoning.
 - [[serpiva_racevla|Serpiva RaceVLA Source]] — arXiv paper on adapting vision-language-action models to FPV racing-drone control.
 - [[bajcsy_learning_vision_based_pursuit_evasion|Bajcsy Vision-Based Pursuit-Evasion Source]] — ICRA paper on learning visually grounded pursuit-evasion behavior for a physical quadruped robot.
 - [[xiao_learning_multipursuit_evasion|Xiao Multi-Pursuit Evasion Source]] — TAI paper on multi-stage adversarial RL for safe target-reaching drone evasion.
 - [[wang_learning_motion_planning_control_survey|Wang Learning Motion Planning and Control Survey Source]] — TNNLS survey on learning-based motion planning and control for mobile robots under embodied-intelligence framing.
+- [[bae_driver_training_counterfactual_language_guidance|Bae Driver Training Source]] — IEEE Access paper on counterfactual and language-guided AI coaching for racing drivers.
+- [[lipschitz_regularized_autonomous_racing_mpc|Lipschitz-Regularized Autonomous Racing MPC Source]] — RA-L preprint on making learned racing dynamics more MPC-friendly through Lipschitz regularization.
+- [[salzmann_real_time_neural_mpc|Salzmann Real-Time Neural MPC Source]] — RA-L paper on distilling MPC into a neural controller for quadrotors and agile robotic platforms.
+- [[baumann_forzaeth_stack|Baumann ForzaETH Stack Source]] — Journal of Field Robotics paper on a reproducible 1:10 head-to-head autonomous racing stack built on commercial hardware.
+- [[behl_deep_dynamics|Behl Deep Dynamics Source]] — RA-L paper on physics-constrained neural vehicle dynamics modeling for autonomous racing.
+- [[djeumou_one_model_to_drift_them_all|Djeumou One Model to Drift Them All Source]] — CoRL 2024 / PMLR 2025 paper on diffusion-conditioned, physics-informed learned dynamics for cross-vehicle autonomous drifting.
+- [[lew_risk_averse_mpc_adverse_conditions|Lew Risk-Averse MPC Adverse Conditions Source]] — ICRA 2025 paper on CVaR-based racing MPC under uncertain friction and tire parameters.
+- [[atreya_high_speed_accurate_robot_control|Atreya High-Speed Accurate Robot Control Source]] — IROS 2022 paper on reusable learned forward kinodynamic control for 1:10-scale high-speed robots.
+- [[raji_er_autopilot_1_1|Raji er.autopilot 1.1 Source]] — full-scale IAC stack paper on oval and road-course autonomous racing in IEEE Transactions on Field Robotics.
+- [[lee_terrain_aware_kinodynamic_model_mppi|Lee Terrain-Aware Kinodynamic Model MPPI Source]] — RA-L paper on learned terrain-aware rally dynamics with path-integral control.
+- [[kawaharazuka_real_world_robot_foundation_models|Kawaharazuka Real-World Robot Foundation Models Source]] — Advanced Robotics review of how foundation models are actually being deployed on physical robots.
+- [[francis_towards_general_robots_with_foundation_models|Francis Towards General Robots With Foundation Models Source]] — survey and meta-analysis on foundation models as a route toward more general-purpose robots.
+- [[zhao_harmonized_beyond_the_limit_control|Zhao Harmonized Beyond-the-Limit Control Source]] — T-ITS paper on hybrid/RL control that co-optimizes performance and safety beyond the handling limit.
+- [[firoozi_foundation_models_in_robotics|Firoozi Foundation Models in Robotics Source]] — IJRR survey on applications, challenges, and future directions for foundation models across robotics.
+- [[bosello_race_against_the_machine|Bosello Race Against the Machine Source]] — RA-L dataset paper on open annotated autonomous and piloted high-speed flight.
+- [[ferrag_llm_ai_agents_autonomous_systems|Ferrag LLM and AI Agents for Autonomous Systems Source]] — OJITS survey on applications, datasets, and security challenges for agentic autonomy.
+- [[wang_dashing_for_the_golden_snitch|Wang Dashing for the Golden Snitch Source]] — ICRA paper on multi-drone time-optimal motion planning with multi-agent reinforcement learning.
+- [[kim_high_speed_control_quadrupeds|Kim High-Speed Control Quadrupeds Source]] — arXiv paper on fast control and navigation for quadrupedal robots on complex discrete terrain.
+- [[margolis_rapid_locomotion_quadruped|Margolis Rapid Locomotion Quadruped Source]] — arXiv paper on rapid learned quadruped locomotion with curriculum RL and sim-to-real transfer.
+- [[kim_highly_dynamic_locomotion_quadruped|Kim Highly Dynamic Locomotion Quadruped Source]] — arXiv paper on Mini Cheetah locomotion via whole-body impulse control and MPC.
+- [[kumar_rapid_motor_adaptation_legged_robots|Kumar Rapid Motor Adaptation Legged Robots Source]] — RSS paper on online latent adaptation for legged locomotion on the Unitree A1.
+- [[miki_robust_perceptive_locomotion|Miki Robust Perceptive Locomotion Source]] — Science Robotics paper on perception-fused quadruped locomotion on ANYmal in the wild.
+- [[grandia_perceptive_locomotion_nmpc|Grandia Perceptive Locomotion NMPC Source]] — T-RO paper on terrain-constrained online NMPC for perceptive quadruped locomotion on ANYmal.
+- [[he_attention_based_locomotion|He Attention-Based Locomotion Source]] — Science Robotics paper on attention-based terrain encoding for generalized legged locomotion across quadruped and humanoid robots.
+- [[wu_humanoid_parkour|Wu Humanoid Parkour Source]] — arXiv paper on perceptive humanoid parkour through chaining dynamic human skills via motion matching.
+- [[radosavovic_realworld_locomotion_rl|Radosavovic Real-World Locomotion RL Source]] — Science Robotics paper on zero-shot real-world humanoid locomotion from large-scale reinforcement learning.
+- [[zhuang_humanoid_parkour_learning|Zhuang Humanoid Parkour Learning Source]] — CoRL paper on end-to-end visuomotor humanoid parkour with one multi-skill whole-body policy.
+- [[haarnoja_learning_agile_soccer|Haarnoja Learning Agile Soccer Source]] — Science Robotics paper on agile soccer skills for a bipedal robot learned with deep reinforcement learning.
+- [[zhuang_robot_parkour_learning|Zhuang Robot Parkour Learning Source]] — CoRL paper on a single end-to-end vision-based parkour policy for low-cost quadrupedal robots.
+- [[wang_beamdojo|Wang BeamDojo Source]] — RSS 2025 paper on agile humanoid locomotion over sparse footholds with RL and LiDAR terrain perception.
+- [[he_agile_but_safe|He Agile But Safe Source]] — RSS 2024 paper on collision-free high-speed quadruped locomotion via agile/recovery policy switching.
+- [[agrawal_legged_locomotion_challenging_terrains|Agrawal Legged Locomotion Challenging Terrains Source]] — CoRL 2023 paper on quadruped locomotion over challenging terrain using egocentric vision.
+- [[caluwaerts_barkour_benchmark|Caluwaerts Barkour Benchmark Source]] — arXiv 2023 paper introducing Barkour, a quadruped agility benchmark and baseline learning methods.
+- [[wu_adversarial_motion_priors|Wu Adversarial Motion Priors Source]] — IEEE RA-L 2023 paper on robust and agile legged locomotion via adversarial motion priors.
+- [[kang_animal_gaits_motion_matching|Kang Animal Gaits Motion Matching Source]] — IROS 2021 paper on animal-inspired quadruped gaits via motion matching and model-based control.
+- [[yu_learning_visual_parkour_generated_images|Yu Learning Visual Parkour from Generated Images Source]] — CoRL 2024 paper on RGB-only quadruped parkour trained from generated egocentric images.
+- [[zhu_hiking_in_the_wild|Zhu Hiking in the Wild Source]] — arXiv 2026 paper on perceptive humanoid hiking in unstructured terrain from raw depth and proprioception.
+- [[zhang_hub_extreme_humanoid_balance|Zhang HuB Extreme Humanoid Balance Source]] — CoRL 2025 paper on robust extreme balance skills for a Unitree G1 humanoid.
+- [[xie_kungfubot|Xie KungfuBot Source]] — NeurIPS 2025 paper on highly dynamic humanoid whole-body skill learning through physics-based control.
+- [[wang_phyhsi|Wang PhyHSI Source]] — arXiv 2025 paper on real-world generalizable humanoid-scene interaction.
+- [[pan_agility_meets_stability|Pan Agility Meets Stability Source]] — arXiv 2025 paper on versatile humanoid control with heterogeneous data.
+- [[luo_sonic_motion_tracking|Luo SONIC Motion Tracking Source]] — arXiv 2025 paper on supersized motion tracking for natural humanoid whole-body control.
+- [[luo_pie|Luo PIE Source]] — IEEE RA-L 2024 paper on implicit-explicit parkour learning for legged robots.
+- [[hermansdorfer_benchmarking_man_vs_machine|Hermansdorfer Benchmarking Man Vs Machine Source]] — EVER 2020 paper benchmarking an autonomous racing stack against a professional human race driver.
+- [[alcala_human_machine_gap|Alcala Human-Machine Gap Source]] — IEEE Access 2024 paper on the comparative human-machine performance gap in car racing.
+- [[cheng_extreme_parkour|Cheng Extreme Parkour Source]] — arXiv 2023 paper on extreme quadruped parkour with noisy low-cost hardware.
+- [[fu_humanplus|Fu HumanPlus Source]] — CoRL 2024 paper on humanoid shadowing and imitation from humans.
+- [[kalaria_dreamcontrol|Kalaria DreamControl Source]] — arXiv 2025 paper on guided-diffusion humanoid scene interaction control.
+- [[liao_beyondmimic|Liao BeyondMimic Source]] — arXiv 2025 paper on guided-diffusion humanoid control beyond motion tracking.
+- [[xu_parc_physics_based_rl|Xu PARC Physics-Based RL Source]] — SIGGRAPH 2025 paper on physics-based augmentation with reinforcement learning for agile character controllers.
+- [[bi_learning_what_they_pretend_to_think|Bi Adversarial ToM Source]] — safety-critical driving paper on adversarial theory-of-mind reasoning under strategic interaction.
+- [[zhang_robust_spatiotemporal_planning|Zhang Robust Spatiotemporal Planning Source]] — arXiv paper on topological gap identification with accelerated MPC for multi-agent autonomous racing.
+- [[shehadeh_f1data_to_f1tenth|Shehadeh F1Data-to-F1Tenth Source]] — arXiv paper on trajectory-optimization initialization from expert Formula 1 data.
+- [[wu_on_track_system_identification|Wu On-Track System Identification Source]] — arXiv paper on vision-augmented on-track system identification with attention-based priors and iterative neural correction.
+- [[papuc_strategizing_at_speed|Papuc Strategizing at Speed Source]] — arXiv paper on a learned model-predictive game for multi-agent drone racing.
+- [[ju_behavior_constraint_rl|Ju Behavior-Constrained RL Source]] — arXiv paper on behavior-constrained RL with receding-horizon credit assignment for high-performance control.
+- [[huang_fael|Huang FAEL Source]] — mobile-robot paper on fast autonomous exploration for large-scale environments.
+- [[xiao_agile_robot_navigation|Xiao Agile Robot Navigation Source]] — agile-navigation paper on hallucinated learning with sober deployment.
+- [[hypractive_introduction|HYPRACTIVE Introduction Source]] — lightweight system-introduction document for HYPR's autonomous-mobility AI stack.
+
+## Grants
+
+- [[agileflight|AGILEFLIGHT]] — ERC Consolidator Grant (Davide Scaramuzza) for low-latency perception and action in agile vision-based flight.
+- [[interact|INTERACT]] — ERC Starting Grant on intuitive multi-robot interaction in human-centered environments.
+- [[lemo|LeMo]] — ERC Starting Grant on learned mobility and sim-to-real locomotion for real legged robots.
+- [[recover_me|RECOVER.ME]] — ERC Starting Grant on metacognition-enabled robotic failure comprehension and resilience.
+- [[siren|SIREN]] — ERC Starting Grant on structured interactive perception and holistic robotic embodied intelligence.
+- [[trust|TRUST]] — ERC Starting Grant on distributionally robust, data-driven control under uncertain probability models.
+
+## Hardware
+
+- [[cars_and_race_cars]]
+- [[drones]]
+- [[quadrupeds]]
+- [[humanoids]]
+- [[mobile_robots]]
+- [[table_tennis_robots]]
+- [[multiple_robot_embodiments]]
 
 ## Papers
 
 - [[autonomous_vehicles_on_the_edge|Autonomous Vehicles on the Edge (2023)]]
 - [[champion_level_drone_racing_using_deep_reinforcement_learning|Champion-Level Drone Racing Using Deep Reinforcement Learning (2023)]]
+- [[agilicious_open_source_and_open_hardware_agile_quadrotor_for_vision_based_flight|Agilicious: Open-Source and Open-Hardware Agile Quadrotor for Vision-Based Flight (2022)]]
+- [[actor_critic_model_predictive_control_differentiable_optimization_meets_reinforcement_learning_for_agile_flight|Actor-Critic Model Predictive Control (2025)]]
+- [[learning_agile_quadrotor_flight_in_the_real_world|Learning Agile Quadrotor Flight in the Real World (2026)]]
+- [[dream_to_fly_model_based_reinforcement_learning_for_vision_based_drone_flight|Dream to Fly: Model-Based Reinforcement Learning for Vision-Based Drone Flight (2026)]]
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning|Outracing Champion Gran Turismo Drivers With Deep Reinforcement Learning (2022)]]
 - [[outplaying_elite_table_tennis_players_with_an_autonomous_robot|Outplaying Elite Table Tennis Players With an Autonomous Robot (2026)]]
 - [[learn_consolidate_dominate_orchestrating_cognitive_skill_distillation_and_alternating_learning_for_autonomous_racing|Learn, Consolidate, Dominate (2026)]]
@@ -79,11 +168,66 @@
 - [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives|Foundation Models and Intelligent Decision-Making (2025)]]
 - [[autonomous_drone_racing_a_survey|Autonomous Drone Racing: A Survey (2024)]]
 - [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations|Human vs. Machine in Wargame Simulations (2024)]]
+- [[the_effects_of_computer_and_ai_engines_on_competitive_chess|The Effects of Computer and AI Engines on Competitive Chess (2023)]]
+- [[agi_imagined_how_is_agi_configured_by_the_theories_of_mind|AGI imagined: how is AGI configured by the theories of mind (2025)]]
+- [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete|(hu)Man vs. Machine: In the Future of Motorsport, can Autonomous Vehicles Compete? (2026)]]
 - [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory|Limits of Deep Learning in Sequence Modeling (2025)]]
 - [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour|RaceVLA (2025)]]
 - [[learning_vision_based_pursuit_evasion_robot_policies|Learning Vision-based Pursuit-Evasion Robot Policies (2024)]]
 - [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones|Learning Multipursuit Evasion for Safe Targeted Navigation of Drones (2024)]]
 - [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence|Learning Motion Planning and Control for Mobile Robots (2026)]]
+- [[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios|Data-Driven Driver Training via Counterfactual and Language-Based Guidance (2025)]]
+- [[lipschitz_regularized_learned_dynamics_for_autonomous_racing_mpc|Lipschitz-Regularized Learned Dynamics for Autonomous Racing MPC (2026)]]
+- [[real_time_neural_mpc_deep_learning_model_predictive_control_for_quadrotors_and_agile_robotic_platforms|Real-Time Neural MPC (2023)]]
+- [[forzaeth_race_stack_scaled_autonomous_head_to_head_racing_on_fully_commercial_off_the_shelf_hardware|ForzaETH Race Stack (2025)]]
+- [[deep_dynamics_vehicle_dynamics_modeling_with_a_physics_constrained_neural_network_for_autonomous_racing|Deep Dynamics (2024)]]
+- [[one_model_to_drift_them_all_physics_informed_conditional_diffusion_model_for_driving_at_the_limits|One Model to Drift Them All (2025)]]
+- [[risk_averse_model_predictive_control_for_racing_in_adverse_conditions|Risk-Averse MPC for Racing in Adverse Conditions (2025)]]
+- [[high_speed_accurate_robot_control_using_learned_forward_kinodynamics_and_non_linear_least_squares_optimization|High-Speed Accurate Robot Control (2022)]]
+- [[er_autopilot_1_1_a_software_stack_for_autonomous_racing_on_oval_and_road_course_tracks|er.autopilot 1.1 (2024)]]
+- [[learning_terrain_aware_kinodynamic_model_for_autonomous_off_road_rally_driving_with_model_predictive_path_integral_control|Learning Terrain-Aware Kinodynamic Model (2023)]]
+- [[real_world_robot_applications_of_foundation_models_a_review|Real-World Robot Applications of Foundation Models (2024)]]
+- [[towards_general_purpose_robots_via_foundation_models_a_survey_and_meta_analysis|Towards General-Purpose Robots via Foundation Models (2024)]]
+- [[a_harmonized_approach_beyond_the_limit_control_for_autonomous_vehicles_balancing_performance_and_safety_in_unpredictable_environments|A Harmonized Approach (2024)]]
+- [[foundation_models_in_robotics_applications_challenges_and_the_future|Foundation Models in Robotics (2025)]]
+- [[race_against_the_machine_a_fully_annotated_open_design_dataset_of_autonomous_and_piloted_high_speed_flight|Race Against the Machine (2024)]]
+- [[how_fast_is_too_fast_the_role_of_perception_latency_in_high|How Fast Is Too Fast? The Role of Perception Latency in High-Speed Sense and Avoid (2019)]]
+- [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges|LLM and AI Agents for Autonomous Systems (2026)]]
+- [[dashing_for_the_golden_snitch_multi_drone_time_optimal_motion_planning_with_multi_agent_reinforcement_learning|Dashing for the Golden Snitch (2025)]]
+- [[high_speed_control_and_navigation_for_quadrupedal_robots_on_complex_and_discrete_terrain|High-speed control and navigation for quadrupedal robots on complex and discrete terrain (2025)]]
+- [[rapid_locomotion_via_reinforcement_learning|Rapid Locomotion via Reinforcement Learning (2022)]]
+- [[hybrid_internal_model_learning_agile_legged_locomotion_with_simulated_robot_response|Hybrid Internal Model: Learning Agile Legged Locomotion with Simulated Robot Response (2024)]]
+- [[learning_humanoid_locomotion_with_perceptive_internal_model|Learning Humanoid Locomotion with Perceptive Internal Model (2024)]]
+- [[highly_dynamic_quadruped_locomotion_via_whole_body_impulse_control_and_model_predictive_control|Highly Dynamic Quadruped Locomotion via Whole-Body Impulse Control and Model Predictive Control (2019)]]
+- [[rma_rapid_motor_adaptation_for_legged_robots|RMA: Rapid Motor Adaptation for Legged Robots (2021)]]
+- [[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild|Learning robust perceptive locomotion for quadrupedal robots in the wild (2022)]]
+- [[legged_locomotion_in_challenging_terrains_using_egocentric_vision|Legged Locomotion in Challenging Terrains using Egocentric Vision (2023)]]
+- [[barkour_benchmarking_animal_level_agility_with_quadruped_robots|Barkour: Benchmarking Animal-level Agility with Quadruped Robots (2023)]]
+- [[learning_robust_and_agile_legged_locomotion_using_adversarial_motion_priors|Learning Robust and Agile Legged Locomotion Using Adversarial Motion Priors (2023)]]
+- [[animal_gaits_on_quadrupedal_robots_using_motion_matching_and_model_based_control|Animal Gaits on Quadrupedal Robots Using Motion Matching and Model-Based Control (2021)]]
+- [[learning_visual_parkour_from_generated_images|Learning Visual Parkour from Generated Images (2025)]]
+- [[pie_parkour_with_implicit_explicit_learning_framework_for_legged_robots|PIE: Parkour with Implicit-Explicit Learning Framework for Legged Robots (2024)]]
+- [[extreme_parkour_with_legged_robots|Extreme Parkour with Legged Robots (2023)]]
+- [[hiking_in_the_wild_a_scalable_perceptive_parkour_framework_for_humanoids|Hiking in the Wild: A Scalable Perceptive Parkour Framework for Humanoids (2026)]]
+- [[hub_learning_extreme_humanoid_balance|HuB: Learning Extreme Humanoid Balance (2025)]]
+- [[kungfubot_physics_based_humanoid_whole_body_control_for_learning_highly_dynamic_skills|KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills (2025)]]
+- [[physhsi_towards_a_real_world_generalizable_and_natural_humanoid_scene_interaction_system|PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System (2025)]]
+- [[agility_meets_stability_versatile_humanoid_control_with_heterogeneous_data|Agility Meets Stability: Versatile Humanoid Control with Heterogeneous Data (2025)]]
+- [[sonic_supersizing_motion_tracking_for_natural_humanoid_whole_body_control|SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control (2025)]]
+- [[humanplus_humanoid_shadowing_and_imitation_from_humans|HumanPlus: Humanoid Shadowing and Imitation from Humans (2025)]]
+- [[dreamcontrol_human_inspired_whole_body_humanoid_control_for_scene_interaction_via_guided_diffusion|DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion (2025)]]
+- [[beyondmimic_from_motion_tracking_to_versatile_humanoid_control_via_guided_diffusion|BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion (2025)]]
+- [[parc_physics_based_augmentation_with_reinforcement_learning_for_character_controllers|PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers (2025)]]
+- [[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of_machine_performance_against_human_drivers|On the Human-Machine Gap in Car Racing (2024)]]
+- [[perceptive_locomotion_through_nonlinear_model_predictive_control|Perceptive Locomotion Through Nonlinear Model-Predictive Control (2023)]]
+- [[attention_based_map_encoding_for_learning_generalized_legged_locomotion|Attention-Based Map Encoding for Learning Generalized Legged Locomotion (2025)]]
+- [[perceptive_humanoid_parkour_chaining_dynamic_human_skills_via_motion_matching|Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching (2026)]]
+- [[real_world_humanoid_locomotion_with_reinforcement_learning|Real-World Humanoid Locomotion with Reinforcement Learning (2024)]]
+- [[humanoid_parkour_learning|Humanoid Parkour Learning (2024)]]
+- [[beamdojo_learning_agile_humanoid_locomotion_on_sparse_footholds|BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds (2025)]]
+- [[learning_agile_soccer_skills_for_a_bipedal_robot_with_deep_reinforcement_learning|Learning Agile Soccer Skills for a Bipedal Robot with Deep Reinforcement Learning (2024)]]
+- [[robot_parkour_learning|Robot Parkour Learning (2023)]]
+- [[agile_but_safe_learning_collision_free_high_speed_legged_locomotion|Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion (2024)]]
 - 245 lightweight paper stubs generated from [[autonomous_racing_survey_bibliography]].
 
 ## Topics
@@ -102,22 +246,39 @@
 - [[autonomous_racing_simulation]]
 - [[cognitive_navigation]]
 - [[embodied_autonomous_intelligence]]
+- [[quadrupedal_locomotion]]
 - [[era_of_experience]]
 - [[real_time_strategy_games]]
 - [[real_world_robotic_reinforcement_learning]]
 - [[foundation_models_for_intelligent_decision_making]]
 - [[ai_wargaming]]
+- [[competitive_chess]]
+- [[artificial_general_intelligence]]
 - [[compositional_reasoning_limits_in_sequence_models]]
 - [[pursuit_evasion_robotics]]
+- [[racing_driver_training]]
+- [[real_world_robotic_foundation_models]]
+- [[ai_agents_for_autonomous_systems]]
+
+## Analyses
+
+- [[main_concept_for_high_speed_autonomous_systems]]
+- [[can_foundation_models_achieve_highly_dynamic_behavior]]
+- [[ranked_top_5_techniques_for_fast_and_agile_autonomy]]
+- [[experience_as_a_central_element_in_autonomous_systems]]
+- [[erc_idea]]
 
 ## Techniques
 
 - [[model_predictive_control]]
+- [[actor_critic_model_predictive_control]]
 - [[reinforcement_learning]]
+- [[preference_based_reinforcement_learning]]
 - [[proximal_policy_optimization]]
 - [[quantile_regression_soft_actor_critic]]
 - [[mixed_scenario_training]]
 - [[sim_to_real_transfer]]
+- [[differentiable_simulation]]
 - [[visual_inertial_odometry]]
 - [[empirical_residual_modeling]]
 - [[event_based_vision]]
@@ -125,6 +286,15 @@
 - [[asymmetric_actor_critic]]
 - [[knowledge_distillation]]
 - [[curriculum_learning]]
+- [[hybrid_internal_model]]
+- [[perceptive_internal_model]]
+- [[rapid_motor_adaptation]]
+- [[adversarial_motion_priors]]
+- [[agile_but_safe_locomotion]]
+- [[perceptive_locomotion]]
+- [[perceptive_nonlinear_model_predictive_control]]
+- [[attention_based_map_encoding]]
+- [[motion_matching]]
 - [[hippocampal_inspired_skill_consolidation_and_distillation]]
 - [[alternating_phases_curriculum_learning]]
 - [[g_g_g_v_diagrams]]
@@ -149,6 +319,25 @@
 - [[safety_assured_high_speed_aerial_navigation]]
 - [[vision_language_action_models]]
 - [[asynchronous_multistage_deep_reinforcement_learning]]
+- [[lipschitz_regularized_learned_dynamics]]
+- [[neural_mpc]]
+- [[physics_constrained_vehicle_dynamics_networks]]
+- [[risk_averse_model_predictive_control]]
+- [[learned_forward_kinodynamics]]
+- [[model_predictive_path_integral_control]]
+- [[harmonized_beyond_the_limit_control]]
+- [[large_language_models]]
+- [[vision_language_models]]
+- [[vision_language_action_models]]
+- [[multi_agent_time_optimal_motion_planning]]
+- [[adversarial_theory_of_mind]]
+- [[robust_spatiotemporal_motion_planning]]
+- [[formula_1_data_driven_initialization]]
+- [[vision_augmented_system_identification]]
+- [[learned_model_predictive_game]]
+- [[behavior_constrained_reinforcement_learning]]
+- [[fast_autonomous_exploration]]
+- [[hallucinated_learning_and_sober_deployment]]
 
 ## Models / Systems
 
@@ -157,12 +346,19 @@
 - [[ace]]
 - [[csdal]]
 - [[apex]]
+- [[pim]]
 - [[super]]
 - [[racevla]]
+- [[forzaeth_race_stack]]
+- [[er_autopilot_1_1]]
+- [[hypractive]]
 
 ## Datasets
 
+- [[barkour]]
+
 - [[swift_drone_racing_data]]
+- [[race_against_the_machine_dataset]]
 - [[abu_dhabi_autonomous_racing_league]]
 
 ## Simulators

@@ -19,6 +19,7 @@ tech_finetuning: []
 tech_inference: []
 datasets_used: []
 models_used: []
+hardware_used: []
 simulators_used: []
 ---
 
@@ -57,6 +58,11 @@ At the same time, it identifies several major constraints:
 - and the practical difficulty of making large models efficient enough for real decision systems.
 
 The paper also places DRL in a wider genealogy: DRL remains important, especially for sequential and interactive decision tasks, but it is increasingly being reframed as one ingredient inside larger multimodal decision architectures.
+
+## Hardware Used
+
+- No specific demonstration hardware is identified on the current page.
+
 
 ## Related Work
 
