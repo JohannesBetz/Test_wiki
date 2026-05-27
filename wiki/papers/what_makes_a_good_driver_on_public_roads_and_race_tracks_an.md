@@ -30,7 +30,9 @@ simulators_used: []
 
 ## Summary
 
-Lightweight bibliography stub generated from [[autonomous_racing_survey_bibliography]]. This paper is listed in the bibliography for [[autonomous_vehicles_on_the_edge]] and has not yet been deep-read for the wiki.
+This paper studies what people mean by a "good driver" on public roads and on race tracks through an interview-based human-factors lens. Its value for this vault is that it clarifies how driving competence is judged by humans across two related but importantly different domains: everyday road driving and high-performance race driving.
+
+Rather than defining good driving only by speed or only by safety, the paper helps surface the broader dimensions people use when evaluating driver quality.
 
 ## Citation Metadata
 
@@ -43,15 +45,22 @@ Lightweight bibliography stub generated from [[autonomous_racing_survey_bibliogr
 
 ## Method
 
-_To be filled after reading the paper._
+The paper uses an interview-study design to examine how participants characterize good driving in two settings:
+
+- public-road driving,
+- and race-track driving.
+
+That makes it a conceptual and empirical complement to the vault's more telemetry-heavy or autonomy-heavy papers.
 
 ## Key Results
 
-_To be filled after reading the paper._
+For this vault, the main takeaway is not one single numerical result but a distinction in evaluation criteria:
 
-## Datasets Used
+- good driving on public roads and good driving on race tracks overlap,
+- but they are not identical concepts,
+- and some traits that matter in one setting may be less central in the other.
 
-_To be filled after reading the paper._
+This is useful because it cautions against treating all driver skill as one scalar quantity.
 
 ## Hardware Used
 
@@ -61,7 +70,12 @@ _To be filled after reading the paper._
 ## Related Work
 
 - [[autonomous_vehicles_on_the_edge]]
+- [[professional_race_driver_expertise]]
+- [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]]
+- [[benchmarking_of_a_software_stack_for_autonomous_racing_against_a_professional_human]]
 
 ## Notes / Critique
 
-_To be filled after reading the paper._
+The strongest contribution is conceptual calibration. The paper helps explain why comparisons among public-road competence, racing expertise, and machine driving performance can become muddled if they assume one universal definition of "good driving."
+
+Its main limitation for this vault is that it is not a technical autonomy paper. It informs the interpretation of driver quality, but it does not directly propose planning, control, or learning methods.

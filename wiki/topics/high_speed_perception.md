@@ -38,6 +38,8 @@ In [[safety_assured_high_speed_navigation_for_mavs]], high-speed perception appe
 
 [[how_fast_is_too_fast_the_role_of_perception_latency_in_high]] adds a harder systems-limit perspective: in fast flight, perception does not merely support control quality, it directly limits how fast a vehicle can safely move before sensing delay and sensing range make avoidance physically implausible.
 
+[[evaluation_of_driver_reaction_time]] adds a human-factors counterpart: even in non-autonomous driving, the perception-to-action delay of the driver is itself a critical safety bottleneck, which helps explain why raw human reaction cannot be the only model for high-speed autonomous response.
+
 [[learning_robust_perceptive_locomotion_for_quadrupedal_robots_in_the_wild]] adds a legged-robotics perspective: high-speed perception is not only about detecting distant objects for cars and drones, but also about deciding whether terrain observations are reliable enough to change foot placement and body motion before contact.
 
 [[perceptive_locomotion_through_nonlinear_model_predictive_control]] adds a control-embedded legged perspective: high-speed perception can also matter by changing the feasible set of a real-time optimizer through terrain-aware constraints, not only by feeding a learned policy.

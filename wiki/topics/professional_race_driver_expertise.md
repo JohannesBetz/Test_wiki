@@ -28,6 +28,8 @@ For [[autonomous_vehicle_racing]], this expertise is useful as a design target: 
 
 [[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]] adds a coaching-oriented perspective: rather than extracting driver expertise to improve autonomous software directly, it uses data-driven classification, counterfactual explanation, and language feedback to help novice humans move toward expert corner behavior.
 
+[[what_makes_a_good_driver_on_public_roads_and_race_tracks_an]] adds a definition-oriented perspective: good race driving overlaps with good road driving, but the two are not identical, which matters whenever the vault compares human skill, machine skill, and safety across domains.
+
 Important recurring skills include:
 
 - Fusing many feedback channels to detect the limit.
@@ -36,6 +38,8 @@ Important recurring skills include:
 - Managing understeer and oversteer with coordinated steering, throttle, braking, and load transfer.
 - Using telemetry and lap-time deltas to refine behavior.
 - Reassessing grip under rain, tire wear, temperature change, debris, and rubber buildup.
+
+[[evaluation_of_driver_reaction_time]] adds a useful lower-level human-performance reminder: some parts of driving competence are constrained by raw perception-to-action timing, even if expert racecraft often works by anticipation and prediction so that the driver does not rely on reflex alone.
 
 ## Autonomous Racing Implications
 

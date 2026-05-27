@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-08
-sources: 5
+sources: 7
 ---
 
 # Foundation Models for Intelligent Decision-Making
@@ -38,11 +38,17 @@ Within the vault, one useful progression is [[large_language_models]] -> [[visio
 
 [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]] adds an agent-and-security framing: as LLMs evolve into more agentic autonomy components, the question shifts from usefulness alone to datasets, evaluation, and attack surface in safety-critical autonomous systems.
 
+[[scaling_agent_learning_via_experience_synthesis]] adds a more constructive bridge from foundation models into the experience branch: instead of using generative models only for reasoning or action prediction, it asks whether they can help scale learning itself by synthesizing additional useful experience for agents.
+
+[[exgrpo_learning_to_reason_from_experience]] adds a reasoning-centric version of the same bridge: instead of asking how foundation models reason after pretraining, it asks whether their reasoning behavior can itself be improved through accumulated experience.
+
 [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] places this branch in the vault's broader competitive picture: foundation-model approaches are not yet the best current answer for fast and agile autonomy, but they are the strongest long-term bet if `LLM -> VLM -> VLA` systems can eventually close the latency, grounding, and stability gap to specialized controllers.
 
 [[erc_idea]] adds a more skeptical strategic layer: if superhuman autonomy in extreme environments is the goal, foundation models may still matter, but the vault currently suggests they will need to sit inside a more experience-driven, safety-aware, and control-grounded architecture rather than replace that architecture outright.
 
 [[agi_imagined_how_is_agi_configured_by_the_theories_of_mind]] adds a deeper conceptual warning underneath that whole branch: some disagreements about foundation-model futures are really disagreements about what a mind is, and therefore about whether broad pretrained symbolic competence should count as the main path toward AGI at all.
+
+[[human_versus_artificial_intelligence]] adds a more practical comparison layer: even if AI becomes highly capable, the right benchmark may not be human imitation alone. A more useful question may be how human and artificial intelligence differ, where they complement one another, and when hybrid decision systems should preserve human judgment rather than overwrite it.
 
 ## Relationship to Embodied and Autonomous Systems
 
@@ -60,6 +66,8 @@ For autonomous systems, the interesting question is whether foundation models ca
 - [[towards_general_purpose_robots_via_foundation_models_a_survey_and_meta_analysis]]
 - [[foundation_models_in_robotics_applications_challenges_and_the_future]]
 - [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]]
+- [[scaling_agent_learning_via_experience_synthesis]]
+- [[exgrpo_learning_to_reason_from_experience]]
 
 ## Open Problems
 

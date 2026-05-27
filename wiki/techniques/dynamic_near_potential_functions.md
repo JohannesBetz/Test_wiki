@@ -27,6 +27,8 @@ This technique belongs primarily inside [[autonomous_racing_planning]], especial
 
 Compared with direct receding-horizon game solvers, it moves more computation offline. Compared with self-play RL, it keeps a more explicit equilibrium-based interpretation of why the agent chooses to overtake, block, or preserve position.
 
+[[autonomous_racing_with_dynamic_games]] is a useful nearby contrast: instead of learning a near-potential surrogate offline, [[dynamic_potential_games]] appear to preserve more of the game structure directly inside the online planning formulation.
+
 ## Representative Papers
 
 - [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]]

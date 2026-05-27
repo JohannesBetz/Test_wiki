@@ -44,6 +44,14 @@
 - [[modi_competitive_chess|Modi Competitive Chess Source]] — reflective paper on how Deep Blue, Stockfish, and AlphaZero changed competitive chess practice.
 - [[zilberman_agi_imagined|Zilberman AGI Imagined Source]] — conceptual paper on how theories of mind shape what researchers mean by AGI.
 - [[amaritei_humans_vs_machine_motorsport|Amaritei Humans vs. Machine Motorsport Source]] — future-facing motorsport paper asking whether autonomous vehicles can genuinely compete.
+- [[romero_dream2fly|Romero Dream2Fly Source]] — world-model MBRL for end-to-end vision-based drone flight from pixels to control.
+- [[ren_learning_agile_quadrotor_real_world|Ren Learning Agile Quadrotor Real World Source]] — online residual learning and differentiable-simulation adaptation for real-world agile quadrotor flight.
+- [[korteling_human_vs_ai|Korteling Human vs AI Source]] — conceptual comparison of human and artificial intelligence with an emphasis on complementarity and collaboration.
+- [[culik_driver_reaction_time|Culik Driver Reaction Time Source]] — driving-simulator study of human reaction time under experience and alcohol effects.
+- [[dillo_waymo_25m_comparison|Dillo Waymo 25M Comparison Source]] — large-scale claims-based comparison of Waymo autonomous vehicles and human-driven vehicles.
+- [[doubek_good_driver_roads_racetracks|Doubek Good Driver Roads and Racetracks Source]] — interview study on what counts as good driving on roads versus race tracks.
+- [[chen_scaling_agent_learning_experience_synthesis|Chen Experience Synthesis Source]] — arXiv paper on scaling agent learning by synthesizing additional useful experience from grounded interaction.
+- [[zhan_exgrpo_learning_to_reason_from_experience|Zhan ExGRPO Source]] — arXiv paper on improving reasoning models through experience-centered optimization.
 - [[zubic_limits_deep_learning|Zubic Limits Deep Learning Source]] — theory-plus-experiments on why current sequence models fail at compositional reasoning.
 - [[serpiva_racevla|Serpiva RaceVLA Source]] — arXiv paper on adapting vision-language-action models to FPV racing-drone control.
 - [[bajcsy_learning_vision_based_pursuit_evasion|Bajcsy Vision-Based Pursuit-Evasion Source]] — ICRA paper on learning visually grounded pursuit-evasion behavior for a physical quadruped robot.
@@ -108,9 +116,11 @@
 - [[huang_fael|Huang FAEL Source]] — mobile-robot paper on fast autonomous exploration for large-scale environments.
 - [[xiao_agile_robot_navigation|Xiao Agile Robot Navigation Source]] — agile-navigation paper on hallucinated learning with sober deployment.
 - [[hypractive_introduction|HYPRACTIVE Introduction Source]] — lightweight system-introduction document for HYPR's autonomous-mobility AI stack.
+- [[jia_autonomous_racing_dynamic_games|Jia Autonomous Racing With Dynamic Games Source]] — game-theoretic racing paper built around dynamic potential games and the RAPID planner.
 
 ## Grants
 
+- [[erc_general_overview|ERC General Overview]] — synthesis of ERC Starting Grant guidelines, proposal structures, evaluation criteria, and success strategies.
 - [[agileflight|AGILEFLIGHT]] — ERC Consolidator Grant (Davide Scaramuzza) for low-latency perception and action in agile vision-based flight.
 - [[interact|INTERACT]] — ERC Starting Grant on intuitive multi-robot interaction in human-centered environments.
 - [[lemo|LeMo]] — ERC Starting Grant on learned mobility and sim-to-real locomotion for real legged robots.
@@ -171,6 +181,12 @@
 - [[the_effects_of_computer_and_ai_engines_on_competitive_chess|The Effects of Computer and AI Engines on Competitive Chess (2023)]]
 - [[agi_imagined_how_is_agi_configured_by_the_theories_of_mind|AGI imagined: how is AGI configured by the theories of mind (2025)]]
 - [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete|(hu)Man vs. Machine: In the Future of Motorsport, can Autonomous Vehicles Compete? (2026)]]
+- [[human_versus_artificial_intelligence|Human- versus Artificial Intelligence (2021)]]
+- [[evaluation_of_driver_reaction_time|Evaluation of Driver Reaction Time (2022)]]
+- [[do_autonomous_vehicles_outperform_latest_generation_human_driven_vehicles_a_comparison_to_waymos_auto_liability_insurance_claims_at_25_million_miles|Do Autonomous Vehicles Outperform Latest-Generation Human-Driven Vehicles? (2024)]]
+- [[scaling_agent_learning_via_experience_synthesis|Scaling Agent Learning via Experience Synthesis (2025)]]
+- [[exgrpo_learning_to_reason_from_experience|ExGRPO: Learning to Reason from Experience (2025)]]
+- [[autonomous_racing_with_dynamic_games|Autonomous Racing With Dynamic Games (2023)]]
 - [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory|Limits of Deep Learning in Sequence Modeling (2025)]]
 - [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour|RaceVLA (2025)]]
 - [[learning_vision_based_pursuit_evasion_robot_policies|Learning Vision-based Pursuit-Evasion Robot Policies (2024)]]
@@ -253,6 +269,9 @@
 - [[foundation_models_for_intelligent_decision_making]]
 - [[ai_wargaming]]
 - [[competitive_chess]]
+- [[human_ai_collaboration]]
+- [[driver_reaction_time]]
+- [[autonomous_vehicle_safety]]
 - [[artificial_general_intelligence]]
 - [[compositional_reasoning_limits_in_sequence_models]]
 - [[pursuit_evasion_robotics]]
@@ -315,6 +334,9 @@
 - [[sportsmanship_aware_racing_strategy]]
 - [[dynamic_near_potential_functions]]
 - [[mechanism_experience_learning]]
+- [[experience_synthesis]]
+- [[exgrpo]]
+- [[dynamic_potential_games]]
 - [[track_agnostic_reinforcement_learning]]
 - [[safety_assured_high_speed_aerial_navigation]]
 - [[vision_language_action_models]]

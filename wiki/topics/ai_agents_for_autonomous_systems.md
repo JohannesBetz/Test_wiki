@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-13
-sources: 1
+sources: 2
 ---
 
 # AI Agents for Autonomous Systems
@@ -23,6 +23,10 @@ The topic also sits naturally next to the existing `LLM -> VLM -> VLA` progressi
 - [[vision_language_action_models]] for embodied action,
 - and agentic systems as the orchestration layer that may decide how these components are used.
 
+[[human_versus_artificial_intelligence]] adds a useful caution underneath this progression: the more agentic AI becomes, the more important it is that humans understand where AI cognition differs from human cognition rather than assuming the system reasons like a human teammate.
+
+[[scaling_agent_learning_via_experience_synthesis]] adds a more optimistic systems question to the same branch: if agents are costly to train through direct interaction alone, can generative or synthetic experience become part of how agent competence scales?
+
 ## Relationship to Intelligent Decision-Making and High-Dynamics Autonomy
 
 This topic belongs near [[foundation_models_for_intelligent_decision_making]] and [[Highly_dynamic_autonomous_system]].
@@ -33,6 +37,7 @@ For high-speed or safety-critical autonomy, the central question is whether agen
 
 - [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]]
 - [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations]]
+- [[scaling_agent_learning_via_experience_synthesis]]
 
 ## Open Problems
 

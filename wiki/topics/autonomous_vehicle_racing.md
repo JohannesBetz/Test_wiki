@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 9
+sources: 10
 ---
 
 # Autonomous Vehicle Racing
@@ -35,6 +35,7 @@ The main hardware anchor for this branch is [[cars_and_race_cars]].
 - Platform-driven evaluation through [[f1tenth]], [[formula_student_driverless]], [[roborace]], [[indy_autonomous_challenge]], and simulation.
 - Reproducible scaled full-stack systems such as [[forzaeth_race_stack]], which make head-to-head autonomous racing more accessible on commercial off-the-shelf hardware.
 - Full-scale competition stacks such as [[er_autopilot_1_1]], which show how perception, localization, planning, control, and safety behaviors must be integrated for oval and road-course racing at IAC-level speeds.
+- Explicit dynamic-game planners such as [[autonomous_racing_with_dynamic_games]], which model close racing as a strategically coupled multi-agent optimization problem instead of only a tracking or avoidance problem.
 - Shared-autonomy safety assistance such as [[human_centered_safety_filter]], where AI acts as a co-pilot rather than a fully autonomous driver.
 - Human-driver coaching systems such as [[racing_driver_training]], where AI analyzes telemetry and gives interpretable feedback instead of taking over control.
 

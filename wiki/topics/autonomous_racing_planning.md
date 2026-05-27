@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-06
-sources: 12
+sources: 13
 ---
 
 # Autonomous Racing Planning
@@ -50,6 +50,8 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 
 [[robust_spatiotemporal_motion_planning_for_multi_agent_autonomous_racing_via_topological_gap_identification_and_accelerated_mpc]] adds a corridor-selection route for dense racing interaction: [[robust_spatiotemporal_motion_planning]] emphasizes that a planner may need to identify topologically distinct space-time gaps between moving vehicles and commit to one quickly enough for MPC-based execution to exploit it.
 
+[[autonomous_racing_with_dynamic_games]] adds a more explicit classical game route: [[dynamic_potential_games]] and the `RAPID` planner treat racing interaction itself as the central online planning object rather than only as a cost term or surrogate maneuver parameterization.
+
 ## Representative Papers
 
 - [[autonomous_vehicles_on_the_edge]]
@@ -67,6 +69,7 @@ Autonomous racing planning computes racelines, local trajectories, and high-leve
 - [[think_deep_and_fast_learning_neural_nonlinear_opinion_dynamics_from_inverse_dynamic_games_for_split_second_interactions]]
 - [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems]]
 - [[alpha_racer_real_time_algorithm_for_game_theoretic_motion_planning_and_control_in_autonomous_racing_using_near_potential_function]]
+- [[autonomous_racing_with_dynamic_games]]
 
 ## Open Problems
 

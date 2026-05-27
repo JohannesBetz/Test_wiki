@@ -5,6 +5,8 @@ task: Highly_dynamic_autonomous_system
 venue: "arXiv 2026"
 sources: 1
 year: "2026"
+doi: "10.48550/arXiv.2602.10111"
+url: "https://doi.org/10.48550/arXiv.2602.10111"
 topic:
   - autonomous_drone_racing
   - control
@@ -18,7 +20,6 @@ tech_inference: []
 datasets_used: []
 hardware_used: [drones]
 simulators_used: []
-doi: ""
 ---
 
 # Learning Agile Quadrotor Flight in the Real World

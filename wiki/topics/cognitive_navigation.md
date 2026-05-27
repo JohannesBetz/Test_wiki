@@ -36,6 +36,8 @@ It also connects naturally to [[embodied_autonomous_intelligence]], which asks n
 
 [[fael_fast_autonomous_exploration_for_large_scale_environments_with_a_mobile_robot]] adds an open-ended exploration perspective: cognitive navigation is not only about following routes or avoiding hazards, but also about deciding how to discover large unknown environments efficiently through [[fast_autonomous_exploration]].
 
+[[do_autonomous_vehicles_outperform_latest_generation_human_driven_vehicles_a_comparison_to_waymos_auto_liability_insurance_claims_at_25_million_miles]] adds a deployment-evaluation perspective: integrated perception-decision-execution systems ultimately have to be judged not only by architectural elegance, but by whether they appear safer than human-driven systems under real road operation.
+
 ## Relationship to Autonomous Racing
 
 In autonomous racing, the classical stack is usually written as [[high_speed_perception]] plus [[autonomous_racing_planning]] plus [[autonomous_racing_control]]. Cognitive navigation offers a more integrated lens on the same problem: those modules are not independent, but parts of one embodied loop operating under severe time and dynamics constraints.

@@ -27,6 +27,8 @@ The main hardware anchor for this branch is [[drones]].
 
 [[champion_level_drone_racing_using_deep_reinforcement_learning]] is one of the strongest field milestones highlighted by the survey: [[swift]] shows that onboard-only perception plus sim-to-real RL can beat champion human pilots on a physical racing track.
 
+[[dream_to_fly_model_based_reinforcement_learning_for_vision_based_drone_flight]] adds a world-model branch to that story: instead of leaning mainly on model-free RL plus a more explicit estimation stack, it asks whether a latent visual world model can absorb more of the perception-to-control mapping directly.
+
 [[safety_assured_high_speed_navigation_for_mavs]] shows a neighboring branch of the field: once systems leave fixed known race tracks, the central problem becomes how to keep high speed without sacrificing safety under occlusion and unknown clutter.
 
 [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]] adds a newer foundation-model branch: [[racevla]] explores whether a language-conditioned VLA can act as a usable racing-drone controller, even if current speeds and latency are still far from top-tier racing performance.
@@ -50,6 +52,7 @@ The main hardware anchor for this branch is [[drones]].
 ## Representative Papers
 
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
+- [[dream_to_fly_model_based_reinforcement_learning_for_vision_based_drone_flight]]
 - [[autonomous_drone_racing_a_survey]]
 - [[safety_assured_high_speed_navigation_for_mavs]]
 - [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour]]

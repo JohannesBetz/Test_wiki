@@ -42,6 +42,8 @@ This topic connects [[autonomous_vehicle_racing]] to adjacent agile robotics dom
 
 [[how_fast_is_too_fast_the_role_of_perception_latency_in_high]] adds a sensing-bound example: highly dynamic performance may fail not because the controller is weak, but because perception latency and sensing range make the nominal speed target physically unsafe.
 
+[[evaluation_of_driver_reaction_time]] adds a human baseline to that discussion: reaction-critical performance is not only a machine problem, but also a core human limitation in driving tasks, especially once obstacles appear unexpectedly or impairment degrades the perception-action loop.
+
 [[autonomous_drone_racing_a_survey]] adds the broader aerial field map: it treats drone racing as a benchmark where every part of the stack is pushed to the limit simultaneously, making it one of the cleanest laboratories for highly dynamic autonomy.
 
 [[learning_vision_based_pursuit_evasion_robot_policies]] adds an interactive terrestrial example: a visual quadruped pursuer must act under partial observability against an evasive agent, which makes uncertainty management and anticipatory behavior central parts of competent embodied action.

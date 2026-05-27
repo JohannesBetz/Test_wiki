@@ -485,3 +485,43 @@ Ingested `raw/pdfs/Zibermann_AGI imagined.pdf`. Added a source summary in [[zilb
 ## [2026-05-26] ingest | Amaritei Humans vs. Machine Motorsport
 
 Ingested `raw/pdfs/Ameritei_Humans-vs-Machine.pdf`. Added a source summary in [[amaritei_humans_vs_machine_motorsport]], a deep paper page for [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]], and linked it into [[professional_race_driver_expertise]], [[autonomous_vehicle_racing]], and the root index. Pages touched: 6.
+
+## [2026-05-26] analysis | ERC General Overview
+
+Created the general overview page [[erc_general_overview]] under `wiki/grant/` detailing the ERC Starting Grant eligibility parameters, proposal structures, evaluation criteria, and key success strategies. Updated the root index. Pages touched: 2.
+
+## [2026-05-27] ingest | Romero Dream2Fly
+
+Ingested `raw/pdfs/Romero_Dream2Fly.pdf` into the existing Dream to Fly branch by adding a source summary in [[romero_dream2fly]] and linking the paper more explicitly into [[autonomous_drone_racing]] and the root index. No duplicate paper page was created because [[dream_to_fly_model_based_reinforcement_learning_for_vision_based_drone_flight]] already existed. Pages touched: 4.
+
+## [2026-05-27] ingest | Ren Learning Agile Flight In Real World
+
+Ingested `raw/pdfs/Ren_Learning_Agile_Flight_In-Real_world.pdf` into the existing paper branch for [[learning_agile_quadrotor_flight_in_the_real_world]] by adding the missing source summary in [[ren_learning_agile_quadrotor_real_world]] and filling in the paper's arXiv DOI metadata. No duplicate paper page was created because the paper already existed from the AGILEFLIGHT publications ingest. Pages touched: 4.
+
+## [2026-05-27] ingest | Korteling Human vs AI
+
+Ingested `raw/pdfs/Korteling_HumanVSAI.pdf`. Added a source summary in [[korteling_human_vs_ai]], a deep paper page for [[human_versus_artificial_intelligence]], and a new topic page [[human_ai_collaboration]]. Updated [[foundation_models_for_intelligent_decision_making]], [[ai_agents_for_autonomous_systems]], and the root index. Pages touched: 7.
+
+## [2026-05-27] ingest | Culik Driver Reaction Time
+
+Ingested `raw/pdfs/Culik_Driver_Reaction_Time.pdf`. Added a source summary in [[culik_driver_reaction_time]], a deep paper page for [[evaluation_of_driver_reaction_time]], and a new topic page [[driver_reaction_time]]. Updated [[professional_race_driver_expertise]], [[Highly_dynamic_autonomous_system]], [[high_speed_perception]], and the root index. Pages touched: 8.
+
+## [2026-05-27] ingest | Dillo Waymo 25M Comparison
+
+Ingested `raw/pdfs/Dillo_Comparison of Waymo and Human-Driven Vehicles at 25M_miles.pdf`. Added a source summary in [[dillo_waymo_25m_comparison]], a deep paper page for [[do_autonomous_vehicles_outperform_latest_generation_human_driven_vehicles_a_comparison_to_waymos_auto_liability_insurance_claims_at_25_million_miles]], and a new topic page [[autonomous_vehicle_safety]]. Updated [[cognitive_navigation]], the motorsport human-versus-machine comparison paper, and the root index. Pages touched: 8.
+
+## [2026-05-27] ingest | Doubek Good Driver Roads and Racetracks
+
+Ingested `raw/pdfs/Dobouk_Good_Driver_on_Roads_and_racetracks.pdf`. Added a source summary in [[doubek_good_driver_roads_racetracks]] and upgraded the bibliography stub [[what_makes_a_good_driver_on_public_roads_and_race_tracks_an]] into a real note. Updated [[professional_race_driver_expertise]] and the root index. Pages touched: 4.
+
+## [2026-05-27] ingest | Chen Scaling Learning Through Experience
+
+Ingested `raw/pdfs/Chen_Scaling_Learning_through_experience.pdf`. Added a source summary in [[chen_scaling_agent_learning_experience_synthesis]], a deep paper page for [[scaling_agent_learning_via_experience_synthesis]], and a new technique page [[experience_synthesis]]. Updated [[era_of_experience]], [[foundation_models_for_intelligent_decision_making]], [[ai_agents_for_autonomous_systems]], [[experience_as_a_central_element_in_autonomous_systems]], and the root index. Pages touched: 9.
+
+## [2026-05-27] ingest | Zhan ExGRPO Learning to Reason from Experience
+
+Ingested `raw/pdfs/Zhan_LEARNING_TO_REASON FROM_EXPERIENCE.pdf`. Added a source summary in [[zhan_exgrpo_learning_to_reason_from_experience]], a deep paper page for [[exgrpo_learning_to_reason_from_experience]], and a new technique page [[exgrpo]]. Updated [[era_of_experience]], [[foundation_models_for_intelligent_decision_making]], [[large_language_models]], [[experience_as_a_central_element_in_autonomous_systems]], and the root index. Pages touched: 9.
+
+## [2026-05-27] ingest | Jia Autonomous Racing With Dynamic Games
+
+Ingested `raw/pdfs/Jia_Autonomous_Racing_With_Dynamic_Games.pdf`. Added a source summary in [[jia_autonomous_racing_dynamic_games]], a deep paper page for [[autonomous_racing_with_dynamic_games]], and a new technique page [[dynamic_potential_games]]. Updated [[autonomous_racing_planning]], [[autonomous_vehicle_racing]], [[dynamic_near_potential_functions]], and the root index. Pages touched: 9.

@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-08
-sources: 1
+sources: 3
 ---
 
 # Era of Experience
@@ -56,6 +56,10 @@ The proposed transition is toward agents that learn from their own interaction h
 
 The important scaling claim is that experience may eventually exceed the scale of the human internet as a training substrate. If that happens, agents would no longer depend primarily on fixed human corpora to extend their competence.
 
+[[scaling_agent_learning_via_experience_synthesis]] adds a useful practical twist to that claim. It suggests that the problem is not only how to collect more experience, but also how to synthesize more learning value from the experience an agent already has. That makes [[experience_synthesis]] one of the first explicit `scaling mechanisms` inside the vault's experience branch.
+
+[[exgrpo_learning_to_reason_from_experience]] adds a second twist: experience may matter not only for embodied agents, but also for improving the reasoning behavior of language models. That broadens the branch from `experience for acting systems` to `experience for reasoning systems`.
+
 ## Relationship to Embodied and Autonomous Systems
 
 The topic connects naturally to [[embodied_autonomous_intelligence]] and [[cognitive_navigation]]. All three emphasize that capable intelligence depends on closed-loop interaction with the world rather than detached symbol manipulation alone.
@@ -93,6 +97,8 @@ The price is that interaction is expensive. Real or simulated experience must be
 ## Representative Papers
 
 - [[welcome_to_the_era_of_experience]]
+- [[scaling_agent_learning_via_experience_synthesis]]
+- [[exgrpo_learning_to_reason_from_experience]]
 - [[autonomous_vehicles_on_the_edge]]
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]]

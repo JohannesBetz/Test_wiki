@@ -1,7 +1,7 @@
 ---
 tags: [analysis]
 date: 2026-05-21
-sources: 8
+sources: 10
 ---
 
 # Experience as a Central Element in Autonomous Systems
@@ -77,6 +77,22 @@ This is a more specialized case, but it still belongs in the cluster.
 The system improves through repeated telemetry-driven learning rounds, refining the dynamic model and executable performance over time.
 
 So experience is not the philosophical center of the paper, but it is central to how the final system achieves its performance.
+
+### 9. [[scaling_agent_learning_via_experience_synthesis]]
+
+This paper adds a newer and very important variation to the vault's experience discussion.
+
+Instead of saying only that agents must learn from experience, it asks how experience itself can be made more scalable through [[experience_synthesis]].
+
+That matters because it turns experience from a fixed stream into something closer to a resource that can be amplified, reorganized, or extended. In other words, it is one of the clearest papers in the vault on `scaling learning through experience` rather than merely `using experience`.
+
+### 10. [[exgrpo_learning_to_reason_from_experience]]
+
+This paper adds a new and useful variation again: experience is brought directly into the reasoning-model training loop.
+
+That makes it different from both the manifesto papers and the embodied-control papers. Here, the interesting claim is not that a robot or vehicle learns from interaction, but that a reasoning system itself may become stronger by learning from accumulated experience.
+
+In the vault, this is the cleanest current example of `experience as a route to better reasoning`, not just better control or adaptation.
 
 ## Papers That Support the Experience Theme Indirectly
 

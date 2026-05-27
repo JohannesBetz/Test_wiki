@@ -73,6 +73,8 @@ Compared with [[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of
 
 Compared with [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]], it appears less about one proposed mechanism for closing the gap and more about the meaning of the competition itself.
 
+For a road-going counterpart to the same broad comparison question, see [[do_autonomous_vehicles_outperform_latest_generation_human_driven_vehicles_a_comparison_to_waymos_auto_liability_insurance_claims_at_25_million_miles]], which shifts the focus from motorsport competitiveness to deployment-scale safety comparison.
+
 ## Notes / Critique
 
 The strongest contribution is framing. This paper helps the vault articulate the difference between `machine can drive fast` and `machine can meaningfully compete in motorsport`.
