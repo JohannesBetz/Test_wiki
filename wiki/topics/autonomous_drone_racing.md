@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-26
-sources: 4
+sources: 5
 ---
 
 # Autonomous Drone Racing
@@ -45,6 +45,8 @@ The main hardware anchor for this branch is [[drones]].
 
 [[strategizing_at_speed_a_learned_model_predictive_game_for_multi_agent_drone_racing]] adds a game-theoretic tactical branch: multi-agent drone racing may need explicit short-horizon strategic reasoning through a [[learned_model_predictive_game]], not only coordination or single-agent speed.
 
+[[superhuman_safe_and_agile_racing_through_multi_agent_reinforcement_learning]] adds a stronger competition-learning branch: once drone racing is treated as a multi-agent RL problem, the central challenge is no longer only gate tracking and trajectory execution, but how to stay both fast and safe while racing against other adaptive agents.
+
 [[main_concept_for_high_speed_autonomous_systems]] provides the broader synthesis: in drone racing too, speed comes less from blind aggression than from estimating and exploiting the current safe dynamic envelope quickly enough.
 
 [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] adds a more comparative conclusion: drones are the branch in this vault where aggressive [[reinforcement_learning]] currently looks strongest, even though predictive-control hybrids and foundation-model control remain important emerging alternatives.
@@ -61,6 +63,7 @@ The main hardware anchor for this branch is [[drones]].
 - [[race_against_the_machine_a_fully_annotated_open_design_dataset_of_autonomous_and_piloted_high_speed_flight]]
 - [[how_fast_is_too_fast_the_role_of_perception_latency_in_high]]
 - [[dashing_for_the_golden_snitch_multi_drone_time_optimal_motion_planning_with_multi_agent_reinforcement_learning]]
+- [[superhuman_safe_and_agile_racing_through_multi_agent_reinforcement_learning]]
 
 ## Open Problems
 

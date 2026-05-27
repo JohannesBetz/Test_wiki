@@ -187,3 +187,5 @@ Agile But Safe adds a safety-organization question: when RL is used for high-per
 PIE adds an estimation-organization question: when a real parkour policy must deal with unreliable sensing, what should be inferred implicitly by the policy and what should remain explicit enough to keep the controller grounded?
 
 Extreme Parkour adds a hardware-compensation question: when a learned policy succeeds despite noisy sensing and imprecise actuation, how much of that success will remain once the terrain or maneuver distribution shifts beyond the training envelope?
+
+For a recent synthesis focused specifically on what the humanoid and quadruped papers say about agility, see [[main_concepts_for_agile_high_speed_robot_behavior]].

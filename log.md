@@ -525,3 +525,47 @@ Ingested `raw/pdfs/Zhan_LEARNING_TO_REASON FROM_EXPERIENCE.pdf`. Added a source 
 ## [2026-05-27] ingest | Jia Autonomous Racing With Dynamic Games
 
 Ingested `raw/pdfs/Jia_Autonomous_Racing_With_Dynamic_Games.pdf`. Added a source summary in [[jia_autonomous_racing_dynamic_games]], a deep paper page for [[autonomous_racing_with_dynamic_games]], and a new technique page [[dynamic_potential_games]]. Updated [[autonomous_racing_planning]], [[autonomous_vehicle_racing]], [[dynamic_near_potential_functions]], and the root index. Pages touched: 9.
+
+## [2026-05-27] ingest | Dupoux Why AI Systems Don't Learn
+
+Ingested `raw/pdfs/Dupoux_Why_Ai_systems_Dont_Learn.pdf`. Added a source summary in [[dupoux_why_ai_systems_dont_learn]], a deep paper page for [[why_ai_systems_dont_learn_and_what_to_do_about_it_lessons_on_autonomous_learning_from_cognitive_science]], and a new topic page [[autonomous_learning]]. Updated [[era_of_experience]], [[foundation_models_for_intelligent_decision_making]], [[artificial_general_intelligence]], [[experience_as_a_central_element_in_autonomous_systems]], and the root index. Pages touched: 10.
+
+## [2026-05-27] ingest | Weston AI and Human Co-Improvement
+
+Ingested `raw/pdfs/Weston_AI_and_Human_Co_Improvement.pdf`. Added a source summary in [[weston_ai_human_co_improvement]] and a deep paper page for [[ai_and_human_co_improvement_for_safer_co_superintelligence]]. Updated [[human_ai_collaboration]], [[foundation_models_for_intelligent_decision_making]], [[artificial_general_intelligence]], and the root index. Pages touched: 7.
+
+## [2026-05-27] ingest | Geles Superhuman Safe Agile Racing
+
+Ingested `raw/pdfs/Geles_Superhuman_safe_agile_Flight.pdf`. Added a source summary in [[geles_superhuman_safe_agile_racing]] and a deep paper page for [[superhuman_safe_and_agile_racing_through_multi_agent_reinforcement_learning]]. Updated [[autonomous_drone_racing]], [[reinforcement_learning]], [[Highly_dynamic_autonomous_system]], and the root index. Pages touched: 8.
+
+## [2026-05-27] ingest | Lin Cognitio Emergens
+
+Ingested `raw/pdfs/Lin_Cognito_Emergens.pdf`. Added a source summary in [[lin_cognitio_emergens]] and a deep paper page for [[cognitio_emergens_agency_dimensions_and_dynamics_in_human_ai_knowledge_co_creation]]. Updated [[human_ai_collaboration]], [[foundation_models_for_intelligent_decision_making]], and the root index. Pages touched: 7.
+
+## [2026-05-27] ingest | He From Seeing to Experience
+
+Ingested `raw/pdfs/He_From_Seeing_To_Experience.pdf`. Added a source summary in [[he_from_seeing_to_experience]] and a deep paper page for [[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]]. Updated [[cognitive_navigation]], [[era_of_experience]], [[foundation_models_for_intelligent_decision_making]], and the root index. Pages touched: 8.
+
+## [2026-05-27] analysis | ERC Part B1 Extended Synopsis Structure
+
+Updated the general overview page [[erc_general_overview]] with a detailed page-by-page suggested outline for the 5-page Extended Synopsis and added key writing strategies for the Part B1 evaluation step. Pages touched: 1.
+
+## [2026-05-27] ingest | Hu Memory in the Age of AI
+
+Ingested `raw/pdfs/Hu_Memory_in_the_age_of_ai.pdf`. Added a source summary in [[hu_memory_in_the_age_of_ai]], a deep paper page for [[memory_in_the_age_of_ai_agents]], and a new topic page [[ai_agent_memory]]. Updated [[ai_agents_for_autonomous_systems]], [[foundation_models_for_intelligent_decision_making]], [[era_of_experience]], and the root index. Pages touched: 9.
+
+## [2026-05-27] analysis | Main Concepts for Agile and High-Speed Robot Behavior
+
+Added [[main_concepts_for_agile_high_speed_robot_behavior]] as a robot-focused cross-paper synthesis of the recent humanoid and quadruped branch. The note identifies six recurring concepts behind agile robot behavior: structured RL, online adaptation or internal modeling, control-relevant perception, whole-body skill structure, explicit recoverability, and disciplined sim-to-real transfer. Updated [[quadrupedal_locomotion]], [[Highly_dynamic_autonomous_system]], [[real_world_robotic_reinforcement_learning]], [[embodied_autonomous_intelligence]], and the root index. Pages touched: 7.
+
+## [2026-05-27] analysis refinement | Main Concept for High-Speed Autonomous Systems
+
+Reworked [[main_concept_for_high_speed_autonomous_systems]] using the recent humanoid and quadruped synthesis. The note now broadens the original `adaptive limit handling` claim with robot-specific concepts around contact-aware feasibility, anticipatory foothold perception, recoverability, and whole-body skill organization. Pages touched: 2.
+
+## [2026-05-27] analysis refinement | Experience as a Central Element
+
+Reworked [[experience_as_a_central_element_in_autonomous_systems]] using the recent general-AI, experience-scaling, reasoning-from-experience, navigation-foundation-model, and agent-memory papers. The note now broadens the earlier robotics-focused experience thesis with new roles for experience as a scaling mechanism, reasoning substrate, memory content, and architectural challenge for autonomous learning. Pages touched: 2.
+
+## [2026-05-27] analysis refinement | Ranked Top 5 Techniques for Fast and Agile Autonomy
+
+Reworked [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] using the recent humanoid and quadruped synthesis. The note now ranks `structured embodied reinforcement learning with adaptation and recoverability` above generic end-to-end RL, adds clearer robot-specific winners for quadrupeds and humanoids, and tightens the distinction between current engineering answers and long-term foundation-model bets. Pages touched: 2.

@@ -1,7 +1,7 @@
 ---
 tags: [technique]
 date: 2026-05-06
-sources: 10
+sources: 11
 ---
 
 # Reinforcement Learning
@@ -47,6 +47,8 @@ Reinforcement learning trains an agent to maximize cumulative reward through int
 [[learning_multipursuit_evasion_for_safe_targeted_navigation_of_drones]] adds a multi-agent aerial example: [[asynchronous_multistage_deep_reinforcement_learning]] trains evader and pursuer teams across stages so a drone can learn safe target-reaching behavior against multiple adversaries.
 
 [[dashing_for_the_golden_snitch_multi_drone_time_optimal_motion_planning_with_multi_agent_reinforcement_learning]] adds a different multi-agent aerial use case: RL is applied not to pursuit-evasion, but to joint time-optimal motion planning for several drones that must coordinate their aggressive trajectories in shared space.
+
+[[superhuman_safe_and_agile_racing_through_multi_agent_reinforcement_learning]] adds a competition-centric aerial use case: RL is used to learn racing behavior that remains both aggressive and safe under explicit multi-agent interaction, pushing the drone-racing branch beyond solo fast flight.
 
 [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]] adds a broader mobile-robot framing: RL is one major path to learned motion generation, but it should be read alongside imitation learning and other embodied control approaches rather than as the whole story.
 

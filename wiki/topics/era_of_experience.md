@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-08
-sources: 3
+sources: 6
 ---
 
 # Era of Experience
@@ -60,6 +60,12 @@ The important scaling claim is that experience may eventually exceed the scale o
 
 [[exgrpo_learning_to_reason_from_experience]] adds a second twist: experience may matter not only for embodied agents, but also for improving the reasoning behavior of language models. That broadens the branch from `experience for acting systems` to `experience for reasoning systems`.
 
+[[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]] adds a navigation-specific twist: even foundation models that begin as broad perceptual priors may need to cross over into reinforcement learning and interaction if they are to become truly competent embodied navigators.
+
+[[why_ai_systems_dont_learn_and_what_to_do_about_it_lessons_on_autonomous_learning_from_cognitive_science]] adds a sharper critique beneath the whole topic: even if the field says it is moving toward experience, present AI systems may still lack the deeper machinery required for [[autonomous_learning]].
+
+[[memory_in_the_age_of_ai_agents]] adds an architectural reminder inside the same branch: experience only compounds if agents can retain and structure it. Without memory, the era of experience risks collapsing into a series of disconnected episodes.
+
 ## Relationship to Embodied and Autonomous Systems
 
 The topic connects naturally to [[embodied_autonomous_intelligence]] and [[cognitive_navigation]]. All three emphasize that capable intelligence depends on closed-loop interaction with the world rather than detached symbol manipulation alone.
@@ -99,6 +105,9 @@ The price is that interaction is expensive. Real or simulated experience must be
 - [[welcome_to_the_era_of_experience]]
 - [[scaling_agent_learning_via_experience_synthesis]]
 - [[exgrpo_learning_to_reason_from_experience]]
+- [[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]]
+- [[why_ai_systems_dont_learn_and_what_to_do_about_it_lessons_on_autonomous_learning_from_cognitive_science]]
+- [[memory_in_the_age_of_ai_agents]]
 - [[autonomous_vehicles_on_the_edge]]
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
 - [[outracing_champion_gran_turismo_drivers_with_deep_reinforcement_learning]]

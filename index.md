@@ -117,6 +117,12 @@
 - [[xiao_agile_robot_navigation|Xiao Agile Robot Navigation Source]] — agile-navigation paper on hallucinated learning with sober deployment.
 - [[hypractive_introduction|HYPRACTIVE Introduction Source]] — lightweight system-introduction document for HYPR's autonomous-mobility AI stack.
 - [[jia_autonomous_racing_dynamic_games|Jia Autonomous Racing With Dynamic Games Source]] — game-theoretic racing paper built around dynamic potential games and the RAPID planner.
+- [[dupoux_why_ai_systems_dont_learn|Dupoux Why AI Systems Don't Learn Source]] — conceptual critique of why current AI systems fail at autonomous learning and what cognitive science suggests instead.
+- [[weston_ai_human_co_improvement|Weston AI and Human Co-Improvement Source]] — conceptual paper on safer co-superintelligence through human-AI co-improvement.
+- [[geles_superhuman_safe_agile_racing|Geles Superhuman Safe Agile Racing Source]] — multi-agent RL paper on safe, agile, superhuman drone racing.
+- [[lin_cognitio_emergens|Lin Cognitio Emergens Source]] — conceptual paper on agency, dimensions, and dynamics in human-AI knowledge co-creation.
+- [[he_from_seeing_to_experience|He From Seeing to Experience Source]] — navigation foundation-model paper on moving from visual priors to reinforcement-learning-based experience.
+- [[hu_memory_in_the_age_of_ai|Hu Memory in the Age of AI Source]] — survey-style paper on memory as a first-class systems component for AI agents.
 
 ## Grants
 
@@ -187,6 +193,12 @@
 - [[scaling_agent_learning_via_experience_synthesis|Scaling Agent Learning via Experience Synthesis (2025)]]
 - [[exgrpo_learning_to_reason_from_experience|ExGRPO: Learning to Reason from Experience (2025)]]
 - [[autonomous_racing_with_dynamic_games|Autonomous Racing With Dynamic Games (2023)]]
+- [[why_ai_systems_dont_learn_and_what_to_do_about_it_lessons_on_autonomous_learning_from_cognitive_science|Why AI systems don't learn and what to do about it (2026)]]
+- [[ai_and_human_co_improvement_for_safer_co_superintelligence|AI & Human Co-Improvement for Safer Co-Superintelligence (2025)]]
+- [[superhuman_safe_and_agile_racing_through_multi_agent_reinforcement_learning|Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning (2026)]]
+- [[cognitio_emergens_agency_dimensions_and_dynamics_in_human_ai_knowledge_co_creation|Cognitio Emergens: Agency, Dimensions, and Dynamics in Human-AI Knowledge Co-Creation (2025)]]
+- [[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning|From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning (2025)]]
+- [[memory_in_the_age_of_ai_agents|Memory in the Age of AI Agents (2025)]]
 - [[limits_of_deep_learning_sequence_modeling_through_the_lens_of_complexity_theory|Limits of Deep Learning in Sequence Modeling (2025)]]
 - [[racevla_vla_based_racing_drone_navigation_with_human_like_behaviour|RaceVLA (2025)]]
 - [[learning_vision_based_pursuit_evasion_robot_policies|Learning Vision-based Pursuit-Evasion Robot Policies (2024)]]
@@ -272,6 +284,7 @@
 - [[human_ai_collaboration]]
 - [[driver_reaction_time]]
 - [[autonomous_vehicle_safety]]
+- [[ai_agent_memory]]
 - [[artificial_general_intelligence]]
 - [[compositional_reasoning_limits_in_sequence_models]]
 - [[pursuit_evasion_robotics]]
@@ -285,6 +298,7 @@
 - [[can_foundation_models_achieve_highly_dynamic_behavior]]
 - [[ranked_top_5_techniques_for_fast_and_agile_autonomy]]
 - [[experience_as_a_central_element_in_autonomous_systems]]
+- [[main_concepts_for_agile_high_speed_robot_behavior]]
 - [[erc_idea]]
 
 ## Techniques

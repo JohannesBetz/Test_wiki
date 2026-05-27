@@ -170,3 +170,5 @@ Robot parkour learning adds a behavior-diversity version: embodied intelligence 
 The mobile-robot survey adds an architectural version: how much of motion planning and control should remain engineered structure, and how much should become learned embodied behavior.
 
 FAEL adds a mission-scale version: even with competent local embodiment, autonomous intelligence may still bottleneck on how efficiently the agent chooses where to go next in a large unknown world.
+
+For a recent robot-agility-specific synthesis across humanoids and quadrupeds, see [[main_concepts_for_agile_high_speed_robot_behavior]].

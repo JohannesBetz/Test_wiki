@@ -64,6 +64,8 @@ The central reason is simple: quadrupeds expose the same deeper question seen el
 
 In that sense, quadrupedal locomotion is not separate from the vault's main themes. It is another body form through which the same extreme-autonomy questions become visible.
 
+For a recent robot-focused synthesis of those questions, see [[main_concepts_for_agile_high_speed_robot_behavior]].
+
 ## Representative Papers
 
 - [[high_speed_control_and_navigation_for_quadrupedal_robots_on_complex_and_discrete_terrain]]

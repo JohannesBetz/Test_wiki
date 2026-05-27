@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-13
-sources: 2
+sources: 3
 ---
 
 # AI Agents for Autonomous Systems
@@ -27,6 +27,8 @@ The topic also sits naturally next to the existing `LLM -> VLM -> VLA` progressi
 
 [[scaling_agent_learning_via_experience_synthesis]] adds a more optimistic systems question to the same branch: if agents are costly to train through direct interaction alone, can generative or synthetic experience become part of how agent competence scales?
 
+[[memory_in_the_age_of_ai_agents]] adds a more internal architectural question: even if agent capabilities scale, how should they remember context, prior outcomes, and long-horizon interaction so that competence persists rather than resetting at every step?
+
 ## Relationship to Intelligent Decision-Making and High-Dynamics Autonomy
 
 This topic belongs near [[foundation_models_for_intelligent_decision_making]] and [[Highly_dynamic_autonomous_system]].
@@ -38,6 +40,7 @@ For high-speed or safety-critical autonomy, the central question is whether agen
 - [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]]
 - [[human_vs_machine_behavioral_differences_between_expert_humans_and_language_models_in_wargame_simulations]]
 - [[scaling_agent_learning_via_experience_synthesis]]
+- [[memory_in_the_age_of_ai_agents]]
 
 ## Open Problems
 

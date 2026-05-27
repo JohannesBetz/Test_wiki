@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-08
-sources: 7
+sources: 12
 ---
 
 # Foundation Models for Intelligent Decision-Making
@@ -42,6 +42,16 @@ Within the vault, one useful progression is [[large_language_models]] -> [[visio
 
 [[exgrpo_learning_to_reason_from_experience]] adds a reasoning-centric version of the same bridge: instead of asking how foundation models reason after pretraining, it asks whether their reasoning behavior can itself be improved through accumulated experience.
 
+[[why_ai_systems_dont_learn_and_what_to_do_about_it_lessons_on_autonomous_learning_from_cognitive_science]] adds a stronger challenge to the branch as a whole: even highly capable systems may still fail at genuine [[autonomous_learning]] if they remain too dependent on static pretraining and insufficiently grounded self-directed learning loops.
+
+[[ai_and_human_co_improvement_for_safer_co_superintelligence]] adds a governance-and-collaboration layer on top of that: even if foundation models become much more capable, the decisive question may be how they co-evolve with human capability rather than how fully they replace it.
+
+[[cognitio_emergens_agency_dimensions_and_dynamics_in_human_ai_knowledge_co_creation]] adds a collaboration-structure layer: even when foundation models are used for reasoning, synthesis, or planning support, the important question may not be model capability alone, but how agency and knowledge production are distributed across the human-AI system.
+
+[[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]] adds an embodied-navigation layer: if foundation models begin as broad visual or representational priors, they may still need reinforcement-learning-based interaction to become strong closed-loop navigation systems.
+
+[[memory_in_the_age_of_ai_agents]] adds a persistence layer underneath the whole branch: even highly capable foundation-model-based agents may remain brittle if they cannot retain, organize, and reuse experience over time.
+
 [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] places this branch in the vault's broader competitive picture: foundation-model approaches are not yet the best current answer for fast and agile autonomy, but they are the strongest long-term bet if `LLM -> VLM -> VLA` systems can eventually close the latency, grounding, and stability gap to specialized controllers.
 
 [[erc_idea]] adds a more skeptical strategic layer: if superhuman autonomy in extreme environments is the goal, foundation models may still matter, but the vault currently suggests they will need to sit inside a more experience-driven, safety-aware, and control-grounded architecture rather than replace that architecture outright.
@@ -68,6 +78,11 @@ For autonomous systems, the interesting question is whether foundation models ca
 - [[llm_and_ai_agents_for_autonomous_systems_a_survey_of_applications_datasets_and_security_challenges]]
 - [[scaling_agent_learning_via_experience_synthesis]]
 - [[exgrpo_learning_to_reason_from_experience]]
+- [[why_ai_systems_dont_learn_and_what_to_do_about_it_lessons_on_autonomous_learning_from_cognitive_science]]
+- [[ai_and_human_co_improvement_for_safer_co_superintelligence]]
+- [[cognitio_emergens_agency_dimensions_and_dynamics_in_human_ai_knowledge_co_creation]]
+- [[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]]
+- [[memory_in_the_age_of_ai_agents]]
 
 ## Open Problems
 

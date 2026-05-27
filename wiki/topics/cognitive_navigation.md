@@ -1,7 +1,7 @@
 ---
 tags: [topic]
 date: 2026-05-07
-sources: 1
+sources: 2
 ---
 
 # Cognitive Navigation
@@ -30,6 +30,8 @@ It also connects naturally to [[embodied_autonomous_intelligence]], which asks n
 
 [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]] adds a broader AI perspective: [[foundation_models_for_intelligent_decision_making]] suggests that future navigation systems may increasingly draw on multimodal pretrained decision substrates rather than only narrow task-specific pipelines.
 
+[[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]] adds a sharper bridge from that foundation-model view into the experience branch: broad visual priors may be a useful start, but navigation competence may need to be scaled through reinforcement learning and interaction rather than static seeing alone.
+
 [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]] adds a mobile-robot learning perspective: planning and control are framed not just as downstream optimizers, but as embodied learned behaviors coupled tightly to perception and task interaction.
 
 [[learning_what_they_pretend_to_think_adversarial_tom_for_safety_critical_driving_policies]] adds a social-reasoning perspective: cognitive decision making may need to infer what other agents intend or strategically project, not only where they are likely to move next.
@@ -50,6 +52,7 @@ This does not replace racing-specific methods. Instead, it helps explain why rac
 - [[autonomous_vehicles_on_the_edge]]
 - [[a_safe_and_efficient_self_evolving_algorithm_for_decision_making_and_control_of_autonomous_driving_systems]]
 - [[foundation_models_and_intelligent_decision_making_progress_challenges_and_perspectives]]
+- [[from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcement_learning]]
 - [[a_survey_on_learning_motion_planning_and_control_for_mobile_robots_toward_embodied_intelligence]]
 
 ## Open Problems

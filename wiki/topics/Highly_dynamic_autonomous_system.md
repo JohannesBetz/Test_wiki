@@ -32,6 +32,8 @@ This topic connects [[autonomous_vehicle_racing]] to adjacent agile robotics dom
 
 [[accelerating_autonomy_insights_from_pro_racers_in_the_era_of_autonomous_racing]] adds a human-skill lens: expert operators often combine multisensory feedback, experience, and rapid exploration to discover the usable dynamic envelope under sparse data.
 
+[[superhuman_safe_and_agile_racing_through_multi_agent_reinforcement_learning]] adds a multi-agent aerial lens: once several adaptive agents share the same high-speed environment, dynamic competence must include not only control at the limit, but learned interaction that preserves both safety and race pace.
+
 [[challenging_f1_drivers_in_physical_race_cars_with_human_inspired_online_learning]] adds a physical-system learning example: [[apex]] learns performance constraints online while keeping exploration bounded by interpretable safety indicators.
 
 [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]] adds a human-in-the-loop safety example: [[human_centered_safety_filter]] shows that highly dynamic autonomy is not only about keeping the machine stable, but also about preserving operator agency and comfort when AI intervenes near failure boundaries.
@@ -255,3 +257,5 @@ Harmonized beyond-the-limit control adds an architectural problem: if safety and
 The agentic-autonomy survey adds a trust problem: in highly dynamic systems, even capable agent models may be unusable if their security properties, delegation boundaries, and failure modes are too poorly understood.
 
 Hallucinated learning and sober deployment adds a train-deploy asymmetry problem: systems may need one regime to become agile and a different regime to remain safe enough once that agility is exposed to the real world.
+
+For a recent legged-robot-focused synthesis of this branch, see [[main_concepts_for_agile_high_speed_robot_behavior]].
