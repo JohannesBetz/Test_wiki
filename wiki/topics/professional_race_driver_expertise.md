@@ -30,6 +30,8 @@ For [[autonomous_vehicle_racing]], this expertise is useful as a design target: 
 
 [[what_makes_a_good_driver_on_public_roads_and_race_tracks_an]] adds a definition-oriented perspective: good race driving overlaps with good road driving, but the two are not identical, which matters whenever the vault compares human skill, machine skill, and safety across domains.
 
+[[human_like_autonomy_emerges_from_self_play_and_a_pinch_of_human_data]] adds a newer learning-oriented perspective: human-like driving behavior may not need to come mainly from imitation, but can emerge from self-play once a small amount of human data is used to shape the learned policy.
+
 Important recurring skills include:
 
 - Fusing many feedback channels to detect the limit.
@@ -62,6 +64,7 @@ For [[autonomous_racing_control]], the main implication is that at-limit operati
 - [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]]
 - [[what_makes_a_good_driver_on_public_roads_and_race_tracks_an]]
 - [[data_driven_driver_training_via_counterfactual_and_language_based_guidance_in_racing_scenarios]]
+- [[human_like_autonomy_emerges_from_self_play_and_a_pinch_of_human_data]]
 
 ## Open Problems
 

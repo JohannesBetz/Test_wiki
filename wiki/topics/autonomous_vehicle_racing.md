@@ -29,6 +29,7 @@ The main hardware anchor for this branch is [[cars_and_race_cars]].
 - Human-benchmark studies such as [[benchmarking_of_a_software_stack_for_autonomous_racing_against_a_professional_human]], which use professional-driver telemetry as a diagnostic reference for where a full autonomous racing stack still falls short.
 - Human-gap studies such as [[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of_machine_performance_against_human_drivers]], which ask which racing-performance dimensions still separate autonomous systems from human drivers even when narrow machine benchmarks look strong.
 - Future-of-motorsport comparisons such as [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]], which ask what it would even mean for autonomous systems to count as true motorsport competitors rather than only fast technical demonstrations.
+- Human-like autonomy studies such as [[human_like_autonomy_emerges_from_self_play_and_a_pinch_of_human_data]], which ask whether self-play plus small amounts of human data can produce driving behavior that is not only competent, but recognizably human-like.
 - Online performance-envelope learning systems such as [[apex]], which adapt local planning and control constraints from observed system response.
 - Vehicle-dynamics constraint maps such as [[g_g_g_v_diagrams]], which turn high-fidelity simulation into acceleration envelopes for planners and controllers.
 - Spatial grip maps such as [[gripmap]], which make those constraints track-position-dependent for offline and online planning.
@@ -55,6 +56,7 @@ The main hardware anchor for this branch is [[cars_and_race_cars]].
 - [[benchmarking_of_a_software_stack_for_autonomous_racing_against_a_professional_human]]
 - [[on_the_human_machine_gap_in_car_racing_a_comparative_analysis_of_machine_performance_against_human_drivers]]
 - [[human_vs_machine_in_the_future_of_motorsport_can_autonomous_vehicles_compete]]
+- [[human_like_autonomy_emerges_from_self_play_and_a_pinch_of_human_data]]
 - [[safety_with_agency_human_centered_safety_filter_with_application_to_ai_assisted_motorsports]]
 - [[fair_play_in_the_fast_lane_integrating_sportsmanship_into_autonomous_racing_systems]]
 - [[forzaeth_race_stack_scaled_autonomous_head_to_head_racing_on_fully_commercial_off_the_shelf_hardware]]

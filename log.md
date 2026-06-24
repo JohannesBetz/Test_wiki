@@ -573,3 +573,7 @@ Reworked [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] using the recen
 ## [2026-06-01] analysis | Critical Drone Analys
 
 Added [[critical_drone_analys]] as a fair-minded critique of the Scaramuzza drone-racing branch. Captured the branch's strongest achievements in full-stack agile flight while highlighting open questions around robustness, recovery, perception limits, hybrid-stack dependence, and multi-agent strategic depth. Linked it from [[autonomous_drone_racing]], [[swift]], and the root index. Pages touched: 5.
+
+## [2026-06-24] ingest | Cornelisse Human-Like Autonomy from Self-Play
+
+Ingested `raw/pdfs/Cornelisse_Human-like autonomy emerges from self-play.pdf`. Added a source summary in [[cornelisse_human_like_autonomy_self_play]] and a deep paper page for [[human_like_autonomy_emerges_from_self_play_and_a_pinch_of_human_data]]. Updated [[professional_race_driver_expertise]], [[autonomous_vehicle_racing]], and the root index. Pages touched: 6.

@@ -50,6 +50,7 @@
 - [[culik_driver_reaction_time|Culik Driver Reaction Time Source]] — driving-simulator study of human reaction time under experience and alcohol effects.
 - [[dillo_waymo_25m_comparison|Dillo Waymo 25M Comparison Source]] — large-scale claims-based comparison of Waymo autonomous vehicles and human-driven vehicles.
 - [[doubek_good_driver_roads_racetracks|Doubek Good Driver Roads and Racetracks Source]] — interview study on what counts as good driving on roads versus race tracks.
+- [[cornelisse_human_like_autonomy_self_play|Cornelisse Human-Like Autonomy Self-Play Source]] — driving-autonomy paper on whether human-like behavior can emerge from self-play plus small amounts of human data.
 - [[chen_scaling_agent_learning_experience_synthesis|Chen Experience Synthesis Source]] — arXiv paper on scaling agent learning by synthesizing additional useful experience from grounded interaction.
 - [[zhan_exgrpo_learning_to_reason_from_experience|Zhan ExGRPO Source]] — arXiv paper on improving reasoning models through experience-centered optimization.
 - [[zubic_limits_deep_learning|Zubic Limits Deep Learning Source]] — theory-plus-experiments on why current sequence models fail at compositional reasoning.
@@ -190,6 +191,7 @@
 - [[human_versus_artificial_intelligence|Human- versus Artificial Intelligence (2021)]]
 - [[evaluation_of_driver_reaction_time|Evaluation of Driver Reaction Time (2022)]]
 - [[do_autonomous_vehicles_outperform_latest_generation_human_driven_vehicles_a_comparison_to_waymos_auto_liability_insurance_claims_at_25_million_miles|Do Autonomous Vehicles Outperform Latest-Generation Human-Driven Vehicles? (2024)]]
+- [[human_like_autonomy_emerges_from_self_play_and_a_pinch_of_human_data|Human-like autonomy emerges from self-play and a pinch of human data (2026)]]
 - [[scaling_agent_learning_via_experience_synthesis|Scaling Agent Learning via Experience Synthesis (2025)]]
 - [[exgrpo_learning_to_reason_from_experience|ExGRPO: Learning to Reason from Experience (2025)]]
 - [[autonomous_racing_with_dynamic_games|Autonomous Racing With Dynamic Games (2023)]]
