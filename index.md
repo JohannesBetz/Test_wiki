@@ -299,6 +299,7 @@
 - [[ranked_top_5_techniques_for_fast_and_agile_autonomy]]
 - [[experience_as_a_central_element_in_autonomous_systems]]
 - [[main_concepts_for_agile_high_speed_robot_behavior]]
+- [[critical_drone_analys]]
 - [[erc_idea]]
 
 ## Techniques

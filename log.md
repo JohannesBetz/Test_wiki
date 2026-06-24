@@ -569,3 +569,7 @@ Reworked [[experience_as_a_central_element_in_autonomous_systems]] using the rec
 ## [2026-05-27] analysis refinement | Ranked Top 5 Techniques for Fast and Agile Autonomy
 
 Reworked [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] using the recent humanoid and quadruped synthesis. The note now ranks `structured embodied reinforcement learning with adaptation and recoverability` above generic end-to-end RL, adds clearer robot-specific winners for quadrupeds and humanoids, and tightens the distinction between current engineering answers and long-term foundation-model bets. Pages touched: 2.
+
+## [2026-06-01] analysis | Critical Drone Analys
+
+Added [[critical_drone_analys]] as a fair-minded critique of the Scaramuzza drone-racing branch. Captured the branch's strongest achievements in full-stack agile flight while highlighting open questions around robustness, recovery, perception limits, hybrid-stack dependence, and multi-agent strategic depth. Linked it from [[autonomous_drone_racing]], [[swift]], and the root index. Pages touched: 5.

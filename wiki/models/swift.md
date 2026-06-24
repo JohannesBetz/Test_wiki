@@ -29,3 +29,5 @@ Swift is the autonomous drone-racing system introduced in [[champion_level_drone
 ## Open Problems
 
 Swift is not opponent-aware, not trained for crash recovery, and depends on visual/environmental consistency with training data. Future extensions would need opponent modeling, adaptive race strategy, robust appearance generalization, and recovery behavior.
+
+See also [[critical_drone_analys]] for the broader argument that Swift should be read as a landmark in executional agility, while leaving open deeper questions about robustness, recovery, and race-level strategy.

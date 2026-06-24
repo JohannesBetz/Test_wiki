@@ -85,9 +85,7 @@ The wiki supports at least four strong subclaims.
 
 ### 1. Superhuman performance is already real in some extreme domains
 
-This is no longer speculative.
-
-Swift and GT Sophy show that autonomous systems can already exceed elite human performance in carefully defined fast domains.
+This is no longer speculative. Swift and GT Sophy show that autonomous systems can already exceed elite human performance in carefully defined fast domains.
 
 That means the phrase `superhuman autonomous performance` should be treated as an achieved phenomenon in some settings, not just a future aspiration.
 

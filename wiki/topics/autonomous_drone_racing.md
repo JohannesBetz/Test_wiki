@@ -51,6 +51,8 @@ The main hardware anchor for this branch is [[drones]].
 
 [[ranked_top_5_techniques_for_fast_and_agile_autonomy]] adds a more comparative conclusion: drones are the branch in this vault where aggressive [[reinforcement_learning]] currently looks strongest, even though predictive-control hybrids and foundation-model control remain important emerging alternatives.
 
+[[critical_drone_analys]] adds a deliberately mild internal critique of the Scaramuzza branch: the work is probably the vault's strongest full-stack agile-flight program, but it is still more convincing on elite structured execution than on robustness, recovery, and strategically rich aerial competition.
+
 ## Representative Papers
 
 - [[champion_level_drone_racing_using_deep_reinforcement_learning]]
